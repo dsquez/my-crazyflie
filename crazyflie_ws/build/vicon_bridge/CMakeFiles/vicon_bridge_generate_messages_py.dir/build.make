@@ -43,90 +43,90 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/dsquez/crazyflie_ws/src
+CMAKE_SOURCE_DIR = /home/dsquez/my-crazyflie/crazyflie_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/dsquez/crazyflie_ws/build
+CMAKE_BINARY_DIR = /home/dsquez/my-crazyflie/crazyflie_ws/build
 
 # Utility rule file for vicon_bridge_generate_messages_py.
 
 # Include the progress variables for this target.
 include vicon_bridge/CMakeFiles/vicon_bridge_generate_messages_py.dir/progress.make
 
-vicon_bridge/CMakeFiles/vicon_bridge_generate_messages_py: /home/dsquez/crazyflie_ws/devel/lib/python2.7/dist-packages/vicon_bridge/msg/_Marker.py
-vicon_bridge/CMakeFiles/vicon_bridge_generate_messages_py: /home/dsquez/crazyflie_ws/devel/lib/python2.7/dist-packages/vicon_bridge/msg/_Markers.py
-vicon_bridge/CMakeFiles/vicon_bridge_generate_messages_py: /home/dsquez/crazyflie_ws/devel/lib/python2.7/dist-packages/vicon_bridge/msg/_TfDistortInfo.py
-vicon_bridge/CMakeFiles/vicon_bridge_generate_messages_py: /home/dsquez/crazyflie_ws/devel/lib/python2.7/dist-packages/vicon_bridge/srv/_viconCalibrateSegment.py
-vicon_bridge/CMakeFiles/vicon_bridge_generate_messages_py: /home/dsquez/crazyflie_ws/devel/lib/python2.7/dist-packages/vicon_bridge/srv/_viconGrabPose.py
-vicon_bridge/CMakeFiles/vicon_bridge_generate_messages_py: /home/dsquez/crazyflie_ws/devel/lib/python2.7/dist-packages/vicon_bridge/msg/__init__.py
-vicon_bridge/CMakeFiles/vicon_bridge_generate_messages_py: /home/dsquez/crazyflie_ws/devel/lib/python2.7/dist-packages/vicon_bridge/srv/__init__.py
+vicon_bridge/CMakeFiles/vicon_bridge_generate_messages_py: /home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/python2.7/dist-packages/vicon_bridge/msg/_Markers.py
+vicon_bridge/CMakeFiles/vicon_bridge_generate_messages_py: /home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/python2.7/dist-packages/vicon_bridge/msg/_TfDistortInfo.py
+vicon_bridge/CMakeFiles/vicon_bridge_generate_messages_py: /home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/python2.7/dist-packages/vicon_bridge/msg/_Marker.py
+vicon_bridge/CMakeFiles/vicon_bridge_generate_messages_py: /home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/python2.7/dist-packages/vicon_bridge/srv/_viconGrabPose.py
+vicon_bridge/CMakeFiles/vicon_bridge_generate_messages_py: /home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/python2.7/dist-packages/vicon_bridge/srv/_viconCalibrateSegment.py
+vicon_bridge/CMakeFiles/vicon_bridge_generate_messages_py: /home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/python2.7/dist-packages/vicon_bridge/msg/__init__.py
+vicon_bridge/CMakeFiles/vicon_bridge_generate_messages_py: /home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/python2.7/dist-packages/vicon_bridge/srv/__init__.py
 
 
-/home/dsquez/crazyflie_ws/devel/lib/python2.7/dist-packages/vicon_bridge/msg/_Marker.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
-/home/dsquez/crazyflie_ws/devel/lib/python2.7/dist-packages/vicon_bridge/msg/_Marker.py: /home/dsquez/crazyflie_ws/src/vicon_bridge/msg/Marker.msg
-/home/dsquez/crazyflie_ws/devel/lib/python2.7/dist-packages/vicon_bridge/msg/_Marker.py: /opt/ros/kinetic/share/geometry_msgs/msg/Point.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/dsquez/crazyflie_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python from MSG vicon_bridge/Marker"
-	cd /home/dsquez/crazyflie_ws/build/vicon_bridge && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/dsquez/crazyflie_ws/src/vicon_bridge/msg/Marker.msg -Ivicon_bridge:/home/dsquez/crazyflie_ws/src/vicon_bridge/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p vicon_bridge -o /home/dsquez/crazyflie_ws/devel/lib/python2.7/dist-packages/vicon_bridge/msg
+/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/python2.7/dist-packages/vicon_bridge/msg/_Markers.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
+/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/python2.7/dist-packages/vicon_bridge/msg/_Markers.py: /home/dsquez/my-crazyflie/crazyflie_ws/src/vicon_bridge/msg/Markers.msg
+/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/python2.7/dist-packages/vicon_bridge/msg/_Markers.py: /home/dsquez/my-crazyflie/crazyflie_ws/src/vicon_bridge/msg/Marker.msg
+/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/python2.7/dist-packages/vicon_bridge/msg/_Markers.py: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
+/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/python2.7/dist-packages/vicon_bridge/msg/_Markers.py: /opt/ros/kinetic/share/geometry_msgs/msg/Point.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/dsquez/my-crazyflie/crazyflie_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating Python from MSG vicon_bridge/Markers"
+	cd /home/dsquez/my-crazyflie/crazyflie_ws/build/vicon_bridge && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/dsquez/my-crazyflie/crazyflie_ws/src/vicon_bridge/msg/Markers.msg -Ivicon_bridge:/home/dsquez/my-crazyflie/crazyflie_ws/src/vicon_bridge/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p vicon_bridge -o /home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/python2.7/dist-packages/vicon_bridge/msg
 
-/home/dsquez/crazyflie_ws/devel/lib/python2.7/dist-packages/vicon_bridge/msg/_Markers.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
-/home/dsquez/crazyflie_ws/devel/lib/python2.7/dist-packages/vicon_bridge/msg/_Markers.py: /home/dsquez/crazyflie_ws/src/vicon_bridge/msg/Markers.msg
-/home/dsquez/crazyflie_ws/devel/lib/python2.7/dist-packages/vicon_bridge/msg/_Markers.py: /home/dsquez/crazyflie_ws/src/vicon_bridge/msg/Marker.msg
-/home/dsquez/crazyflie_ws/devel/lib/python2.7/dist-packages/vicon_bridge/msg/_Markers.py: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
-/home/dsquez/crazyflie_ws/devel/lib/python2.7/dist-packages/vicon_bridge/msg/_Markers.py: /opt/ros/kinetic/share/geometry_msgs/msg/Point.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/dsquez/crazyflie_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python from MSG vicon_bridge/Markers"
-	cd /home/dsquez/crazyflie_ws/build/vicon_bridge && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/dsquez/crazyflie_ws/src/vicon_bridge/msg/Markers.msg -Ivicon_bridge:/home/dsquez/crazyflie_ws/src/vicon_bridge/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p vicon_bridge -o /home/dsquez/crazyflie_ws/devel/lib/python2.7/dist-packages/vicon_bridge/msg
+/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/python2.7/dist-packages/vicon_bridge/msg/_TfDistortInfo.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
+/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/python2.7/dist-packages/vicon_bridge/msg/_TfDistortInfo.py: /home/dsquez/my-crazyflie/crazyflie_ws/src/vicon_bridge/msg/TfDistortInfo.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/dsquez/my-crazyflie/crazyflie_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating Python from MSG vicon_bridge/TfDistortInfo"
+	cd /home/dsquez/my-crazyflie/crazyflie_ws/build/vicon_bridge && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/dsquez/my-crazyflie/crazyflie_ws/src/vicon_bridge/msg/TfDistortInfo.msg -Ivicon_bridge:/home/dsquez/my-crazyflie/crazyflie_ws/src/vicon_bridge/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p vicon_bridge -o /home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/python2.7/dist-packages/vicon_bridge/msg
 
-/home/dsquez/crazyflie_ws/devel/lib/python2.7/dist-packages/vicon_bridge/msg/_TfDistortInfo.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
-/home/dsquez/crazyflie_ws/devel/lib/python2.7/dist-packages/vicon_bridge/msg/_TfDistortInfo.py: /home/dsquez/crazyflie_ws/src/vicon_bridge/msg/TfDistortInfo.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/dsquez/crazyflie_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Python from MSG vicon_bridge/TfDistortInfo"
-	cd /home/dsquez/crazyflie_ws/build/vicon_bridge && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/dsquez/crazyflie_ws/src/vicon_bridge/msg/TfDistortInfo.msg -Ivicon_bridge:/home/dsquez/crazyflie_ws/src/vicon_bridge/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p vicon_bridge -o /home/dsquez/crazyflie_ws/devel/lib/python2.7/dist-packages/vicon_bridge/msg
+/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/python2.7/dist-packages/vicon_bridge/msg/_Marker.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
+/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/python2.7/dist-packages/vicon_bridge/msg/_Marker.py: /home/dsquez/my-crazyflie/crazyflie_ws/src/vicon_bridge/msg/Marker.msg
+/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/python2.7/dist-packages/vicon_bridge/msg/_Marker.py: /opt/ros/kinetic/share/geometry_msgs/msg/Point.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/dsquez/my-crazyflie/crazyflie_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating Python from MSG vicon_bridge/Marker"
+	cd /home/dsquez/my-crazyflie/crazyflie_ws/build/vicon_bridge && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py /home/dsquez/my-crazyflie/crazyflie_ws/src/vicon_bridge/msg/Marker.msg -Ivicon_bridge:/home/dsquez/my-crazyflie/crazyflie_ws/src/vicon_bridge/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p vicon_bridge -o /home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/python2.7/dist-packages/vicon_bridge/msg
 
-/home/dsquez/crazyflie_ws/devel/lib/python2.7/dist-packages/vicon_bridge/srv/_viconCalibrateSegment.py: /opt/ros/kinetic/lib/genpy/gensrv_py.py
-/home/dsquez/crazyflie_ws/devel/lib/python2.7/dist-packages/vicon_bridge/srv/_viconCalibrateSegment.py: /home/dsquez/crazyflie_ws/src/vicon_bridge/srv/viconCalibrateSegment.srv
-/home/dsquez/crazyflie_ws/devel/lib/python2.7/dist-packages/vicon_bridge/srv/_viconCalibrateSegment.py: /opt/ros/kinetic/share/geometry_msgs/msg/Quaternion.msg
-/home/dsquez/crazyflie_ws/devel/lib/python2.7/dist-packages/vicon_bridge/srv/_viconCalibrateSegment.py: /opt/ros/kinetic/share/geometry_msgs/msg/PoseStamped.msg
-/home/dsquez/crazyflie_ws/devel/lib/python2.7/dist-packages/vicon_bridge/srv/_viconCalibrateSegment.py: /opt/ros/kinetic/share/geometry_msgs/msg/Pose.msg
-/home/dsquez/crazyflie_ws/devel/lib/python2.7/dist-packages/vicon_bridge/srv/_viconCalibrateSegment.py: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
-/home/dsquez/crazyflie_ws/devel/lib/python2.7/dist-packages/vicon_bridge/srv/_viconCalibrateSegment.py: /opt/ros/kinetic/share/geometry_msgs/msg/Point.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/dsquez/crazyflie_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Python code from SRV vicon_bridge/viconCalibrateSegment"
-	cd /home/dsquez/crazyflie_ws/build/vicon_bridge && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/dsquez/crazyflie_ws/src/vicon_bridge/srv/viconCalibrateSegment.srv -Ivicon_bridge:/home/dsquez/crazyflie_ws/src/vicon_bridge/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p vicon_bridge -o /home/dsquez/crazyflie_ws/devel/lib/python2.7/dist-packages/vicon_bridge/srv
+/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/python2.7/dist-packages/vicon_bridge/srv/_viconGrabPose.py: /opt/ros/kinetic/lib/genpy/gensrv_py.py
+/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/python2.7/dist-packages/vicon_bridge/srv/_viconGrabPose.py: /home/dsquez/my-crazyflie/crazyflie_ws/src/vicon_bridge/srv/viconGrabPose.srv
+/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/python2.7/dist-packages/vicon_bridge/srv/_viconGrabPose.py: /opt/ros/kinetic/share/geometry_msgs/msg/Quaternion.msg
+/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/python2.7/dist-packages/vicon_bridge/srv/_viconGrabPose.py: /opt/ros/kinetic/share/geometry_msgs/msg/PoseStamped.msg
+/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/python2.7/dist-packages/vicon_bridge/srv/_viconGrabPose.py: /opt/ros/kinetic/share/geometry_msgs/msg/Pose.msg
+/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/python2.7/dist-packages/vicon_bridge/srv/_viconGrabPose.py: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
+/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/python2.7/dist-packages/vicon_bridge/srv/_viconGrabPose.py: /opt/ros/kinetic/share/geometry_msgs/msg/Point.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/dsquez/my-crazyflie/crazyflie_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating Python code from SRV vicon_bridge/viconGrabPose"
+	cd /home/dsquez/my-crazyflie/crazyflie_ws/build/vicon_bridge && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/dsquez/my-crazyflie/crazyflie_ws/src/vicon_bridge/srv/viconGrabPose.srv -Ivicon_bridge:/home/dsquez/my-crazyflie/crazyflie_ws/src/vicon_bridge/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p vicon_bridge -o /home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/python2.7/dist-packages/vicon_bridge/srv
 
-/home/dsquez/crazyflie_ws/devel/lib/python2.7/dist-packages/vicon_bridge/srv/_viconGrabPose.py: /opt/ros/kinetic/lib/genpy/gensrv_py.py
-/home/dsquez/crazyflie_ws/devel/lib/python2.7/dist-packages/vicon_bridge/srv/_viconGrabPose.py: /home/dsquez/crazyflie_ws/src/vicon_bridge/srv/viconGrabPose.srv
-/home/dsquez/crazyflie_ws/devel/lib/python2.7/dist-packages/vicon_bridge/srv/_viconGrabPose.py: /opt/ros/kinetic/share/geometry_msgs/msg/Quaternion.msg
-/home/dsquez/crazyflie_ws/devel/lib/python2.7/dist-packages/vicon_bridge/srv/_viconGrabPose.py: /opt/ros/kinetic/share/geometry_msgs/msg/PoseStamped.msg
-/home/dsquez/crazyflie_ws/devel/lib/python2.7/dist-packages/vicon_bridge/srv/_viconGrabPose.py: /opt/ros/kinetic/share/geometry_msgs/msg/Pose.msg
-/home/dsquez/crazyflie_ws/devel/lib/python2.7/dist-packages/vicon_bridge/srv/_viconGrabPose.py: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
-/home/dsquez/crazyflie_ws/devel/lib/python2.7/dist-packages/vicon_bridge/srv/_viconGrabPose.py: /opt/ros/kinetic/share/geometry_msgs/msg/Point.msg
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/dsquez/crazyflie_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating Python code from SRV vicon_bridge/viconGrabPose"
-	cd /home/dsquez/crazyflie_ws/build/vicon_bridge && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/dsquez/crazyflie_ws/src/vicon_bridge/srv/viconGrabPose.srv -Ivicon_bridge:/home/dsquez/crazyflie_ws/src/vicon_bridge/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p vicon_bridge -o /home/dsquez/crazyflie_ws/devel/lib/python2.7/dist-packages/vicon_bridge/srv
+/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/python2.7/dist-packages/vicon_bridge/srv/_viconCalibrateSegment.py: /opt/ros/kinetic/lib/genpy/gensrv_py.py
+/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/python2.7/dist-packages/vicon_bridge/srv/_viconCalibrateSegment.py: /home/dsquez/my-crazyflie/crazyflie_ws/src/vicon_bridge/srv/viconCalibrateSegment.srv
+/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/python2.7/dist-packages/vicon_bridge/srv/_viconCalibrateSegment.py: /opt/ros/kinetic/share/geometry_msgs/msg/Quaternion.msg
+/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/python2.7/dist-packages/vicon_bridge/srv/_viconCalibrateSegment.py: /opt/ros/kinetic/share/geometry_msgs/msg/PoseStamped.msg
+/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/python2.7/dist-packages/vicon_bridge/srv/_viconCalibrateSegment.py: /opt/ros/kinetic/share/geometry_msgs/msg/Pose.msg
+/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/python2.7/dist-packages/vicon_bridge/srv/_viconCalibrateSegment.py: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
+/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/python2.7/dist-packages/vicon_bridge/srv/_viconCalibrateSegment.py: /opt/ros/kinetic/share/geometry_msgs/msg/Point.msg
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/dsquez/my-crazyflie/crazyflie_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating Python code from SRV vicon_bridge/viconCalibrateSegment"
+	cd /home/dsquez/my-crazyflie/crazyflie_ws/build/vicon_bridge && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/gensrv_py.py /home/dsquez/my-crazyflie/crazyflie_ws/src/vicon_bridge/srv/viconCalibrateSegment.srv -Ivicon_bridge:/home/dsquez/my-crazyflie/crazyflie_ws/src/vicon_bridge/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p vicon_bridge -o /home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/python2.7/dist-packages/vicon_bridge/srv
 
-/home/dsquez/crazyflie_ws/devel/lib/python2.7/dist-packages/vicon_bridge/msg/__init__.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
-/home/dsquez/crazyflie_ws/devel/lib/python2.7/dist-packages/vicon_bridge/msg/__init__.py: /home/dsquez/crazyflie_ws/devel/lib/python2.7/dist-packages/vicon_bridge/msg/_Marker.py
-/home/dsquez/crazyflie_ws/devel/lib/python2.7/dist-packages/vicon_bridge/msg/__init__.py: /home/dsquez/crazyflie_ws/devel/lib/python2.7/dist-packages/vicon_bridge/msg/_Markers.py
-/home/dsquez/crazyflie_ws/devel/lib/python2.7/dist-packages/vicon_bridge/msg/__init__.py: /home/dsquez/crazyflie_ws/devel/lib/python2.7/dist-packages/vicon_bridge/msg/_TfDistortInfo.py
-/home/dsquez/crazyflie_ws/devel/lib/python2.7/dist-packages/vicon_bridge/msg/__init__.py: /home/dsquez/crazyflie_ws/devel/lib/python2.7/dist-packages/vicon_bridge/srv/_viconCalibrateSegment.py
-/home/dsquez/crazyflie_ws/devel/lib/python2.7/dist-packages/vicon_bridge/msg/__init__.py: /home/dsquez/crazyflie_ws/devel/lib/python2.7/dist-packages/vicon_bridge/srv/_viconGrabPose.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/dsquez/crazyflie_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating Python msg __init__.py for vicon_bridge"
-	cd /home/dsquez/crazyflie_ws/build/vicon_bridge && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/dsquez/crazyflie_ws/devel/lib/python2.7/dist-packages/vicon_bridge/msg --initpy
+/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/python2.7/dist-packages/vicon_bridge/msg/__init__.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
+/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/python2.7/dist-packages/vicon_bridge/msg/__init__.py: /home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/python2.7/dist-packages/vicon_bridge/msg/_Markers.py
+/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/python2.7/dist-packages/vicon_bridge/msg/__init__.py: /home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/python2.7/dist-packages/vicon_bridge/msg/_TfDistortInfo.py
+/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/python2.7/dist-packages/vicon_bridge/msg/__init__.py: /home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/python2.7/dist-packages/vicon_bridge/msg/_Marker.py
+/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/python2.7/dist-packages/vicon_bridge/msg/__init__.py: /home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/python2.7/dist-packages/vicon_bridge/srv/_viconGrabPose.py
+/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/python2.7/dist-packages/vicon_bridge/msg/__init__.py: /home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/python2.7/dist-packages/vicon_bridge/srv/_viconCalibrateSegment.py
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/dsquez/my-crazyflie/crazyflie_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_6) "Generating Python msg __init__.py for vicon_bridge"
+	cd /home/dsquez/my-crazyflie/crazyflie_ws/build/vicon_bridge && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/python2.7/dist-packages/vicon_bridge/msg --initpy
 
-/home/dsquez/crazyflie_ws/devel/lib/python2.7/dist-packages/vicon_bridge/srv/__init__.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
-/home/dsquez/crazyflie_ws/devel/lib/python2.7/dist-packages/vicon_bridge/srv/__init__.py: /home/dsquez/crazyflie_ws/devel/lib/python2.7/dist-packages/vicon_bridge/msg/_Marker.py
-/home/dsquez/crazyflie_ws/devel/lib/python2.7/dist-packages/vicon_bridge/srv/__init__.py: /home/dsquez/crazyflie_ws/devel/lib/python2.7/dist-packages/vicon_bridge/msg/_Markers.py
-/home/dsquez/crazyflie_ws/devel/lib/python2.7/dist-packages/vicon_bridge/srv/__init__.py: /home/dsquez/crazyflie_ws/devel/lib/python2.7/dist-packages/vicon_bridge/msg/_TfDistortInfo.py
-/home/dsquez/crazyflie_ws/devel/lib/python2.7/dist-packages/vicon_bridge/srv/__init__.py: /home/dsquez/crazyflie_ws/devel/lib/python2.7/dist-packages/vicon_bridge/srv/_viconCalibrateSegment.py
-/home/dsquez/crazyflie_ws/devel/lib/python2.7/dist-packages/vicon_bridge/srv/__init__.py: /home/dsquez/crazyflie_ws/devel/lib/python2.7/dist-packages/vicon_bridge/srv/_viconGrabPose.py
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/dsquez/crazyflie_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating Python srv __init__.py for vicon_bridge"
-	cd /home/dsquez/crazyflie_ws/build/vicon_bridge && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/dsquez/crazyflie_ws/devel/lib/python2.7/dist-packages/vicon_bridge/srv --initpy
+/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/python2.7/dist-packages/vicon_bridge/srv/__init__.py: /opt/ros/kinetic/lib/genpy/genmsg_py.py
+/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/python2.7/dist-packages/vicon_bridge/srv/__init__.py: /home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/python2.7/dist-packages/vicon_bridge/msg/_Markers.py
+/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/python2.7/dist-packages/vicon_bridge/srv/__init__.py: /home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/python2.7/dist-packages/vicon_bridge/msg/_TfDistortInfo.py
+/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/python2.7/dist-packages/vicon_bridge/srv/__init__.py: /home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/python2.7/dist-packages/vicon_bridge/msg/_Marker.py
+/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/python2.7/dist-packages/vicon_bridge/srv/__init__.py: /home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/python2.7/dist-packages/vicon_bridge/srv/_viconGrabPose.py
+/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/python2.7/dist-packages/vicon_bridge/srv/__init__.py: /home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/python2.7/dist-packages/vicon_bridge/srv/_viconCalibrateSegment.py
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/dsquez/my-crazyflie/crazyflie_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_7) "Generating Python srv __init__.py for vicon_bridge"
+	cd /home/dsquez/my-crazyflie/crazyflie_ws/build/vicon_bridge && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genpy/cmake/../../../lib/genpy/genmsg_py.py -o /home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/python2.7/dist-packages/vicon_bridge/srv --initpy
 
 vicon_bridge_generate_messages_py: vicon_bridge/CMakeFiles/vicon_bridge_generate_messages_py
-vicon_bridge_generate_messages_py: /home/dsquez/crazyflie_ws/devel/lib/python2.7/dist-packages/vicon_bridge/msg/_Marker.py
-vicon_bridge_generate_messages_py: /home/dsquez/crazyflie_ws/devel/lib/python2.7/dist-packages/vicon_bridge/msg/_Markers.py
-vicon_bridge_generate_messages_py: /home/dsquez/crazyflie_ws/devel/lib/python2.7/dist-packages/vicon_bridge/msg/_TfDistortInfo.py
-vicon_bridge_generate_messages_py: /home/dsquez/crazyflie_ws/devel/lib/python2.7/dist-packages/vicon_bridge/srv/_viconCalibrateSegment.py
-vicon_bridge_generate_messages_py: /home/dsquez/crazyflie_ws/devel/lib/python2.7/dist-packages/vicon_bridge/srv/_viconGrabPose.py
-vicon_bridge_generate_messages_py: /home/dsquez/crazyflie_ws/devel/lib/python2.7/dist-packages/vicon_bridge/msg/__init__.py
-vicon_bridge_generate_messages_py: /home/dsquez/crazyflie_ws/devel/lib/python2.7/dist-packages/vicon_bridge/srv/__init__.py
+vicon_bridge_generate_messages_py: /home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/python2.7/dist-packages/vicon_bridge/msg/_Markers.py
+vicon_bridge_generate_messages_py: /home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/python2.7/dist-packages/vicon_bridge/msg/_TfDistortInfo.py
+vicon_bridge_generate_messages_py: /home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/python2.7/dist-packages/vicon_bridge/msg/_Marker.py
+vicon_bridge_generate_messages_py: /home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/python2.7/dist-packages/vicon_bridge/srv/_viconGrabPose.py
+vicon_bridge_generate_messages_py: /home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/python2.7/dist-packages/vicon_bridge/srv/_viconCalibrateSegment.py
+vicon_bridge_generate_messages_py: /home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/python2.7/dist-packages/vicon_bridge/msg/__init__.py
+vicon_bridge_generate_messages_py: /home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/python2.7/dist-packages/vicon_bridge/srv/__init__.py
 vicon_bridge_generate_messages_py: vicon_bridge/CMakeFiles/vicon_bridge_generate_messages_py.dir/build.make
 
 .PHONY : vicon_bridge_generate_messages_py
@@ -137,10 +137,10 @@ vicon_bridge/CMakeFiles/vicon_bridge_generate_messages_py.dir/build: vicon_bridg
 .PHONY : vicon_bridge/CMakeFiles/vicon_bridge_generate_messages_py.dir/build
 
 vicon_bridge/CMakeFiles/vicon_bridge_generate_messages_py.dir/clean:
-	cd /home/dsquez/crazyflie_ws/build/vicon_bridge && $(CMAKE_COMMAND) -P CMakeFiles/vicon_bridge_generate_messages_py.dir/cmake_clean.cmake
+	cd /home/dsquez/my-crazyflie/crazyflie_ws/build/vicon_bridge && $(CMAKE_COMMAND) -P CMakeFiles/vicon_bridge_generate_messages_py.dir/cmake_clean.cmake
 .PHONY : vicon_bridge/CMakeFiles/vicon_bridge_generate_messages_py.dir/clean
 
 vicon_bridge/CMakeFiles/vicon_bridge_generate_messages_py.dir/depend:
-	cd /home/dsquez/crazyflie_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dsquez/crazyflie_ws/src /home/dsquez/crazyflie_ws/src/vicon_bridge /home/dsquez/crazyflie_ws/build /home/dsquez/crazyflie_ws/build/vicon_bridge /home/dsquez/crazyflie_ws/build/vicon_bridge/CMakeFiles/vicon_bridge_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/dsquez/my-crazyflie/crazyflie_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dsquez/my-crazyflie/crazyflie_ws/src /home/dsquez/my-crazyflie/crazyflie_ws/src/vicon_bridge /home/dsquez/my-crazyflie/crazyflie_ws/build /home/dsquez/my-crazyflie/crazyflie_ws/build/vicon_bridge /home/dsquez/my-crazyflie/crazyflie_ws/build/vicon_bridge/CMakeFiles/vicon_bridge_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : vicon_bridge/CMakeFiles/vicon_bridge_generate_messages_py.dir/depend
 

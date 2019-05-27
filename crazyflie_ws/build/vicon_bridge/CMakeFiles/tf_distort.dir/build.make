@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/dsquez/crazyflie_ws/src
+CMAKE_SOURCE_DIR = /home/dsquez/my-crazyflie/crazyflie_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/dsquez/crazyflie_ws/build
+CMAKE_BINARY_DIR = /home/dsquez/my-crazyflie/crazyflie_ws/build
 
 # Include any dependencies generated for this target.
 include vicon_bridge/CMakeFiles/tf_distort.dir/depend.make
@@ -58,17 +58,17 @@ include vicon_bridge/CMakeFiles/tf_distort.dir/progress.make
 include vicon_bridge/CMakeFiles/tf_distort.dir/flags.make
 
 vicon_bridge/CMakeFiles/tf_distort.dir/src/tf_distort.cpp.o: vicon_bridge/CMakeFiles/tf_distort.dir/flags.make
-vicon_bridge/CMakeFiles/tf_distort.dir/src/tf_distort.cpp.o: /home/dsquez/crazyflie_ws/src/vicon_bridge/src/tf_distort.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dsquez/crazyflie_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object vicon_bridge/CMakeFiles/tf_distort.dir/src/tf_distort.cpp.o"
-	cd /home/dsquez/crazyflie_ws/build/vicon_bridge && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tf_distort.dir/src/tf_distort.cpp.o -c /home/dsquez/crazyflie_ws/src/vicon_bridge/src/tf_distort.cpp
+vicon_bridge/CMakeFiles/tf_distort.dir/src/tf_distort.cpp.o: /home/dsquez/my-crazyflie/crazyflie_ws/src/vicon_bridge/src/tf_distort.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dsquez/my-crazyflie/crazyflie_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object vicon_bridge/CMakeFiles/tf_distort.dir/src/tf_distort.cpp.o"
+	cd /home/dsquez/my-crazyflie/crazyflie_ws/build/vicon_bridge && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/tf_distort.dir/src/tf_distort.cpp.o -c /home/dsquez/my-crazyflie/crazyflie_ws/src/vicon_bridge/src/tf_distort.cpp
 
 vicon_bridge/CMakeFiles/tf_distort.dir/src/tf_distort.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/tf_distort.dir/src/tf_distort.cpp.i"
-	cd /home/dsquez/crazyflie_ws/build/vicon_bridge && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dsquez/crazyflie_ws/src/vicon_bridge/src/tf_distort.cpp > CMakeFiles/tf_distort.dir/src/tf_distort.cpp.i
+	cd /home/dsquez/my-crazyflie/crazyflie_ws/build/vicon_bridge && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dsquez/my-crazyflie/crazyflie_ws/src/vicon_bridge/src/tf_distort.cpp > CMakeFiles/tf_distort.dir/src/tf_distort.cpp.i
 
 vicon_bridge/CMakeFiles/tf_distort.dir/src/tf_distort.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/tf_distort.dir/src/tf_distort.cpp.s"
-	cd /home/dsquez/crazyflie_ws/build/vicon_bridge && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dsquez/crazyflie_ws/src/vicon_bridge/src/tf_distort.cpp -o CMakeFiles/tf_distort.dir/src/tf_distort.cpp.s
+	cd /home/dsquez/my-crazyflie/crazyflie_ws/build/vicon_bridge && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dsquez/my-crazyflie/crazyflie_ws/src/vicon_bridge/src/tf_distort.cpp -o CMakeFiles/tf_distort.dir/src/tf_distort.cpp.s
 
 vicon_bridge/CMakeFiles/tf_distort.dir/src/tf_distort.cpp.o.requires:
 
@@ -88,46 +88,46 @@ tf_distort_OBJECTS = \
 # External object files for target tf_distort
 tf_distort_EXTERNAL_OBJECTS =
 
-/home/dsquez/crazyflie_ws/devel/lib/vicon_bridge/tf_distort: vicon_bridge/CMakeFiles/tf_distort.dir/src/tf_distort.cpp.o
-/home/dsquez/crazyflie_ws/devel/lib/vicon_bridge/tf_distort: vicon_bridge/CMakeFiles/tf_distort.dir/build.make
-/home/dsquez/crazyflie_ws/devel/lib/vicon_bridge/tf_distort: /opt/ros/kinetic/lib/libdynamic_reconfigure_config_init_mutex.so
-/home/dsquez/crazyflie_ws/devel/lib/vicon_bridge/tf_distort: /opt/ros/kinetic/lib/libtf.so
-/home/dsquez/crazyflie_ws/devel/lib/vicon_bridge/tf_distort: /opt/ros/kinetic/lib/libtf2_ros.so
-/home/dsquez/crazyflie_ws/devel/lib/vicon_bridge/tf_distort: /opt/ros/kinetic/lib/libactionlib.so
-/home/dsquez/crazyflie_ws/devel/lib/vicon_bridge/tf_distort: /opt/ros/kinetic/lib/libmessage_filters.so
-/home/dsquez/crazyflie_ws/devel/lib/vicon_bridge/tf_distort: /opt/ros/kinetic/lib/libtf2.so
-/home/dsquez/crazyflie_ws/devel/lib/vicon_bridge/tf_distort: /opt/ros/kinetic/lib/libroscpp.so
-/home/dsquez/crazyflie_ws/devel/lib/vicon_bridge/tf_distort: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/dsquez/crazyflie_ws/devel/lib/vicon_bridge/tf_distort: /usr/lib/x86_64-linux-gnu/libboost_signals.so
-/home/dsquez/crazyflie_ws/devel/lib/vicon_bridge/tf_distort: /opt/ros/kinetic/lib/librosconsole.so
-/home/dsquez/crazyflie_ws/devel/lib/vicon_bridge/tf_distort: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
-/home/dsquez/crazyflie_ws/devel/lib/vicon_bridge/tf_distort: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
-/home/dsquez/crazyflie_ws/devel/lib/vicon_bridge/tf_distort: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/dsquez/crazyflie_ws/devel/lib/vicon_bridge/tf_distort: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/dsquez/crazyflie_ws/devel/lib/vicon_bridge/tf_distort: /opt/ros/kinetic/lib/libxmlrpcpp.so
-/home/dsquez/crazyflie_ws/devel/lib/vicon_bridge/tf_distort: /opt/ros/kinetic/lib/libroscpp_serialization.so
-/home/dsquez/crazyflie_ws/devel/lib/vicon_bridge/tf_distort: /opt/ros/kinetic/lib/librostime.so
-/home/dsquez/crazyflie_ws/devel/lib/vicon_bridge/tf_distort: /opt/ros/kinetic/lib/libcpp_common.so
-/home/dsquez/crazyflie_ws/devel/lib/vicon_bridge/tf_distort: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/dsquez/crazyflie_ws/devel/lib/vicon_bridge/tf_distort: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/dsquez/crazyflie_ws/devel/lib/vicon_bridge/tf_distort: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/dsquez/crazyflie_ws/devel/lib/vicon_bridge/tf_distort: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/dsquez/crazyflie_ws/devel/lib/vicon_bridge/tf_distort: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/dsquez/crazyflie_ws/devel/lib/vicon_bridge/tf_distort: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/dsquez/crazyflie_ws/devel/lib/vicon_bridge/tf_distort: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
-/home/dsquez/crazyflie_ws/devel/lib/vicon_bridge/tf_distort: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/dsquez/crazyflie_ws/devel/lib/vicon_bridge/tf_distort: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/dsquez/crazyflie_ws/devel/lib/vicon_bridge/tf_distort: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/dsquez/crazyflie_ws/devel/lib/vicon_bridge/tf_distort: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/dsquez/crazyflie_ws/devel/lib/vicon_bridge/tf_distort: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/dsquez/crazyflie_ws/devel/lib/vicon_bridge/tf_distort: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/dsquez/crazyflie_ws/devel/lib/vicon_bridge/tf_distort: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
-/home/dsquez/crazyflie_ws/devel/lib/vicon_bridge/tf_distort: vicon_bridge/CMakeFiles/tf_distort.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dsquez/crazyflie_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/dsquez/crazyflie_ws/devel/lib/vicon_bridge/tf_distort"
-	cd /home/dsquez/crazyflie_ws/build/vicon_bridge && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/tf_distort.dir/link.txt --verbose=$(VERBOSE)
+/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/vicon_bridge/tf_distort: vicon_bridge/CMakeFiles/tf_distort.dir/src/tf_distort.cpp.o
+/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/vicon_bridge/tf_distort: vicon_bridge/CMakeFiles/tf_distort.dir/build.make
+/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/vicon_bridge/tf_distort: /opt/ros/kinetic/lib/libdynamic_reconfigure_config_init_mutex.so
+/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/vicon_bridge/tf_distort: /opt/ros/kinetic/lib/libtf.so
+/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/vicon_bridge/tf_distort: /opt/ros/kinetic/lib/libtf2_ros.so
+/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/vicon_bridge/tf_distort: /opt/ros/kinetic/lib/libactionlib.so
+/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/vicon_bridge/tf_distort: /opt/ros/kinetic/lib/libmessage_filters.so
+/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/vicon_bridge/tf_distort: /opt/ros/kinetic/lib/libtf2.so
+/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/vicon_bridge/tf_distort: /opt/ros/kinetic/lib/libroscpp.so
+/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/vicon_bridge/tf_distort: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/vicon_bridge/tf_distort: /usr/lib/x86_64-linux-gnu/libboost_signals.so
+/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/vicon_bridge/tf_distort: /opt/ros/kinetic/lib/librosconsole.so
+/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/vicon_bridge/tf_distort: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
+/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/vicon_bridge/tf_distort: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
+/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/vicon_bridge/tf_distort: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/vicon_bridge/tf_distort: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/vicon_bridge/tf_distort: /opt/ros/kinetic/lib/libxmlrpcpp.so
+/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/vicon_bridge/tf_distort: /opt/ros/kinetic/lib/libroscpp_serialization.so
+/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/vicon_bridge/tf_distort: /opt/ros/kinetic/lib/librostime.so
+/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/vicon_bridge/tf_distort: /opt/ros/kinetic/lib/libcpp_common.so
+/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/vicon_bridge/tf_distort: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/vicon_bridge/tf_distort: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/vicon_bridge/tf_distort: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/vicon_bridge/tf_distort: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/vicon_bridge/tf_distort: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/vicon_bridge/tf_distort: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/vicon_bridge/tf_distort: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
+/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/vicon_bridge/tf_distort: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/vicon_bridge/tf_distort: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/vicon_bridge/tf_distort: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/vicon_bridge/tf_distort: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/vicon_bridge/tf_distort: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/vicon_bridge/tf_distort: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/vicon_bridge/tf_distort: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
+/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/vicon_bridge/tf_distort: vicon_bridge/CMakeFiles/tf_distort.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dsquez/my-crazyflie/crazyflie_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/vicon_bridge/tf_distort"
+	cd /home/dsquez/my-crazyflie/crazyflie_ws/build/vicon_bridge && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/tf_distort.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-vicon_bridge/CMakeFiles/tf_distort.dir/build: /home/dsquez/crazyflie_ws/devel/lib/vicon_bridge/tf_distort
+vicon_bridge/CMakeFiles/tf_distort.dir/build: /home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/vicon_bridge/tf_distort
 
 .PHONY : vicon_bridge/CMakeFiles/tf_distort.dir/build
 
@@ -136,10 +136,10 @@ vicon_bridge/CMakeFiles/tf_distort.dir/requires: vicon_bridge/CMakeFiles/tf_dist
 .PHONY : vicon_bridge/CMakeFiles/tf_distort.dir/requires
 
 vicon_bridge/CMakeFiles/tf_distort.dir/clean:
-	cd /home/dsquez/crazyflie_ws/build/vicon_bridge && $(CMAKE_COMMAND) -P CMakeFiles/tf_distort.dir/cmake_clean.cmake
+	cd /home/dsquez/my-crazyflie/crazyflie_ws/build/vicon_bridge && $(CMAKE_COMMAND) -P CMakeFiles/tf_distort.dir/cmake_clean.cmake
 .PHONY : vicon_bridge/CMakeFiles/tf_distort.dir/clean
 
 vicon_bridge/CMakeFiles/tf_distort.dir/depend:
-	cd /home/dsquez/crazyflie_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dsquez/crazyflie_ws/src /home/dsquez/crazyflie_ws/src/vicon_bridge /home/dsquez/crazyflie_ws/build /home/dsquez/crazyflie_ws/build/vicon_bridge /home/dsquez/crazyflie_ws/build/vicon_bridge/CMakeFiles/tf_distort.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/dsquez/my-crazyflie/crazyflie_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dsquez/my-crazyflie/crazyflie_ws/src /home/dsquez/my-crazyflie/crazyflie_ws/src/vicon_bridge /home/dsquez/my-crazyflie/crazyflie_ws/build /home/dsquez/my-crazyflie/crazyflie_ws/build/vicon_bridge /home/dsquez/my-crazyflie/crazyflie_ws/build/vicon_bridge/CMakeFiles/tf_distort.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : vicon_bridge/CMakeFiles/tf_distort.dir/depend
 

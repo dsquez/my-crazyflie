@@ -1,8 +1,2 @@
 digraph G {
-"world" -> "vicon/cf2/cf2"[label="Broadcaster: /vicon\nAverage rate: 88.657 Hz\nMost recent transform: 1558529381.439 ( 0.031 sec old)\nBuffer length: 4.985 sec\n"];
-"world" -> "vicon/vasiliy_drone/vasiliy_drone"[label="Broadcaster: /vicon\nAverage rate: 88.657 Hz\nMost recent transform: 1558529381.439 ( 0.031 sec old)\nBuffer length: 4.985 sec\n"];
-edge [style=invis];
- subgraph cluster_legend { style=bold; color=black; label ="view_frames Result";
-"Recorded at time: 1558529381.470"[ shape=plaintext ] ;
- }->"world";
-}
+"no tf data recieved"}

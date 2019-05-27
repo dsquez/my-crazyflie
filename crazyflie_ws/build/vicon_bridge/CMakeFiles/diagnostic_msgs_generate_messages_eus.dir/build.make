@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/dsquez/crazyflie_ws/src
+CMAKE_SOURCE_DIR = /home/dsquez/my-crazyflie/crazyflie_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/dsquez/crazyflie_ws/build
+CMAKE_BINARY_DIR = /home/dsquez/my-crazyflie/crazyflie_ws/build
 
 # Utility rule file for diagnostic_msgs_generate_messages_eus.
 
@@ -63,10 +63,10 @@ vicon_bridge/CMakeFiles/diagnostic_msgs_generate_messages_eus.dir/build: diagnos
 .PHONY : vicon_bridge/CMakeFiles/diagnostic_msgs_generate_messages_eus.dir/build
 
 vicon_bridge/CMakeFiles/diagnostic_msgs_generate_messages_eus.dir/clean:
-	cd /home/dsquez/crazyflie_ws/build/vicon_bridge && $(CMAKE_COMMAND) -P CMakeFiles/diagnostic_msgs_generate_messages_eus.dir/cmake_clean.cmake
+	cd /home/dsquez/my-crazyflie/crazyflie_ws/build/vicon_bridge && $(CMAKE_COMMAND) -P CMakeFiles/diagnostic_msgs_generate_messages_eus.dir/cmake_clean.cmake
 .PHONY : vicon_bridge/CMakeFiles/diagnostic_msgs_generate_messages_eus.dir/clean
 
 vicon_bridge/CMakeFiles/diagnostic_msgs_generate_messages_eus.dir/depend:
-	cd /home/dsquez/crazyflie_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dsquez/crazyflie_ws/src /home/dsquez/crazyflie_ws/src/vicon_bridge /home/dsquez/crazyflie_ws/build /home/dsquez/crazyflie_ws/build/vicon_bridge /home/dsquez/crazyflie_ws/build/vicon_bridge/CMakeFiles/diagnostic_msgs_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/dsquez/my-crazyflie/crazyflie_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dsquez/my-crazyflie/crazyflie_ws/src /home/dsquez/my-crazyflie/crazyflie_ws/src/vicon_bridge /home/dsquez/my-crazyflie/crazyflie_ws/build /home/dsquez/my-crazyflie/crazyflie_ws/build/vicon_bridge /home/dsquez/my-crazyflie/crazyflie_ws/build/vicon_bridge/CMakeFiles/diagnostic_msgs_generate_messages_eus.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : vicon_bridge/CMakeFiles/diagnostic_msgs_generate_messages_eus.dir/depend
 

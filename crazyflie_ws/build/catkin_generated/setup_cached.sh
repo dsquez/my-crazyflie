@@ -7,4 +7,5 @@
 # new environment variables
 
 # modified environment variables
-export PWD="/home/dsquez/crazyflie_ws/build"
+export PWD="/home/dsquez/my-crazyflie/crazyflie_ws/build"
+export ROS_PACKAGE_PATH="/home/dsquez/my-crazyflie/crazyflie_ws/src:/opt/ros/kinetic/share"

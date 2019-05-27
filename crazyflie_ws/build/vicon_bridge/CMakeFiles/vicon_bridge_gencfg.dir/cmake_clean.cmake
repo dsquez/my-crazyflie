@@ -1,10 +1,10 @@
 file(REMOVE_RECURSE
   "CMakeFiles/vicon_bridge_gencfg"
-  "/home/dsquez/crazyflie_ws/devel/include/vicon_bridge/tf_distortConfig.h"
-  "/home/dsquez/crazyflie_ws/devel/share/vicon_bridge/docs/tf_distortConfig.dox"
-  "/home/dsquez/crazyflie_ws/devel/share/vicon_bridge/docs/tf_distortConfig-usage.dox"
-  "/home/dsquez/crazyflie_ws/devel/lib/python2.7/dist-packages/vicon_bridge/cfg/tf_distortConfig.py"
-  "/home/dsquez/crazyflie_ws/devel/share/vicon_bridge/docs/tf_distortConfig.wikidoc"
+  "/home/dsquez/my-crazyflie/crazyflie_ws/devel/include/vicon_bridge/tf_distortConfig.h"
+  "/home/dsquez/my-crazyflie/crazyflie_ws/devel/share/vicon_bridge/docs/tf_distortConfig.dox"
+  "/home/dsquez/my-crazyflie/crazyflie_ws/devel/share/vicon_bridge/docs/tf_distortConfig-usage.dox"
+  "/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/python2.7/dist-packages/vicon_bridge/cfg/tf_distortConfig.py"
+  "/home/dsquez/my-crazyflie/crazyflie_ws/devel/share/vicon_bridge/docs/tf_distortConfig.wikidoc"
 )
 
 # Per-language clean rules from dependency scanning.

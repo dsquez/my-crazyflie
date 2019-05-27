@@ -43,44 +43,44 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/dsquez/crazyflie_ws/src
+CMAKE_SOURCE_DIR = /home/dsquez/my-crazyflie/crazyflie_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/dsquez/crazyflie_ws/build
+CMAKE_BINARY_DIR = /home/dsquez/my-crazyflie/crazyflie_ws/build
 
 # Utility rule file for vicon_bridge_gencfg.
 
 # Include the progress variables for this target.
 include vicon_bridge/CMakeFiles/vicon_bridge_gencfg.dir/progress.make
 
-vicon_bridge/CMakeFiles/vicon_bridge_gencfg: /home/dsquez/crazyflie_ws/devel/include/vicon_bridge/tf_distortConfig.h
-vicon_bridge/CMakeFiles/vicon_bridge_gencfg: /home/dsquez/crazyflie_ws/devel/lib/python2.7/dist-packages/vicon_bridge/cfg/tf_distortConfig.py
+vicon_bridge/CMakeFiles/vicon_bridge_gencfg: /home/dsquez/my-crazyflie/crazyflie_ws/devel/include/vicon_bridge/tf_distortConfig.h
+vicon_bridge/CMakeFiles/vicon_bridge_gencfg: /home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/python2.7/dist-packages/vicon_bridge/cfg/tf_distortConfig.py
 
 
-/home/dsquez/crazyflie_ws/devel/include/vicon_bridge/tf_distortConfig.h: /home/dsquez/crazyflie_ws/src/vicon_bridge/cfg/tf_distort.cfg
-/home/dsquez/crazyflie_ws/devel/include/vicon_bridge/tf_distortConfig.h: /opt/ros/kinetic/share/dynamic_reconfigure/templates/ConfigType.py.template
-/home/dsquez/crazyflie_ws/devel/include/vicon_bridge/tf_distortConfig.h: /opt/ros/kinetic/share/dynamic_reconfigure/templates/ConfigType.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/dsquez/crazyflie_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating dynamic reconfigure files from cfg/tf_distort.cfg: /home/dsquez/crazyflie_ws/devel/include/vicon_bridge/tf_distortConfig.h /home/dsquez/crazyflie_ws/devel/lib/python2.7/dist-packages/vicon_bridge/cfg/tf_distortConfig.py"
-	cd /home/dsquez/crazyflie_ws/build/vicon_bridge && ../catkin_generated/env_cached.sh /home/dsquez/crazyflie_ws/build/vicon_bridge/setup_custom_pythonpath.sh /home/dsquez/crazyflie_ws/src/vicon_bridge/cfg/tf_distort.cfg /opt/ros/kinetic/share/dynamic_reconfigure/cmake/.. /home/dsquez/crazyflie_ws/devel/share/vicon_bridge /home/dsquez/crazyflie_ws/devel/include/vicon_bridge /home/dsquez/crazyflie_ws/devel/lib/python2.7/dist-packages/vicon_bridge
+/home/dsquez/my-crazyflie/crazyflie_ws/devel/include/vicon_bridge/tf_distortConfig.h: /home/dsquez/my-crazyflie/crazyflie_ws/src/vicon_bridge/cfg/tf_distort.cfg
+/home/dsquez/my-crazyflie/crazyflie_ws/devel/include/vicon_bridge/tf_distortConfig.h: /opt/ros/kinetic/share/dynamic_reconfigure/templates/ConfigType.py.template
+/home/dsquez/my-crazyflie/crazyflie_ws/devel/include/vicon_bridge/tf_distortConfig.h: /opt/ros/kinetic/share/dynamic_reconfigure/templates/ConfigType.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/dsquez/my-crazyflie/crazyflie_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating dynamic reconfigure files from cfg/tf_distort.cfg: /home/dsquez/my-crazyflie/crazyflie_ws/devel/include/vicon_bridge/tf_distortConfig.h /home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/python2.7/dist-packages/vicon_bridge/cfg/tf_distortConfig.py"
+	cd /home/dsquez/my-crazyflie/crazyflie_ws/build/vicon_bridge && ../catkin_generated/env_cached.sh /home/dsquez/my-crazyflie/crazyflie_ws/build/vicon_bridge/setup_custom_pythonpath.sh /home/dsquez/my-crazyflie/crazyflie_ws/src/vicon_bridge/cfg/tf_distort.cfg /opt/ros/kinetic/share/dynamic_reconfigure/cmake/.. /home/dsquez/my-crazyflie/crazyflie_ws/devel/share/vicon_bridge /home/dsquez/my-crazyflie/crazyflie_ws/devel/include/vicon_bridge /home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/python2.7/dist-packages/vicon_bridge
 
-/home/dsquez/crazyflie_ws/devel/share/vicon_bridge/docs/tf_distortConfig.dox: /home/dsquez/crazyflie_ws/devel/include/vicon_bridge/tf_distortConfig.h
-	@$(CMAKE_COMMAND) -E touch_nocreate /home/dsquez/crazyflie_ws/devel/share/vicon_bridge/docs/tf_distortConfig.dox
+/home/dsquez/my-crazyflie/crazyflie_ws/devel/share/vicon_bridge/docs/tf_distortConfig.dox: /home/dsquez/my-crazyflie/crazyflie_ws/devel/include/vicon_bridge/tf_distortConfig.h
+	@$(CMAKE_COMMAND) -E touch_nocreate /home/dsquez/my-crazyflie/crazyflie_ws/devel/share/vicon_bridge/docs/tf_distortConfig.dox
 
-/home/dsquez/crazyflie_ws/devel/share/vicon_bridge/docs/tf_distortConfig-usage.dox: /home/dsquez/crazyflie_ws/devel/include/vicon_bridge/tf_distortConfig.h
-	@$(CMAKE_COMMAND) -E touch_nocreate /home/dsquez/crazyflie_ws/devel/share/vicon_bridge/docs/tf_distortConfig-usage.dox
+/home/dsquez/my-crazyflie/crazyflie_ws/devel/share/vicon_bridge/docs/tf_distortConfig-usage.dox: /home/dsquez/my-crazyflie/crazyflie_ws/devel/include/vicon_bridge/tf_distortConfig.h
+	@$(CMAKE_COMMAND) -E touch_nocreate /home/dsquez/my-crazyflie/crazyflie_ws/devel/share/vicon_bridge/docs/tf_distortConfig-usage.dox
 
-/home/dsquez/crazyflie_ws/devel/lib/python2.7/dist-packages/vicon_bridge/cfg/tf_distortConfig.py: /home/dsquez/crazyflie_ws/devel/include/vicon_bridge/tf_distortConfig.h
-	@$(CMAKE_COMMAND) -E touch_nocreate /home/dsquez/crazyflie_ws/devel/lib/python2.7/dist-packages/vicon_bridge/cfg/tf_distortConfig.py
+/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/python2.7/dist-packages/vicon_bridge/cfg/tf_distortConfig.py: /home/dsquez/my-crazyflie/crazyflie_ws/devel/include/vicon_bridge/tf_distortConfig.h
+	@$(CMAKE_COMMAND) -E touch_nocreate /home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/python2.7/dist-packages/vicon_bridge/cfg/tf_distortConfig.py
 
-/home/dsquez/crazyflie_ws/devel/share/vicon_bridge/docs/tf_distortConfig.wikidoc: /home/dsquez/crazyflie_ws/devel/include/vicon_bridge/tf_distortConfig.h
-	@$(CMAKE_COMMAND) -E touch_nocreate /home/dsquez/crazyflie_ws/devel/share/vicon_bridge/docs/tf_distortConfig.wikidoc
+/home/dsquez/my-crazyflie/crazyflie_ws/devel/share/vicon_bridge/docs/tf_distortConfig.wikidoc: /home/dsquez/my-crazyflie/crazyflie_ws/devel/include/vicon_bridge/tf_distortConfig.h
+	@$(CMAKE_COMMAND) -E touch_nocreate /home/dsquez/my-crazyflie/crazyflie_ws/devel/share/vicon_bridge/docs/tf_distortConfig.wikidoc
 
 vicon_bridge_gencfg: vicon_bridge/CMakeFiles/vicon_bridge_gencfg
-vicon_bridge_gencfg: /home/dsquez/crazyflie_ws/devel/include/vicon_bridge/tf_distortConfig.h
-vicon_bridge_gencfg: /home/dsquez/crazyflie_ws/devel/share/vicon_bridge/docs/tf_distortConfig.dox
-vicon_bridge_gencfg: /home/dsquez/crazyflie_ws/devel/share/vicon_bridge/docs/tf_distortConfig-usage.dox
-vicon_bridge_gencfg: /home/dsquez/crazyflie_ws/devel/lib/python2.7/dist-packages/vicon_bridge/cfg/tf_distortConfig.py
-vicon_bridge_gencfg: /home/dsquez/crazyflie_ws/devel/share/vicon_bridge/docs/tf_distortConfig.wikidoc
+vicon_bridge_gencfg: /home/dsquez/my-crazyflie/crazyflie_ws/devel/include/vicon_bridge/tf_distortConfig.h
+vicon_bridge_gencfg: /home/dsquez/my-crazyflie/crazyflie_ws/devel/share/vicon_bridge/docs/tf_distortConfig.dox
+vicon_bridge_gencfg: /home/dsquez/my-crazyflie/crazyflie_ws/devel/share/vicon_bridge/docs/tf_distortConfig-usage.dox
+vicon_bridge_gencfg: /home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/python2.7/dist-packages/vicon_bridge/cfg/tf_distortConfig.py
+vicon_bridge_gencfg: /home/dsquez/my-crazyflie/crazyflie_ws/devel/share/vicon_bridge/docs/tf_distortConfig.wikidoc
 vicon_bridge_gencfg: vicon_bridge/CMakeFiles/vicon_bridge_gencfg.dir/build.make
 
 .PHONY : vicon_bridge_gencfg
@@ -91,10 +91,10 @@ vicon_bridge/CMakeFiles/vicon_bridge_gencfg.dir/build: vicon_bridge_gencfg
 .PHONY : vicon_bridge/CMakeFiles/vicon_bridge_gencfg.dir/build
 
 vicon_bridge/CMakeFiles/vicon_bridge_gencfg.dir/clean:
-	cd /home/dsquez/crazyflie_ws/build/vicon_bridge && $(CMAKE_COMMAND) -P CMakeFiles/vicon_bridge_gencfg.dir/cmake_clean.cmake
+	cd /home/dsquez/my-crazyflie/crazyflie_ws/build/vicon_bridge && $(CMAKE_COMMAND) -P CMakeFiles/vicon_bridge_gencfg.dir/cmake_clean.cmake
 .PHONY : vicon_bridge/CMakeFiles/vicon_bridge_gencfg.dir/clean
 
 vicon_bridge/CMakeFiles/vicon_bridge_gencfg.dir/depend:
-	cd /home/dsquez/crazyflie_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dsquez/crazyflie_ws/src /home/dsquez/crazyflie_ws/src/vicon_bridge /home/dsquez/crazyflie_ws/build /home/dsquez/crazyflie_ws/build/vicon_bridge /home/dsquez/crazyflie_ws/build/vicon_bridge/CMakeFiles/vicon_bridge_gencfg.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/dsquez/my-crazyflie/crazyflie_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dsquez/my-crazyflie/crazyflie_ws/src /home/dsquez/my-crazyflie/crazyflie_ws/src/vicon_bridge /home/dsquez/my-crazyflie/crazyflie_ws/build /home/dsquez/my-crazyflie/crazyflie_ws/build/vicon_bridge /home/dsquez/my-crazyflie/crazyflie_ws/build/vicon_bridge/CMakeFiles/vicon_bridge_gencfg.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : vicon_bridge/CMakeFiles/vicon_bridge_gencfg.dir/depend
 

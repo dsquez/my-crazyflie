@@ -4,7 +4,7 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "/home/dsquez/crazyflie_ws/src/vicon_bridge/src/tf_distort.cpp" "/home/dsquez/crazyflie_ws/build/vicon_bridge/CMakeFiles/tf_distort.dir/src/tf_distort.cpp.o"
+  "/home/dsquez/my-crazyflie/crazyflie_ws/src/vicon_bridge/src/tf_distort.cpp" "/home/dsquez/my-crazyflie/crazyflie_ws/build/vicon_bridge/CMakeFiles/tf_distort.dir/src/tf_distort.cpp.o"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
@@ -17,11 +17,11 @@ set(CMAKE_TARGET_DEFINITIONS_CXX
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "/home/dsquez/crazyflie_ws/devel/include"
-  "/home/dsquez/crazyflie_ws/src/vicon_bridge/src"
+  "/home/dsquez/my-crazyflie/crazyflie_ws/devel/include"
+  "/home/dsquez/my-crazyflie/crazyflie_ws/src/vicon_bridge/src"
   "/opt/ros/kinetic/include"
   "/opt/ros/kinetic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp"
-  "/home/dsquez/crazyflie_ws/src/vicon_bridge/vicon_sdk/Vicon_SDK_1.3_Linux/64-bit"
+  "/home/dsquez/my-crazyflie/crazyflie_ws/src/vicon_bridge/vicon_sdk/Vicon_SDK_1.3_Linux/64-bit"
   )
 
 # Targets to which this target links.

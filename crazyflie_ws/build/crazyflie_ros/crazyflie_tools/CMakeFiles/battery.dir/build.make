@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/dsquez/crazyflie_ws/src
+CMAKE_SOURCE_DIR = /home/dsquez/my-crazyflie/crazyflie_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/dsquez/crazyflie_ws/build
+CMAKE_BINARY_DIR = /home/dsquez/my-crazyflie/crazyflie_ws/build
 
 # Include any dependencies generated for this target.
 include crazyflie_ros/crazyflie_tools/CMakeFiles/battery.dir/depend.make
@@ -58,17 +58,17 @@ include crazyflie_ros/crazyflie_tools/CMakeFiles/battery.dir/progress.make
 include crazyflie_ros/crazyflie_tools/CMakeFiles/battery.dir/flags.make
 
 crazyflie_ros/crazyflie_tools/CMakeFiles/battery.dir/src/battery.cpp.o: crazyflie_ros/crazyflie_tools/CMakeFiles/battery.dir/flags.make
-crazyflie_ros/crazyflie_tools/CMakeFiles/battery.dir/src/battery.cpp.o: /home/dsquez/crazyflie_ws/src/crazyflie_ros/crazyflie_tools/src/battery.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dsquez/crazyflie_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object crazyflie_ros/crazyflie_tools/CMakeFiles/battery.dir/src/battery.cpp.o"
-	cd /home/dsquez/crazyflie_ws/build/crazyflie_ros/crazyflie_tools && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/battery.dir/src/battery.cpp.o -c /home/dsquez/crazyflie_ws/src/crazyflie_ros/crazyflie_tools/src/battery.cpp
+crazyflie_ros/crazyflie_tools/CMakeFiles/battery.dir/src/battery.cpp.o: /home/dsquez/my-crazyflie/crazyflie_ws/src/crazyflie_ros/crazyflie_tools/src/battery.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dsquez/my-crazyflie/crazyflie_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object crazyflie_ros/crazyflie_tools/CMakeFiles/battery.dir/src/battery.cpp.o"
+	cd /home/dsquez/my-crazyflie/crazyflie_ws/build/crazyflie_ros/crazyflie_tools && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/battery.dir/src/battery.cpp.o -c /home/dsquez/my-crazyflie/crazyflie_ws/src/crazyflie_ros/crazyflie_tools/src/battery.cpp
 
 crazyflie_ros/crazyflie_tools/CMakeFiles/battery.dir/src/battery.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/battery.dir/src/battery.cpp.i"
-	cd /home/dsquez/crazyflie_ws/build/crazyflie_ros/crazyflie_tools && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dsquez/crazyflie_ws/src/crazyflie_ros/crazyflie_tools/src/battery.cpp > CMakeFiles/battery.dir/src/battery.cpp.i
+	cd /home/dsquez/my-crazyflie/crazyflie_ws/build/crazyflie_ros/crazyflie_tools && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dsquez/my-crazyflie/crazyflie_ws/src/crazyflie_ros/crazyflie_tools/src/battery.cpp > CMakeFiles/battery.dir/src/battery.cpp.i
 
 crazyflie_ros/crazyflie_tools/CMakeFiles/battery.dir/src/battery.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/battery.dir/src/battery.cpp.s"
-	cd /home/dsquez/crazyflie_ws/build/crazyflie_ros/crazyflie_tools && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dsquez/crazyflie_ws/src/crazyflie_ros/crazyflie_tools/src/battery.cpp -o CMakeFiles/battery.dir/src/battery.cpp.s
+	cd /home/dsquez/my-crazyflie/crazyflie_ws/build/crazyflie_ros/crazyflie_tools && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dsquez/my-crazyflie/crazyflie_ws/src/crazyflie_ros/crazyflie_tools/src/battery.cpp -o CMakeFiles/battery.dir/src/battery.cpp.s
 
 crazyflie_ros/crazyflie_tools/CMakeFiles/battery.dir/src/battery.cpp.o.requires:
 
@@ -88,17 +88,17 @@ battery_OBJECTS = \
 # External object files for target battery
 battery_EXTERNAL_OBJECTS =
 
-/home/dsquez/crazyflie_ws/devel/lib/crazyflie_tools/battery: crazyflie_ros/crazyflie_tools/CMakeFiles/battery.dir/src/battery.cpp.o
-/home/dsquez/crazyflie_ws/devel/lib/crazyflie_tools/battery: crazyflie_ros/crazyflie_tools/CMakeFiles/battery.dir/build.make
-/home/dsquez/crazyflie_ws/devel/lib/crazyflie_tools/battery: /home/dsquez/crazyflie_ws/devel/lib/libcrazyflie_cpp.so
-/home/dsquez/crazyflie_ws/devel/lib/crazyflie_tools/battery: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
-/home/dsquez/crazyflie_ws/devel/lib/crazyflie_tools/battery: /usr/lib/x86_64-linux-gnu/libusb-1.0.so
-/home/dsquez/crazyflie_ws/devel/lib/crazyflie_tools/battery: crazyflie_ros/crazyflie_tools/CMakeFiles/battery.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dsquez/crazyflie_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/dsquez/crazyflie_ws/devel/lib/crazyflie_tools/battery"
-	cd /home/dsquez/crazyflie_ws/build/crazyflie_ros/crazyflie_tools && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/battery.dir/link.txt --verbose=$(VERBOSE)
+/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/crazyflie_tools/battery: crazyflie_ros/crazyflie_tools/CMakeFiles/battery.dir/src/battery.cpp.o
+/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/crazyflie_tools/battery: crazyflie_ros/crazyflie_tools/CMakeFiles/battery.dir/build.make
+/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/crazyflie_tools/battery: /home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/libcrazyflie_cpp.so
+/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/crazyflie_tools/battery: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
+/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/crazyflie_tools/battery: /usr/lib/x86_64-linux-gnu/libusb-1.0.so
+/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/crazyflie_tools/battery: crazyflie_ros/crazyflie_tools/CMakeFiles/battery.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dsquez/my-crazyflie/crazyflie_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/crazyflie_tools/battery"
+	cd /home/dsquez/my-crazyflie/crazyflie_ws/build/crazyflie_ros/crazyflie_tools && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/battery.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-crazyflie_ros/crazyflie_tools/CMakeFiles/battery.dir/build: /home/dsquez/crazyflie_ws/devel/lib/crazyflie_tools/battery
+crazyflie_ros/crazyflie_tools/CMakeFiles/battery.dir/build: /home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/crazyflie_tools/battery
 
 .PHONY : crazyflie_ros/crazyflie_tools/CMakeFiles/battery.dir/build
 
@@ -107,10 +107,10 @@ crazyflie_ros/crazyflie_tools/CMakeFiles/battery.dir/requires: crazyflie_ros/cra
 .PHONY : crazyflie_ros/crazyflie_tools/CMakeFiles/battery.dir/requires
 
 crazyflie_ros/crazyflie_tools/CMakeFiles/battery.dir/clean:
-	cd /home/dsquez/crazyflie_ws/build/crazyflie_ros/crazyflie_tools && $(CMAKE_COMMAND) -P CMakeFiles/battery.dir/cmake_clean.cmake
+	cd /home/dsquez/my-crazyflie/crazyflie_ws/build/crazyflie_ros/crazyflie_tools && $(CMAKE_COMMAND) -P CMakeFiles/battery.dir/cmake_clean.cmake
 .PHONY : crazyflie_ros/crazyflie_tools/CMakeFiles/battery.dir/clean
 
 crazyflie_ros/crazyflie_tools/CMakeFiles/battery.dir/depend:
-	cd /home/dsquez/crazyflie_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dsquez/crazyflie_ws/src /home/dsquez/crazyflie_ws/src/crazyflie_ros/crazyflie_tools /home/dsquez/crazyflie_ws/build /home/dsquez/crazyflie_ws/build/crazyflie_ros/crazyflie_tools /home/dsquez/crazyflie_ws/build/crazyflie_ros/crazyflie_tools/CMakeFiles/battery.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/dsquez/my-crazyflie/crazyflie_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dsquez/my-crazyflie/crazyflie_ws/src /home/dsquez/my-crazyflie/crazyflie_ws/src/crazyflie_ros/crazyflie_tools /home/dsquez/my-crazyflie/crazyflie_ws/build /home/dsquez/my-crazyflie/crazyflie_ws/build/crazyflie_ros/crazyflie_tools /home/dsquez/my-crazyflie/crazyflie_ws/build/crazyflie_ros/crazyflie_tools/CMakeFiles/battery.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : crazyflie_ros/crazyflie_tools/CMakeFiles/battery.dir/depend
 

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/dsquez/crazyflie_ws/src
+CMAKE_SOURCE_DIR = /home/dsquez/my-crazyflie/crazyflie_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/dsquez/crazyflie_ws/build
+CMAKE_BINARY_DIR = /home/dsquez/my-crazyflie/crazyflie_ws/build
 
 # Utility rule file for _vicon_bridge_generate_messages_check_deps_Markers.
 
@@ -54,7 +54,7 @@ CMAKE_BINARY_DIR = /home/dsquez/crazyflie_ws/build
 include vicon_bridge/CMakeFiles/_vicon_bridge_generate_messages_check_deps_Markers.dir/progress.make
 
 vicon_bridge/CMakeFiles/_vicon_bridge_generate_messages_check_deps_Markers:
-	cd /home/dsquez/crazyflie_ws/build/vicon_bridge && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py vicon_bridge /home/dsquez/crazyflie_ws/src/vicon_bridge/msg/Markers.msg vicon_bridge/Marker:std_msgs/Header:geometry_msgs/Point
+	cd /home/dsquez/my-crazyflie/crazyflie_ws/build/vicon_bridge && ../catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/genmsg/cmake/../../../lib/genmsg/genmsg_check_deps.py vicon_bridge /home/dsquez/my-crazyflie/crazyflie_ws/src/vicon_bridge/msg/Markers.msg vicon_bridge/Marker:std_msgs/Header:geometry_msgs/Point
 
 _vicon_bridge_generate_messages_check_deps_Markers: vicon_bridge/CMakeFiles/_vicon_bridge_generate_messages_check_deps_Markers
 _vicon_bridge_generate_messages_check_deps_Markers: vicon_bridge/CMakeFiles/_vicon_bridge_generate_messages_check_deps_Markers.dir/build.make
@@ -67,10 +67,10 @@ vicon_bridge/CMakeFiles/_vicon_bridge_generate_messages_check_deps_Markers.dir/b
 .PHONY : vicon_bridge/CMakeFiles/_vicon_bridge_generate_messages_check_deps_Markers.dir/build
 
 vicon_bridge/CMakeFiles/_vicon_bridge_generate_messages_check_deps_Markers.dir/clean:
-	cd /home/dsquez/crazyflie_ws/build/vicon_bridge && $(CMAKE_COMMAND) -P CMakeFiles/_vicon_bridge_generate_messages_check_deps_Markers.dir/cmake_clean.cmake
+	cd /home/dsquez/my-crazyflie/crazyflie_ws/build/vicon_bridge && $(CMAKE_COMMAND) -P CMakeFiles/_vicon_bridge_generate_messages_check_deps_Markers.dir/cmake_clean.cmake
 .PHONY : vicon_bridge/CMakeFiles/_vicon_bridge_generate_messages_check_deps_Markers.dir/clean
 
 vicon_bridge/CMakeFiles/_vicon_bridge_generate_messages_check_deps_Markers.dir/depend:
-	cd /home/dsquez/crazyflie_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dsquez/crazyflie_ws/src /home/dsquez/crazyflie_ws/src/vicon_bridge /home/dsquez/crazyflie_ws/build /home/dsquez/crazyflie_ws/build/vicon_bridge /home/dsquez/crazyflie_ws/build/vicon_bridge/CMakeFiles/_vicon_bridge_generate_messages_check_deps_Markers.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/dsquez/my-crazyflie/crazyflie_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dsquez/my-crazyflie/crazyflie_ws/src /home/dsquez/my-crazyflie/crazyflie_ws/src/vicon_bridge /home/dsquez/my-crazyflie/crazyflie_ws/build /home/dsquez/my-crazyflie/crazyflie_ws/build/vicon_bridge /home/dsquez/my-crazyflie/crazyflie_ws/build/vicon_bridge/CMakeFiles/_vicon_bridge_generate_messages_check_deps_Markers.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : vicon_bridge/CMakeFiles/_vicon_bridge_generate_messages_check_deps_Markers.dir/depend
 
