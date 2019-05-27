@@ -1,0 +1,2 @@
+- setup-file:
+    local-name: /home/dsquez/crazyflie_ws/install/setup.sh
