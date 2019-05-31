@@ -48,10 +48,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/dsquez/my-crazyflie/crazyflie_ws/src
+CMAKE_SOURCE_DIR = /home/derek/my-crazyflie/crazyflie_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/dsquez/my-crazyflie/crazyflie_ws/build
+CMAKE_BINARY_DIR = /home/derek/my-crazyflie/crazyflie_ws/build
 
 #=============================================================================
 # Targets provided globally by CMake.
@@ -135,14 +135,14 @@ test/fast: test
 
 # The main all target
 all: cmake_check_build_system
-	cd /home/dsquez/my-crazyflie/crazyflie_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/dsquez/my-crazyflie/crazyflie_ws/build/CMakeFiles /home/dsquez/my-crazyflie/crazyflie_ws/build/crazyflie_ros/crazyflie_tools/CMakeFiles/progress.marks
-	cd /home/dsquez/my-crazyflie/crazyflie_ws/build && $(MAKE) -f CMakeFiles/Makefile2 crazyflie_ros/crazyflie_tools/all
-	$(CMAKE_COMMAND) -E cmake_progress_start /home/dsquez/my-crazyflie/crazyflie_ws/build/CMakeFiles 0
+	cd /home/derek/my-crazyflie/crazyflie_ws/build && $(CMAKE_COMMAND) -E cmake_progress_start /home/derek/my-crazyflie/crazyflie_ws/build/CMakeFiles /home/derek/my-crazyflie/crazyflie_ws/build/crazyflie_ros/crazyflie_tools/CMakeFiles/progress.marks
+	cd /home/derek/my-crazyflie/crazyflie_ws/build && $(MAKE) -f CMakeFiles/Makefile2 crazyflie_ros/crazyflie_tools/all
+	$(CMAKE_COMMAND) -E cmake_progress_start /home/derek/my-crazyflie/crazyflie_ws/build/CMakeFiles 0
 .PHONY : all
 
 # The main clean target
 clean:
-	cd /home/dsquez/my-crazyflie/crazyflie_ws/build && $(MAKE) -f CMakeFiles/Makefile2 crazyflie_ros/crazyflie_tools/clean
+	cd /home/derek/my-crazyflie/crazyflie_ws/build && $(MAKE) -f CMakeFiles/Makefile2 crazyflie_ros/crazyflie_tools/clean
 .PHONY : clean
 
 # The main clean target
@@ -152,22 +152,22 @@ clean/fast: clean
 
 # Prepare targets for installation.
 preinstall: all
-	cd /home/dsquez/my-crazyflie/crazyflie_ws/build && $(MAKE) -f CMakeFiles/Makefile2 crazyflie_ros/crazyflie_tools/preinstall
+	cd /home/derek/my-crazyflie/crazyflie_ws/build && $(MAKE) -f CMakeFiles/Makefile2 crazyflie_ros/crazyflie_tools/preinstall
 .PHONY : preinstall
 
 # Prepare targets for installation.
 preinstall/fast:
-	cd /home/dsquez/my-crazyflie/crazyflie_ws/build && $(MAKE) -f CMakeFiles/Makefile2 crazyflie_ros/crazyflie_tools/preinstall
+	cd /home/derek/my-crazyflie/crazyflie_ws/build && $(MAKE) -f CMakeFiles/Makefile2 crazyflie_ros/crazyflie_tools/preinstall
 .PHONY : preinstall/fast
 
 # clear depends
 depend:
-	cd /home/dsquez/my-crazyflie/crazyflie_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
+	cd /home/derek/my-crazyflie/crazyflie_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 1
 .PHONY : depend
 
 # Convenience name for target.
 crazyflie_ros/crazyflie_tools/CMakeFiles/log.dir/rule:
-	cd /home/dsquez/my-crazyflie/crazyflie_ws/build && $(MAKE) -f CMakeFiles/Makefile2 crazyflie_ros/crazyflie_tools/CMakeFiles/log.dir/rule
+	cd /home/derek/my-crazyflie/crazyflie_ws/build && $(MAKE) -f CMakeFiles/Makefile2 crazyflie_ros/crazyflie_tools/CMakeFiles/log.dir/rule
 .PHONY : crazyflie_ros/crazyflie_tools/CMakeFiles/log.dir/rule
 
 # Convenience name for target.
@@ -177,12 +177,12 @@ log: crazyflie_ros/crazyflie_tools/CMakeFiles/log.dir/rule
 
 # fast build rule for target.
 log/fast:
-	cd /home/dsquez/my-crazyflie/crazyflie_ws/build && $(MAKE) -f crazyflie_ros/crazyflie_tools/CMakeFiles/log.dir/build.make crazyflie_ros/crazyflie_tools/CMakeFiles/log.dir/build
+	cd /home/derek/my-crazyflie/crazyflie_ws/build && $(MAKE) -f crazyflie_ros/crazyflie_tools/CMakeFiles/log.dir/build.make crazyflie_ros/crazyflie_tools/CMakeFiles/log.dir/build
 .PHONY : log/fast
 
 # Convenience name for target.
 crazyflie_ros/crazyflie_tools/CMakeFiles/listLogVariables.dir/rule:
-	cd /home/dsquez/my-crazyflie/crazyflie_ws/build && $(MAKE) -f CMakeFiles/Makefile2 crazyflie_ros/crazyflie_tools/CMakeFiles/listLogVariables.dir/rule
+	cd /home/derek/my-crazyflie/crazyflie_ws/build && $(MAKE) -f CMakeFiles/Makefile2 crazyflie_ros/crazyflie_tools/CMakeFiles/listLogVariables.dir/rule
 .PHONY : crazyflie_ros/crazyflie_tools/CMakeFiles/listLogVariables.dir/rule
 
 # Convenience name for target.
@@ -192,12 +192,12 @@ listLogVariables: crazyflie_ros/crazyflie_tools/CMakeFiles/listLogVariables.dir/
 
 # fast build rule for target.
 listLogVariables/fast:
-	cd /home/dsquez/my-crazyflie/crazyflie_ws/build && $(MAKE) -f crazyflie_ros/crazyflie_tools/CMakeFiles/listLogVariables.dir/build.make crazyflie_ros/crazyflie_tools/CMakeFiles/listLogVariables.dir/build
+	cd /home/derek/my-crazyflie/crazyflie_ws/build && $(MAKE) -f crazyflie_ros/crazyflie_tools/CMakeFiles/listLogVariables.dir/build.make crazyflie_ros/crazyflie_tools/CMakeFiles/listLogVariables.dir/build
 .PHONY : listLogVariables/fast
 
 # Convenience name for target.
 crazyflie_ros/crazyflie_tools/CMakeFiles/scan.dir/rule:
-	cd /home/dsquez/my-crazyflie/crazyflie_ws/build && $(MAKE) -f CMakeFiles/Makefile2 crazyflie_ros/crazyflie_tools/CMakeFiles/scan.dir/rule
+	cd /home/derek/my-crazyflie/crazyflie_ws/build && $(MAKE) -f CMakeFiles/Makefile2 crazyflie_ros/crazyflie_tools/CMakeFiles/scan.dir/rule
 .PHONY : crazyflie_ros/crazyflie_tools/CMakeFiles/scan.dir/rule
 
 # Convenience name for target.
@@ -207,12 +207,12 @@ scan: crazyflie_ros/crazyflie_tools/CMakeFiles/scan.dir/rule
 
 # fast build rule for target.
 scan/fast:
-	cd /home/dsquez/my-crazyflie/crazyflie_ws/build && $(MAKE) -f crazyflie_ros/crazyflie_tools/CMakeFiles/scan.dir/build.make crazyflie_ros/crazyflie_tools/CMakeFiles/scan.dir/build
+	cd /home/derek/my-crazyflie/crazyflie_ws/build && $(MAKE) -f crazyflie_ros/crazyflie_tools/CMakeFiles/scan.dir/build.make crazyflie_ros/crazyflie_tools/CMakeFiles/scan.dir/build
 .PHONY : scan/fast
 
 # Convenience name for target.
 crazyflie_ros/crazyflie_tools/CMakeFiles/listParams.dir/rule:
-	cd /home/dsquez/my-crazyflie/crazyflie_ws/build && $(MAKE) -f CMakeFiles/Makefile2 crazyflie_ros/crazyflie_tools/CMakeFiles/listParams.dir/rule
+	cd /home/derek/my-crazyflie/crazyflie_ws/build && $(MAKE) -f CMakeFiles/Makefile2 crazyflie_ros/crazyflie_tools/CMakeFiles/listParams.dir/rule
 .PHONY : crazyflie_ros/crazyflie_tools/CMakeFiles/listParams.dir/rule
 
 # Convenience name for target.
@@ -222,12 +222,12 @@ listParams: crazyflie_ros/crazyflie_tools/CMakeFiles/listParams.dir/rule
 
 # fast build rule for target.
 listParams/fast:
-	cd /home/dsquez/my-crazyflie/crazyflie_ws/build && $(MAKE) -f crazyflie_ros/crazyflie_tools/CMakeFiles/listParams.dir/build.make crazyflie_ros/crazyflie_tools/CMakeFiles/listParams.dir/build
+	cd /home/derek/my-crazyflie/crazyflie_ws/build && $(MAKE) -f crazyflie_ros/crazyflie_tools/CMakeFiles/listParams.dir/build.make crazyflie_ros/crazyflie_tools/CMakeFiles/listParams.dir/build
 .PHONY : listParams/fast
 
 # Convenience name for target.
 crazyflie_ros/crazyflie_tools/CMakeFiles/listMemories.dir/rule:
-	cd /home/dsquez/my-crazyflie/crazyflie_ws/build && $(MAKE) -f CMakeFiles/Makefile2 crazyflie_ros/crazyflie_tools/CMakeFiles/listMemories.dir/rule
+	cd /home/derek/my-crazyflie/crazyflie_ws/build && $(MAKE) -f CMakeFiles/Makefile2 crazyflie_ros/crazyflie_tools/CMakeFiles/listMemories.dir/rule
 .PHONY : crazyflie_ros/crazyflie_tools/CMakeFiles/listMemories.dir/rule
 
 # Convenience name for target.
@@ -237,12 +237,12 @@ listMemories: crazyflie_ros/crazyflie_tools/CMakeFiles/listMemories.dir/rule
 
 # fast build rule for target.
 listMemories/fast:
-	cd /home/dsquez/my-crazyflie/crazyflie_ws/build && $(MAKE) -f crazyflie_ros/crazyflie_tools/CMakeFiles/listMemories.dir/build.make crazyflie_ros/crazyflie_tools/CMakeFiles/listMemories.dir/build
+	cd /home/derek/my-crazyflie/crazyflie_ws/build && $(MAKE) -f crazyflie_ros/crazyflie_tools/CMakeFiles/listMemories.dir/build.make crazyflie_ros/crazyflie_tools/CMakeFiles/listMemories.dir/build
 .PHONY : listMemories/fast
 
 # Convenience name for target.
 crazyflie_ros/crazyflie_tools/CMakeFiles/reboot.dir/rule:
-	cd /home/dsquez/my-crazyflie/crazyflie_ws/build && $(MAKE) -f CMakeFiles/Makefile2 crazyflie_ros/crazyflie_tools/CMakeFiles/reboot.dir/rule
+	cd /home/derek/my-crazyflie/crazyflie_ws/build && $(MAKE) -f CMakeFiles/Makefile2 crazyflie_ros/crazyflie_tools/CMakeFiles/reboot.dir/rule
 .PHONY : crazyflie_ros/crazyflie_tools/CMakeFiles/reboot.dir/rule
 
 # Convenience name for target.
@@ -252,12 +252,12 @@ reboot: crazyflie_ros/crazyflie_tools/CMakeFiles/reboot.dir/rule
 
 # fast build rule for target.
 reboot/fast:
-	cd /home/dsquez/my-crazyflie/crazyflie_ws/build && $(MAKE) -f crazyflie_ros/crazyflie_tools/CMakeFiles/reboot.dir/build.make crazyflie_ros/crazyflie_tools/CMakeFiles/reboot.dir/build
+	cd /home/derek/my-crazyflie/crazyflie_ws/build && $(MAKE) -f crazyflie_ros/crazyflie_tools/CMakeFiles/reboot.dir/build.make crazyflie_ros/crazyflie_tools/CMakeFiles/reboot.dir/build
 .PHONY : reboot/fast
 
 # Convenience name for target.
 crazyflie_ros/crazyflie_tools/CMakeFiles/battery.dir/rule:
-	cd /home/dsquez/my-crazyflie/crazyflie_ws/build && $(MAKE) -f CMakeFiles/Makefile2 crazyflie_ros/crazyflie_tools/CMakeFiles/battery.dir/rule
+	cd /home/derek/my-crazyflie/crazyflie_ws/build && $(MAKE) -f CMakeFiles/Makefile2 crazyflie_ros/crazyflie_tools/CMakeFiles/battery.dir/rule
 .PHONY : crazyflie_ros/crazyflie_tools/CMakeFiles/battery.dir/rule
 
 # Convenience name for target.
@@ -267,12 +267,12 @@ battery: crazyflie_ros/crazyflie_tools/CMakeFiles/battery.dir/rule
 
 # fast build rule for target.
 battery/fast:
-	cd /home/dsquez/my-crazyflie/crazyflie_ws/build && $(MAKE) -f crazyflie_ros/crazyflie_tools/CMakeFiles/battery.dir/build.make crazyflie_ros/crazyflie_tools/CMakeFiles/battery.dir/build
+	cd /home/derek/my-crazyflie/crazyflie_ws/build && $(MAKE) -f crazyflie_ros/crazyflie_tools/CMakeFiles/battery.dir/build.make crazyflie_ros/crazyflie_tools/CMakeFiles/battery.dir/build
 .PHONY : battery/fast
 
 # Convenience name for target.
 crazyflie_ros/crazyflie_tools/CMakeFiles/version.dir/rule:
-	cd /home/dsquez/my-crazyflie/crazyflie_ws/build && $(MAKE) -f CMakeFiles/Makefile2 crazyflie_ros/crazyflie_tools/CMakeFiles/version.dir/rule
+	cd /home/derek/my-crazyflie/crazyflie_ws/build && $(MAKE) -f CMakeFiles/Makefile2 crazyflie_ros/crazyflie_tools/CMakeFiles/version.dir/rule
 .PHONY : crazyflie_ros/crazyflie_tools/CMakeFiles/version.dir/rule
 
 # Convenience name for target.
@@ -282,12 +282,12 @@ version: crazyflie_ros/crazyflie_tools/CMakeFiles/version.dir/rule
 
 # fast build rule for target.
 version/fast:
-	cd /home/dsquez/my-crazyflie/crazyflie_ws/build && $(MAKE) -f crazyflie_ros/crazyflie_tools/CMakeFiles/version.dir/build.make crazyflie_ros/crazyflie_tools/CMakeFiles/version.dir/build
+	cd /home/derek/my-crazyflie/crazyflie_ws/build && $(MAKE) -f crazyflie_ros/crazyflie_tools/CMakeFiles/version.dir/build.make crazyflie_ros/crazyflie_tools/CMakeFiles/version.dir/build
 .PHONY : version/fast
 
 # Convenience name for target.
 crazyflie_ros/crazyflie_tools/CMakeFiles/console.dir/rule:
-	cd /home/dsquez/my-crazyflie/crazyflie_ws/build && $(MAKE) -f CMakeFiles/Makefile2 crazyflie_ros/crazyflie_tools/CMakeFiles/console.dir/rule
+	cd /home/derek/my-crazyflie/crazyflie_ws/build && $(MAKE) -f CMakeFiles/Makefile2 crazyflie_ros/crazyflie_tools/CMakeFiles/console.dir/rule
 .PHONY : crazyflie_ros/crazyflie_tools/CMakeFiles/console.dir/rule
 
 # Convenience name for target.
@@ -297,12 +297,12 @@ console: crazyflie_ros/crazyflie_tools/CMakeFiles/console.dir/rule
 
 # fast build rule for target.
 console/fast:
-	cd /home/dsquez/my-crazyflie/crazyflie_ws/build && $(MAKE) -f crazyflie_ros/crazyflie_tools/CMakeFiles/console.dir/build.make crazyflie_ros/crazyflie_tools/CMakeFiles/console.dir/build
+	cd /home/derek/my-crazyflie/crazyflie_ws/build && $(MAKE) -f crazyflie_ros/crazyflie_tools/CMakeFiles/console.dir/build.make crazyflie_ros/crazyflie_tools/CMakeFiles/console.dir/build
 .PHONY : console/fast
 
 # Convenience name for target.
 crazyflie_ros/crazyflie_tools/CMakeFiles/flash.dir/rule:
-	cd /home/dsquez/my-crazyflie/crazyflie_ws/build && $(MAKE) -f CMakeFiles/Makefile2 crazyflie_ros/crazyflie_tools/CMakeFiles/flash.dir/rule
+	cd /home/derek/my-crazyflie/crazyflie_ws/build && $(MAKE) -f CMakeFiles/Makefile2 crazyflie_ros/crazyflie_tools/CMakeFiles/flash.dir/rule
 .PHONY : crazyflie_ros/crazyflie_tools/CMakeFiles/flash.dir/rule
 
 # Convenience name for target.
@@ -312,12 +312,12 @@ flash: crazyflie_ros/crazyflie_tools/CMakeFiles/flash.dir/rule
 
 # fast build rule for target.
 flash/fast:
-	cd /home/dsquez/my-crazyflie/crazyflie_ws/build && $(MAKE) -f crazyflie_ros/crazyflie_tools/CMakeFiles/flash.dir/build.make crazyflie_ros/crazyflie_tools/CMakeFiles/flash.dir/build
+	cd /home/derek/my-crazyflie/crazyflie_ws/build && $(MAKE) -f crazyflie_ros/crazyflie_tools/CMakeFiles/flash.dir/build.make crazyflie_ros/crazyflie_tools/CMakeFiles/flash.dir/build
 .PHONY : flash/fast
 
 # Convenience name for target.
 crazyflie_ros/crazyflie_tools/CMakeFiles/comCheck.dir/rule:
-	cd /home/dsquez/my-crazyflie/crazyflie_ws/build && $(MAKE) -f CMakeFiles/Makefile2 crazyflie_ros/crazyflie_tools/CMakeFiles/comCheck.dir/rule
+	cd /home/derek/my-crazyflie/crazyflie_ws/build && $(MAKE) -f CMakeFiles/Makefile2 crazyflie_ros/crazyflie_tools/CMakeFiles/comCheck.dir/rule
 .PHONY : crazyflie_ros/crazyflie_tools/CMakeFiles/comCheck.dir/rule
 
 # Convenience name for target.
@@ -327,7 +327,7 @@ comCheck: crazyflie_ros/crazyflie_tools/CMakeFiles/comCheck.dir/rule
 
 # fast build rule for target.
 comCheck/fast:
-	cd /home/dsquez/my-crazyflie/crazyflie_ws/build && $(MAKE) -f crazyflie_ros/crazyflie_tools/CMakeFiles/comCheck.dir/build.make crazyflie_ros/crazyflie_tools/CMakeFiles/comCheck.dir/build
+	cd /home/derek/my-crazyflie/crazyflie_ws/build && $(MAKE) -f crazyflie_ros/crazyflie_tools/CMakeFiles/comCheck.dir/build.make crazyflie_ros/crazyflie_tools/CMakeFiles/comCheck.dir/build
 .PHONY : comCheck/fast
 
 src/battery.o: src/battery.cpp.o
@@ -336,7 +336,7 @@ src/battery.o: src/battery.cpp.o
 
 # target to build an object file
 src/battery.cpp.o:
-	cd /home/dsquez/my-crazyflie/crazyflie_ws/build && $(MAKE) -f crazyflie_ros/crazyflie_tools/CMakeFiles/battery.dir/build.make crazyflie_ros/crazyflie_tools/CMakeFiles/battery.dir/src/battery.cpp.o
+	cd /home/derek/my-crazyflie/crazyflie_ws/build && $(MAKE) -f crazyflie_ros/crazyflie_tools/CMakeFiles/battery.dir/build.make crazyflie_ros/crazyflie_tools/CMakeFiles/battery.dir/src/battery.cpp.o
 .PHONY : src/battery.cpp.o
 
 src/battery.i: src/battery.cpp.i
@@ -345,7 +345,7 @@ src/battery.i: src/battery.cpp.i
 
 # target to preprocess a source file
 src/battery.cpp.i:
-	cd /home/dsquez/my-crazyflie/crazyflie_ws/build && $(MAKE) -f crazyflie_ros/crazyflie_tools/CMakeFiles/battery.dir/build.make crazyflie_ros/crazyflie_tools/CMakeFiles/battery.dir/src/battery.cpp.i
+	cd /home/derek/my-crazyflie/crazyflie_ws/build && $(MAKE) -f crazyflie_ros/crazyflie_tools/CMakeFiles/battery.dir/build.make crazyflie_ros/crazyflie_tools/CMakeFiles/battery.dir/src/battery.cpp.i
 .PHONY : src/battery.cpp.i
 
 src/battery.s: src/battery.cpp.s
@@ -354,7 +354,7 @@ src/battery.s: src/battery.cpp.s
 
 # target to generate assembly for a file
 src/battery.cpp.s:
-	cd /home/dsquez/my-crazyflie/crazyflie_ws/build && $(MAKE) -f crazyflie_ros/crazyflie_tools/CMakeFiles/battery.dir/build.make crazyflie_ros/crazyflie_tools/CMakeFiles/battery.dir/src/battery.cpp.s
+	cd /home/derek/my-crazyflie/crazyflie_ws/build && $(MAKE) -f crazyflie_ros/crazyflie_tools/CMakeFiles/battery.dir/build.make crazyflie_ros/crazyflie_tools/CMakeFiles/battery.dir/src/battery.cpp.s
 .PHONY : src/battery.cpp.s
 
 src/comCheck.o: src/comCheck.cpp.o
@@ -363,7 +363,7 @@ src/comCheck.o: src/comCheck.cpp.o
 
 # target to build an object file
 src/comCheck.cpp.o:
-	cd /home/dsquez/my-crazyflie/crazyflie_ws/build && $(MAKE) -f crazyflie_ros/crazyflie_tools/CMakeFiles/comCheck.dir/build.make crazyflie_ros/crazyflie_tools/CMakeFiles/comCheck.dir/src/comCheck.cpp.o
+	cd /home/derek/my-crazyflie/crazyflie_ws/build && $(MAKE) -f crazyflie_ros/crazyflie_tools/CMakeFiles/comCheck.dir/build.make crazyflie_ros/crazyflie_tools/CMakeFiles/comCheck.dir/src/comCheck.cpp.o
 .PHONY : src/comCheck.cpp.o
 
 src/comCheck.i: src/comCheck.cpp.i
@@ -372,7 +372,7 @@ src/comCheck.i: src/comCheck.cpp.i
 
 # target to preprocess a source file
 src/comCheck.cpp.i:
-	cd /home/dsquez/my-crazyflie/crazyflie_ws/build && $(MAKE) -f crazyflie_ros/crazyflie_tools/CMakeFiles/comCheck.dir/build.make crazyflie_ros/crazyflie_tools/CMakeFiles/comCheck.dir/src/comCheck.cpp.i
+	cd /home/derek/my-crazyflie/crazyflie_ws/build && $(MAKE) -f crazyflie_ros/crazyflie_tools/CMakeFiles/comCheck.dir/build.make crazyflie_ros/crazyflie_tools/CMakeFiles/comCheck.dir/src/comCheck.cpp.i
 .PHONY : src/comCheck.cpp.i
 
 src/comCheck.s: src/comCheck.cpp.s
@@ -381,7 +381,7 @@ src/comCheck.s: src/comCheck.cpp.s
 
 # target to generate assembly for a file
 src/comCheck.cpp.s:
-	cd /home/dsquez/my-crazyflie/crazyflie_ws/build && $(MAKE) -f crazyflie_ros/crazyflie_tools/CMakeFiles/comCheck.dir/build.make crazyflie_ros/crazyflie_tools/CMakeFiles/comCheck.dir/src/comCheck.cpp.s
+	cd /home/derek/my-crazyflie/crazyflie_ws/build && $(MAKE) -f crazyflie_ros/crazyflie_tools/CMakeFiles/comCheck.dir/build.make crazyflie_ros/crazyflie_tools/CMakeFiles/comCheck.dir/src/comCheck.cpp.s
 .PHONY : src/comCheck.cpp.s
 
 src/console.o: src/console.cpp.o
@@ -390,7 +390,7 @@ src/console.o: src/console.cpp.o
 
 # target to build an object file
 src/console.cpp.o:
-	cd /home/dsquez/my-crazyflie/crazyflie_ws/build && $(MAKE) -f crazyflie_ros/crazyflie_tools/CMakeFiles/console.dir/build.make crazyflie_ros/crazyflie_tools/CMakeFiles/console.dir/src/console.cpp.o
+	cd /home/derek/my-crazyflie/crazyflie_ws/build && $(MAKE) -f crazyflie_ros/crazyflie_tools/CMakeFiles/console.dir/build.make crazyflie_ros/crazyflie_tools/CMakeFiles/console.dir/src/console.cpp.o
 .PHONY : src/console.cpp.o
 
 src/console.i: src/console.cpp.i
@@ -399,7 +399,7 @@ src/console.i: src/console.cpp.i
 
 # target to preprocess a source file
 src/console.cpp.i:
-	cd /home/dsquez/my-crazyflie/crazyflie_ws/build && $(MAKE) -f crazyflie_ros/crazyflie_tools/CMakeFiles/console.dir/build.make crazyflie_ros/crazyflie_tools/CMakeFiles/console.dir/src/console.cpp.i
+	cd /home/derek/my-crazyflie/crazyflie_ws/build && $(MAKE) -f crazyflie_ros/crazyflie_tools/CMakeFiles/console.dir/build.make crazyflie_ros/crazyflie_tools/CMakeFiles/console.dir/src/console.cpp.i
 .PHONY : src/console.cpp.i
 
 src/console.s: src/console.cpp.s
@@ -408,7 +408,7 @@ src/console.s: src/console.cpp.s
 
 # target to generate assembly for a file
 src/console.cpp.s:
-	cd /home/dsquez/my-crazyflie/crazyflie_ws/build && $(MAKE) -f crazyflie_ros/crazyflie_tools/CMakeFiles/console.dir/build.make crazyflie_ros/crazyflie_tools/CMakeFiles/console.dir/src/console.cpp.s
+	cd /home/derek/my-crazyflie/crazyflie_ws/build && $(MAKE) -f crazyflie_ros/crazyflie_tools/CMakeFiles/console.dir/build.make crazyflie_ros/crazyflie_tools/CMakeFiles/console.dir/src/console.cpp.s
 .PHONY : src/console.cpp.s
 
 src/flash.o: src/flash.cpp.o
@@ -417,7 +417,7 @@ src/flash.o: src/flash.cpp.o
 
 # target to build an object file
 src/flash.cpp.o:
-	cd /home/dsquez/my-crazyflie/crazyflie_ws/build && $(MAKE) -f crazyflie_ros/crazyflie_tools/CMakeFiles/flash.dir/build.make crazyflie_ros/crazyflie_tools/CMakeFiles/flash.dir/src/flash.cpp.o
+	cd /home/derek/my-crazyflie/crazyflie_ws/build && $(MAKE) -f crazyflie_ros/crazyflie_tools/CMakeFiles/flash.dir/build.make crazyflie_ros/crazyflie_tools/CMakeFiles/flash.dir/src/flash.cpp.o
 .PHONY : src/flash.cpp.o
 
 src/flash.i: src/flash.cpp.i
@@ -426,7 +426,7 @@ src/flash.i: src/flash.cpp.i
 
 # target to preprocess a source file
 src/flash.cpp.i:
-	cd /home/dsquez/my-crazyflie/crazyflie_ws/build && $(MAKE) -f crazyflie_ros/crazyflie_tools/CMakeFiles/flash.dir/build.make crazyflie_ros/crazyflie_tools/CMakeFiles/flash.dir/src/flash.cpp.i
+	cd /home/derek/my-crazyflie/crazyflie_ws/build && $(MAKE) -f crazyflie_ros/crazyflie_tools/CMakeFiles/flash.dir/build.make crazyflie_ros/crazyflie_tools/CMakeFiles/flash.dir/src/flash.cpp.i
 .PHONY : src/flash.cpp.i
 
 src/flash.s: src/flash.cpp.s
@@ -435,7 +435,7 @@ src/flash.s: src/flash.cpp.s
 
 # target to generate assembly for a file
 src/flash.cpp.s:
-	cd /home/dsquez/my-crazyflie/crazyflie_ws/build && $(MAKE) -f crazyflie_ros/crazyflie_tools/CMakeFiles/flash.dir/build.make crazyflie_ros/crazyflie_tools/CMakeFiles/flash.dir/src/flash.cpp.s
+	cd /home/derek/my-crazyflie/crazyflie_ws/build && $(MAKE) -f crazyflie_ros/crazyflie_tools/CMakeFiles/flash.dir/build.make crazyflie_ros/crazyflie_tools/CMakeFiles/flash.dir/src/flash.cpp.s
 .PHONY : src/flash.cpp.s
 
 src/listLogVariables.o: src/listLogVariables.cpp.o
@@ -444,7 +444,7 @@ src/listLogVariables.o: src/listLogVariables.cpp.o
 
 # target to build an object file
 src/listLogVariables.cpp.o:
-	cd /home/dsquez/my-crazyflie/crazyflie_ws/build && $(MAKE) -f crazyflie_ros/crazyflie_tools/CMakeFiles/listLogVariables.dir/build.make crazyflie_ros/crazyflie_tools/CMakeFiles/listLogVariables.dir/src/listLogVariables.cpp.o
+	cd /home/derek/my-crazyflie/crazyflie_ws/build && $(MAKE) -f crazyflie_ros/crazyflie_tools/CMakeFiles/listLogVariables.dir/build.make crazyflie_ros/crazyflie_tools/CMakeFiles/listLogVariables.dir/src/listLogVariables.cpp.o
 .PHONY : src/listLogVariables.cpp.o
 
 src/listLogVariables.i: src/listLogVariables.cpp.i
@@ -453,7 +453,7 @@ src/listLogVariables.i: src/listLogVariables.cpp.i
 
 # target to preprocess a source file
 src/listLogVariables.cpp.i:
-	cd /home/dsquez/my-crazyflie/crazyflie_ws/build && $(MAKE) -f crazyflie_ros/crazyflie_tools/CMakeFiles/listLogVariables.dir/build.make crazyflie_ros/crazyflie_tools/CMakeFiles/listLogVariables.dir/src/listLogVariables.cpp.i
+	cd /home/derek/my-crazyflie/crazyflie_ws/build && $(MAKE) -f crazyflie_ros/crazyflie_tools/CMakeFiles/listLogVariables.dir/build.make crazyflie_ros/crazyflie_tools/CMakeFiles/listLogVariables.dir/src/listLogVariables.cpp.i
 .PHONY : src/listLogVariables.cpp.i
 
 src/listLogVariables.s: src/listLogVariables.cpp.s
@@ -462,7 +462,7 @@ src/listLogVariables.s: src/listLogVariables.cpp.s
 
 # target to generate assembly for a file
 src/listLogVariables.cpp.s:
-	cd /home/dsquez/my-crazyflie/crazyflie_ws/build && $(MAKE) -f crazyflie_ros/crazyflie_tools/CMakeFiles/listLogVariables.dir/build.make crazyflie_ros/crazyflie_tools/CMakeFiles/listLogVariables.dir/src/listLogVariables.cpp.s
+	cd /home/derek/my-crazyflie/crazyflie_ws/build && $(MAKE) -f crazyflie_ros/crazyflie_tools/CMakeFiles/listLogVariables.dir/build.make crazyflie_ros/crazyflie_tools/CMakeFiles/listLogVariables.dir/src/listLogVariables.cpp.s
 .PHONY : src/listLogVariables.cpp.s
 
 src/listMemories.o: src/listMemories.cpp.o
@@ -471,7 +471,7 @@ src/listMemories.o: src/listMemories.cpp.o
 
 # target to build an object file
 src/listMemories.cpp.o:
-	cd /home/dsquez/my-crazyflie/crazyflie_ws/build && $(MAKE) -f crazyflie_ros/crazyflie_tools/CMakeFiles/listMemories.dir/build.make crazyflie_ros/crazyflie_tools/CMakeFiles/listMemories.dir/src/listMemories.cpp.o
+	cd /home/derek/my-crazyflie/crazyflie_ws/build && $(MAKE) -f crazyflie_ros/crazyflie_tools/CMakeFiles/listMemories.dir/build.make crazyflie_ros/crazyflie_tools/CMakeFiles/listMemories.dir/src/listMemories.cpp.o
 .PHONY : src/listMemories.cpp.o
 
 src/listMemories.i: src/listMemories.cpp.i
@@ -480,7 +480,7 @@ src/listMemories.i: src/listMemories.cpp.i
 
 # target to preprocess a source file
 src/listMemories.cpp.i:
-	cd /home/dsquez/my-crazyflie/crazyflie_ws/build && $(MAKE) -f crazyflie_ros/crazyflie_tools/CMakeFiles/listMemories.dir/build.make crazyflie_ros/crazyflie_tools/CMakeFiles/listMemories.dir/src/listMemories.cpp.i
+	cd /home/derek/my-crazyflie/crazyflie_ws/build && $(MAKE) -f crazyflie_ros/crazyflie_tools/CMakeFiles/listMemories.dir/build.make crazyflie_ros/crazyflie_tools/CMakeFiles/listMemories.dir/src/listMemories.cpp.i
 .PHONY : src/listMemories.cpp.i
 
 src/listMemories.s: src/listMemories.cpp.s
@@ -489,7 +489,7 @@ src/listMemories.s: src/listMemories.cpp.s
 
 # target to generate assembly for a file
 src/listMemories.cpp.s:
-	cd /home/dsquez/my-crazyflie/crazyflie_ws/build && $(MAKE) -f crazyflie_ros/crazyflie_tools/CMakeFiles/listMemories.dir/build.make crazyflie_ros/crazyflie_tools/CMakeFiles/listMemories.dir/src/listMemories.cpp.s
+	cd /home/derek/my-crazyflie/crazyflie_ws/build && $(MAKE) -f crazyflie_ros/crazyflie_tools/CMakeFiles/listMemories.dir/build.make crazyflie_ros/crazyflie_tools/CMakeFiles/listMemories.dir/src/listMemories.cpp.s
 .PHONY : src/listMemories.cpp.s
 
 src/listParams.o: src/listParams.cpp.o
@@ -498,7 +498,7 @@ src/listParams.o: src/listParams.cpp.o
 
 # target to build an object file
 src/listParams.cpp.o:
-	cd /home/dsquez/my-crazyflie/crazyflie_ws/build && $(MAKE) -f crazyflie_ros/crazyflie_tools/CMakeFiles/listParams.dir/build.make crazyflie_ros/crazyflie_tools/CMakeFiles/listParams.dir/src/listParams.cpp.o
+	cd /home/derek/my-crazyflie/crazyflie_ws/build && $(MAKE) -f crazyflie_ros/crazyflie_tools/CMakeFiles/listParams.dir/build.make crazyflie_ros/crazyflie_tools/CMakeFiles/listParams.dir/src/listParams.cpp.o
 .PHONY : src/listParams.cpp.o
 
 src/listParams.i: src/listParams.cpp.i
@@ -507,7 +507,7 @@ src/listParams.i: src/listParams.cpp.i
 
 # target to preprocess a source file
 src/listParams.cpp.i:
-	cd /home/dsquez/my-crazyflie/crazyflie_ws/build && $(MAKE) -f crazyflie_ros/crazyflie_tools/CMakeFiles/listParams.dir/build.make crazyflie_ros/crazyflie_tools/CMakeFiles/listParams.dir/src/listParams.cpp.i
+	cd /home/derek/my-crazyflie/crazyflie_ws/build && $(MAKE) -f crazyflie_ros/crazyflie_tools/CMakeFiles/listParams.dir/build.make crazyflie_ros/crazyflie_tools/CMakeFiles/listParams.dir/src/listParams.cpp.i
 .PHONY : src/listParams.cpp.i
 
 src/listParams.s: src/listParams.cpp.s
@@ -516,7 +516,7 @@ src/listParams.s: src/listParams.cpp.s
 
 # target to generate assembly for a file
 src/listParams.cpp.s:
-	cd /home/dsquez/my-crazyflie/crazyflie_ws/build && $(MAKE) -f crazyflie_ros/crazyflie_tools/CMakeFiles/listParams.dir/build.make crazyflie_ros/crazyflie_tools/CMakeFiles/listParams.dir/src/listParams.cpp.s
+	cd /home/derek/my-crazyflie/crazyflie_ws/build && $(MAKE) -f crazyflie_ros/crazyflie_tools/CMakeFiles/listParams.dir/build.make crazyflie_ros/crazyflie_tools/CMakeFiles/listParams.dir/src/listParams.cpp.s
 .PHONY : src/listParams.cpp.s
 
 src/log.o: src/log.cpp.o
@@ -525,7 +525,7 @@ src/log.o: src/log.cpp.o
 
 # target to build an object file
 src/log.cpp.o:
-	cd /home/dsquez/my-crazyflie/crazyflie_ws/build && $(MAKE) -f crazyflie_ros/crazyflie_tools/CMakeFiles/log.dir/build.make crazyflie_ros/crazyflie_tools/CMakeFiles/log.dir/src/log.cpp.o
+	cd /home/derek/my-crazyflie/crazyflie_ws/build && $(MAKE) -f crazyflie_ros/crazyflie_tools/CMakeFiles/log.dir/build.make crazyflie_ros/crazyflie_tools/CMakeFiles/log.dir/src/log.cpp.o
 .PHONY : src/log.cpp.o
 
 src/log.i: src/log.cpp.i
@@ -534,7 +534,7 @@ src/log.i: src/log.cpp.i
 
 # target to preprocess a source file
 src/log.cpp.i:
-	cd /home/dsquez/my-crazyflie/crazyflie_ws/build && $(MAKE) -f crazyflie_ros/crazyflie_tools/CMakeFiles/log.dir/build.make crazyflie_ros/crazyflie_tools/CMakeFiles/log.dir/src/log.cpp.i
+	cd /home/derek/my-crazyflie/crazyflie_ws/build && $(MAKE) -f crazyflie_ros/crazyflie_tools/CMakeFiles/log.dir/build.make crazyflie_ros/crazyflie_tools/CMakeFiles/log.dir/src/log.cpp.i
 .PHONY : src/log.cpp.i
 
 src/log.s: src/log.cpp.s
@@ -543,7 +543,7 @@ src/log.s: src/log.cpp.s
 
 # target to generate assembly for a file
 src/log.cpp.s:
-	cd /home/dsquez/my-crazyflie/crazyflie_ws/build && $(MAKE) -f crazyflie_ros/crazyflie_tools/CMakeFiles/log.dir/build.make crazyflie_ros/crazyflie_tools/CMakeFiles/log.dir/src/log.cpp.s
+	cd /home/derek/my-crazyflie/crazyflie_ws/build && $(MAKE) -f crazyflie_ros/crazyflie_tools/CMakeFiles/log.dir/build.make crazyflie_ros/crazyflie_tools/CMakeFiles/log.dir/src/log.cpp.s
 .PHONY : src/log.cpp.s
 
 src/reboot.o: src/reboot.cpp.o
@@ -552,7 +552,7 @@ src/reboot.o: src/reboot.cpp.o
 
 # target to build an object file
 src/reboot.cpp.o:
-	cd /home/dsquez/my-crazyflie/crazyflie_ws/build && $(MAKE) -f crazyflie_ros/crazyflie_tools/CMakeFiles/reboot.dir/build.make crazyflie_ros/crazyflie_tools/CMakeFiles/reboot.dir/src/reboot.cpp.o
+	cd /home/derek/my-crazyflie/crazyflie_ws/build && $(MAKE) -f crazyflie_ros/crazyflie_tools/CMakeFiles/reboot.dir/build.make crazyflie_ros/crazyflie_tools/CMakeFiles/reboot.dir/src/reboot.cpp.o
 .PHONY : src/reboot.cpp.o
 
 src/reboot.i: src/reboot.cpp.i
@@ -561,7 +561,7 @@ src/reboot.i: src/reboot.cpp.i
 
 # target to preprocess a source file
 src/reboot.cpp.i:
-	cd /home/dsquez/my-crazyflie/crazyflie_ws/build && $(MAKE) -f crazyflie_ros/crazyflie_tools/CMakeFiles/reboot.dir/build.make crazyflie_ros/crazyflie_tools/CMakeFiles/reboot.dir/src/reboot.cpp.i
+	cd /home/derek/my-crazyflie/crazyflie_ws/build && $(MAKE) -f crazyflie_ros/crazyflie_tools/CMakeFiles/reboot.dir/build.make crazyflie_ros/crazyflie_tools/CMakeFiles/reboot.dir/src/reboot.cpp.i
 .PHONY : src/reboot.cpp.i
 
 src/reboot.s: src/reboot.cpp.s
@@ -570,7 +570,7 @@ src/reboot.s: src/reboot.cpp.s
 
 # target to generate assembly for a file
 src/reboot.cpp.s:
-	cd /home/dsquez/my-crazyflie/crazyflie_ws/build && $(MAKE) -f crazyflie_ros/crazyflie_tools/CMakeFiles/reboot.dir/build.make crazyflie_ros/crazyflie_tools/CMakeFiles/reboot.dir/src/reboot.cpp.s
+	cd /home/derek/my-crazyflie/crazyflie_ws/build && $(MAKE) -f crazyflie_ros/crazyflie_tools/CMakeFiles/reboot.dir/build.make crazyflie_ros/crazyflie_tools/CMakeFiles/reboot.dir/src/reboot.cpp.s
 .PHONY : src/reboot.cpp.s
 
 src/scan.o: src/scan.cpp.o
@@ -579,7 +579,7 @@ src/scan.o: src/scan.cpp.o
 
 # target to build an object file
 src/scan.cpp.o:
-	cd /home/dsquez/my-crazyflie/crazyflie_ws/build && $(MAKE) -f crazyflie_ros/crazyflie_tools/CMakeFiles/scan.dir/build.make crazyflie_ros/crazyflie_tools/CMakeFiles/scan.dir/src/scan.cpp.o
+	cd /home/derek/my-crazyflie/crazyflie_ws/build && $(MAKE) -f crazyflie_ros/crazyflie_tools/CMakeFiles/scan.dir/build.make crazyflie_ros/crazyflie_tools/CMakeFiles/scan.dir/src/scan.cpp.o
 .PHONY : src/scan.cpp.o
 
 src/scan.i: src/scan.cpp.i
@@ -588,7 +588,7 @@ src/scan.i: src/scan.cpp.i
 
 # target to preprocess a source file
 src/scan.cpp.i:
-	cd /home/dsquez/my-crazyflie/crazyflie_ws/build && $(MAKE) -f crazyflie_ros/crazyflie_tools/CMakeFiles/scan.dir/build.make crazyflie_ros/crazyflie_tools/CMakeFiles/scan.dir/src/scan.cpp.i
+	cd /home/derek/my-crazyflie/crazyflie_ws/build && $(MAKE) -f crazyflie_ros/crazyflie_tools/CMakeFiles/scan.dir/build.make crazyflie_ros/crazyflie_tools/CMakeFiles/scan.dir/src/scan.cpp.i
 .PHONY : src/scan.cpp.i
 
 src/scan.s: src/scan.cpp.s
@@ -597,7 +597,7 @@ src/scan.s: src/scan.cpp.s
 
 # target to generate assembly for a file
 src/scan.cpp.s:
-	cd /home/dsquez/my-crazyflie/crazyflie_ws/build && $(MAKE) -f crazyflie_ros/crazyflie_tools/CMakeFiles/scan.dir/build.make crazyflie_ros/crazyflie_tools/CMakeFiles/scan.dir/src/scan.cpp.s
+	cd /home/derek/my-crazyflie/crazyflie_ws/build && $(MAKE) -f crazyflie_ros/crazyflie_tools/CMakeFiles/scan.dir/build.make crazyflie_ros/crazyflie_tools/CMakeFiles/scan.dir/src/scan.cpp.s
 .PHONY : src/scan.cpp.s
 
 src/version.o: src/version.cpp.o
@@ -606,7 +606,7 @@ src/version.o: src/version.cpp.o
 
 # target to build an object file
 src/version.cpp.o:
-	cd /home/dsquez/my-crazyflie/crazyflie_ws/build && $(MAKE) -f crazyflie_ros/crazyflie_tools/CMakeFiles/version.dir/build.make crazyflie_ros/crazyflie_tools/CMakeFiles/version.dir/src/version.cpp.o
+	cd /home/derek/my-crazyflie/crazyflie_ws/build && $(MAKE) -f crazyflie_ros/crazyflie_tools/CMakeFiles/version.dir/build.make crazyflie_ros/crazyflie_tools/CMakeFiles/version.dir/src/version.cpp.o
 .PHONY : src/version.cpp.o
 
 src/version.i: src/version.cpp.i
@@ -615,7 +615,7 @@ src/version.i: src/version.cpp.i
 
 # target to preprocess a source file
 src/version.cpp.i:
-	cd /home/dsquez/my-crazyflie/crazyflie_ws/build && $(MAKE) -f crazyflie_ros/crazyflie_tools/CMakeFiles/version.dir/build.make crazyflie_ros/crazyflie_tools/CMakeFiles/version.dir/src/version.cpp.i
+	cd /home/derek/my-crazyflie/crazyflie_ws/build && $(MAKE) -f crazyflie_ros/crazyflie_tools/CMakeFiles/version.dir/build.make crazyflie_ros/crazyflie_tools/CMakeFiles/version.dir/src/version.cpp.i
 .PHONY : src/version.cpp.i
 
 src/version.s: src/version.cpp.s
@@ -624,7 +624,7 @@ src/version.s: src/version.cpp.s
 
 # target to generate assembly for a file
 src/version.cpp.s:
-	cd /home/dsquez/my-crazyflie/crazyflie_ws/build && $(MAKE) -f crazyflie_ros/crazyflie_tools/CMakeFiles/version.dir/build.make crazyflie_ros/crazyflie_tools/CMakeFiles/version.dir/src/version.cpp.s
+	cd /home/derek/my-crazyflie/crazyflie_ws/build && $(MAKE) -f crazyflie_ros/crazyflie_tools/CMakeFiles/version.dir/build.make crazyflie_ros/crazyflie_tools/CMakeFiles/version.dir/src/version.cpp.s
 .PHONY : src/version.cpp.s
 
 # Help Target
@@ -695,6 +695,6 @@ help:
 # No rule that depends on this can have commands that come from listfiles
 # because they might be regenerated.
 cmake_check_build_system:
-	cd /home/dsquez/my-crazyflie/crazyflie_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
+	cd /home/derek/my-crazyflie/crazyflie_ws/build && $(CMAKE_COMMAND) -H$(CMAKE_SOURCE_DIR) -B$(CMAKE_BINARY_DIR) --check-build-system CMakeFiles/Makefile.cmake 0
 .PHONY : cmake_check_build_system
 

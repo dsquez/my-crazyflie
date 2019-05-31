@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/dsquez/my-crazyflie/crazyflie_ws/src
+CMAKE_SOURCE_DIR = /home/derek/my-crazyflie/crazyflie_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/dsquez/my-crazyflie/crazyflie_ws/build
+CMAKE_BINARY_DIR = /home/derek/my-crazyflie/crazyflie_ws/build
 
 # Include any dependencies generated for this target.
 include crazyflie_ros/crazyflie_tools/CMakeFiles/version.dir/depend.make
@@ -58,17 +58,17 @@ include crazyflie_ros/crazyflie_tools/CMakeFiles/version.dir/progress.make
 include crazyflie_ros/crazyflie_tools/CMakeFiles/version.dir/flags.make
 
 crazyflie_ros/crazyflie_tools/CMakeFiles/version.dir/src/version.cpp.o: crazyflie_ros/crazyflie_tools/CMakeFiles/version.dir/flags.make
-crazyflie_ros/crazyflie_tools/CMakeFiles/version.dir/src/version.cpp.o: /home/dsquez/my-crazyflie/crazyflie_ws/src/crazyflie_ros/crazyflie_tools/src/version.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dsquez/my-crazyflie/crazyflie_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object crazyflie_ros/crazyflie_tools/CMakeFiles/version.dir/src/version.cpp.o"
-	cd /home/dsquez/my-crazyflie/crazyflie_ws/build/crazyflie_ros/crazyflie_tools && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/version.dir/src/version.cpp.o -c /home/dsquez/my-crazyflie/crazyflie_ws/src/crazyflie_ros/crazyflie_tools/src/version.cpp
+crazyflie_ros/crazyflie_tools/CMakeFiles/version.dir/src/version.cpp.o: /home/derek/my-crazyflie/crazyflie_ws/src/crazyflie_ros/crazyflie_tools/src/version.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/derek/my-crazyflie/crazyflie_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object crazyflie_ros/crazyflie_tools/CMakeFiles/version.dir/src/version.cpp.o"
+	cd /home/derek/my-crazyflie/crazyflie_ws/build/crazyflie_ros/crazyflie_tools && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/version.dir/src/version.cpp.o -c /home/derek/my-crazyflie/crazyflie_ws/src/crazyflie_ros/crazyflie_tools/src/version.cpp
 
 crazyflie_ros/crazyflie_tools/CMakeFiles/version.dir/src/version.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/version.dir/src/version.cpp.i"
-	cd /home/dsquez/my-crazyflie/crazyflie_ws/build/crazyflie_ros/crazyflie_tools && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dsquez/my-crazyflie/crazyflie_ws/src/crazyflie_ros/crazyflie_tools/src/version.cpp > CMakeFiles/version.dir/src/version.cpp.i
+	cd /home/derek/my-crazyflie/crazyflie_ws/build/crazyflie_ros/crazyflie_tools && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/derek/my-crazyflie/crazyflie_ws/src/crazyflie_ros/crazyflie_tools/src/version.cpp > CMakeFiles/version.dir/src/version.cpp.i
 
 crazyflie_ros/crazyflie_tools/CMakeFiles/version.dir/src/version.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/version.dir/src/version.cpp.s"
-	cd /home/dsquez/my-crazyflie/crazyflie_ws/build/crazyflie_ros/crazyflie_tools && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dsquez/my-crazyflie/crazyflie_ws/src/crazyflie_ros/crazyflie_tools/src/version.cpp -o CMakeFiles/version.dir/src/version.cpp.s
+	cd /home/derek/my-crazyflie/crazyflie_ws/build/crazyflie_ros/crazyflie_tools && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/derek/my-crazyflie/crazyflie_ws/src/crazyflie_ros/crazyflie_tools/src/version.cpp -o CMakeFiles/version.dir/src/version.cpp.s
 
 crazyflie_ros/crazyflie_tools/CMakeFiles/version.dir/src/version.cpp.o.requires:
 
@@ -88,17 +88,17 @@ version_OBJECTS = \
 # External object files for target version
 version_EXTERNAL_OBJECTS =
 
-/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/crazyflie_tools/version: crazyflie_ros/crazyflie_tools/CMakeFiles/version.dir/src/version.cpp.o
-/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/crazyflie_tools/version: crazyflie_ros/crazyflie_tools/CMakeFiles/version.dir/build.make
-/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/crazyflie_tools/version: /home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/libcrazyflie_cpp.so
-/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/crazyflie_tools/version: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
-/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/crazyflie_tools/version: /usr/lib/x86_64-linux-gnu/libusb-1.0.so
-/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/crazyflie_tools/version: crazyflie_ros/crazyflie_tools/CMakeFiles/version.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dsquez/my-crazyflie/crazyflie_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/crazyflie_tools/version"
-	cd /home/dsquez/my-crazyflie/crazyflie_ws/build/crazyflie_ros/crazyflie_tools && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/version.dir/link.txt --verbose=$(VERBOSE)
+/home/derek/my-crazyflie/crazyflie_ws/devel/lib/crazyflie_tools/version: crazyflie_ros/crazyflie_tools/CMakeFiles/version.dir/src/version.cpp.o
+/home/derek/my-crazyflie/crazyflie_ws/devel/lib/crazyflie_tools/version: crazyflie_ros/crazyflie_tools/CMakeFiles/version.dir/build.make
+/home/derek/my-crazyflie/crazyflie_ws/devel/lib/crazyflie_tools/version: /home/derek/my-crazyflie/crazyflie_ws/devel/lib/libcrazyflie_cpp.so
+/home/derek/my-crazyflie/crazyflie_ws/devel/lib/crazyflie_tools/version: /usr/lib/x86_64-linux-gnu/libboost_program_options.so
+/home/derek/my-crazyflie/crazyflie_ws/devel/lib/crazyflie_tools/version: /usr/lib/x86_64-linux-gnu/libusb-1.0.so
+/home/derek/my-crazyflie/crazyflie_ws/devel/lib/crazyflie_tools/version: crazyflie_ros/crazyflie_tools/CMakeFiles/version.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/derek/my-crazyflie/crazyflie_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/derek/my-crazyflie/crazyflie_ws/devel/lib/crazyflie_tools/version"
+	cd /home/derek/my-crazyflie/crazyflie_ws/build/crazyflie_ros/crazyflie_tools && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/version.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-crazyflie_ros/crazyflie_tools/CMakeFiles/version.dir/build: /home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/crazyflie_tools/version
+crazyflie_ros/crazyflie_tools/CMakeFiles/version.dir/build: /home/derek/my-crazyflie/crazyflie_ws/devel/lib/crazyflie_tools/version
 
 .PHONY : crazyflie_ros/crazyflie_tools/CMakeFiles/version.dir/build
 
@@ -107,10 +107,10 @@ crazyflie_ros/crazyflie_tools/CMakeFiles/version.dir/requires: crazyflie_ros/cra
 .PHONY : crazyflie_ros/crazyflie_tools/CMakeFiles/version.dir/requires
 
 crazyflie_ros/crazyflie_tools/CMakeFiles/version.dir/clean:
-	cd /home/dsquez/my-crazyflie/crazyflie_ws/build/crazyflie_ros/crazyflie_tools && $(CMAKE_COMMAND) -P CMakeFiles/version.dir/cmake_clean.cmake
+	cd /home/derek/my-crazyflie/crazyflie_ws/build/crazyflie_ros/crazyflie_tools && $(CMAKE_COMMAND) -P CMakeFiles/version.dir/cmake_clean.cmake
 .PHONY : crazyflie_ros/crazyflie_tools/CMakeFiles/version.dir/clean
 
 crazyflie_ros/crazyflie_tools/CMakeFiles/version.dir/depend:
-	cd /home/dsquez/my-crazyflie/crazyflie_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dsquez/my-crazyflie/crazyflie_ws/src /home/dsquez/my-crazyflie/crazyflie_ws/src/crazyflie_ros/crazyflie_tools /home/dsquez/my-crazyflie/crazyflie_ws/build /home/dsquez/my-crazyflie/crazyflie_ws/build/crazyflie_ros/crazyflie_tools /home/dsquez/my-crazyflie/crazyflie_ws/build/crazyflie_ros/crazyflie_tools/CMakeFiles/version.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/derek/my-crazyflie/crazyflie_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/derek/my-crazyflie/crazyflie_ws/src /home/derek/my-crazyflie/crazyflie_ws/src/crazyflie_ros/crazyflie_tools /home/derek/my-crazyflie/crazyflie_ws/build /home/derek/my-crazyflie/crazyflie_ws/build/crazyflie_ros/crazyflie_tools /home/derek/my-crazyflie/crazyflie_ws/build/crazyflie_ros/crazyflie_tools/CMakeFiles/version.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : crazyflie_ros/crazyflie_tools/CMakeFiles/version.dir/depend
 

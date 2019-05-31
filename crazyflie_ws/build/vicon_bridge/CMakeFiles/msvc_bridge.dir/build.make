@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/dsquez/my-crazyflie/crazyflie_ws/src
+CMAKE_SOURCE_DIR = /home/derek/my-crazyflie/crazyflie_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/dsquez/my-crazyflie/crazyflie_ws/build
+CMAKE_BINARY_DIR = /home/derek/my-crazyflie/crazyflie_ws/build
 
 # Include any dependencies generated for this target.
 include vicon_bridge/CMakeFiles/msvc_bridge.dir/depend.make
@@ -58,17 +58,17 @@ include vicon_bridge/CMakeFiles/msvc_bridge.dir/progress.make
 include vicon_bridge/CMakeFiles/msvc_bridge.dir/flags.make
 
 vicon_bridge/CMakeFiles/msvc_bridge.dir/src/msvc_bridge.cpp.o: vicon_bridge/CMakeFiles/msvc_bridge.dir/flags.make
-vicon_bridge/CMakeFiles/msvc_bridge.dir/src/msvc_bridge.cpp.o: /home/dsquez/my-crazyflie/crazyflie_ws/src/vicon_bridge/src/msvc_bridge.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dsquez/my-crazyflie/crazyflie_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object vicon_bridge/CMakeFiles/msvc_bridge.dir/src/msvc_bridge.cpp.o"
-	cd /home/dsquez/my-crazyflie/crazyflie_ws/build/vicon_bridge && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/msvc_bridge.dir/src/msvc_bridge.cpp.o -c /home/dsquez/my-crazyflie/crazyflie_ws/src/vicon_bridge/src/msvc_bridge.cpp
+vicon_bridge/CMakeFiles/msvc_bridge.dir/src/msvc_bridge.cpp.o: /home/derek/my-crazyflie/crazyflie_ws/src/vicon_bridge/src/msvc_bridge.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/derek/my-crazyflie/crazyflie_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object vicon_bridge/CMakeFiles/msvc_bridge.dir/src/msvc_bridge.cpp.o"
+	cd /home/derek/my-crazyflie/crazyflie_ws/build/vicon_bridge && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/msvc_bridge.dir/src/msvc_bridge.cpp.o -c /home/derek/my-crazyflie/crazyflie_ws/src/vicon_bridge/src/msvc_bridge.cpp
 
 vicon_bridge/CMakeFiles/msvc_bridge.dir/src/msvc_bridge.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/msvc_bridge.dir/src/msvc_bridge.cpp.i"
-	cd /home/dsquez/my-crazyflie/crazyflie_ws/build/vicon_bridge && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dsquez/my-crazyflie/crazyflie_ws/src/vicon_bridge/src/msvc_bridge.cpp > CMakeFiles/msvc_bridge.dir/src/msvc_bridge.cpp.i
+	cd /home/derek/my-crazyflie/crazyflie_ws/build/vicon_bridge && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/derek/my-crazyflie/crazyflie_ws/src/vicon_bridge/src/msvc_bridge.cpp > CMakeFiles/msvc_bridge.dir/src/msvc_bridge.cpp.i
 
 vicon_bridge/CMakeFiles/msvc_bridge.dir/src/msvc_bridge.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/msvc_bridge.dir/src/msvc_bridge.cpp.s"
-	cd /home/dsquez/my-crazyflie/crazyflie_ws/build/vicon_bridge && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dsquez/my-crazyflie/crazyflie_ws/src/vicon_bridge/src/msvc_bridge.cpp -o CMakeFiles/msvc_bridge.dir/src/msvc_bridge.cpp.s
+	cd /home/derek/my-crazyflie/crazyflie_ws/build/vicon_bridge && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/derek/my-crazyflie/crazyflie_ws/src/vicon_bridge/src/msvc_bridge.cpp -o CMakeFiles/msvc_bridge.dir/src/msvc_bridge.cpp.s
 
 vicon_bridge/CMakeFiles/msvc_bridge.dir/src/msvc_bridge.cpp.o.requires:
 
@@ -88,14 +88,14 @@ msvc_bridge_OBJECTS = \
 # External object files for target msvc_bridge
 msvc_bridge_EXTERNAL_OBJECTS =
 
-/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/libmsvc_bridge.so: vicon_bridge/CMakeFiles/msvc_bridge.dir/src/msvc_bridge.cpp.o
-/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/libmsvc_bridge.so: vicon_bridge/CMakeFiles/msvc_bridge.dir/build.make
-/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/libmsvc_bridge.so: vicon_bridge/CMakeFiles/msvc_bridge.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dsquez/my-crazyflie/crazyflie_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library /home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/libmsvc_bridge.so"
-	cd /home/dsquez/my-crazyflie/crazyflie_ws/build/vicon_bridge && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/msvc_bridge.dir/link.txt --verbose=$(VERBOSE)
+/home/derek/my-crazyflie/crazyflie_ws/devel/lib/libmsvc_bridge.so: vicon_bridge/CMakeFiles/msvc_bridge.dir/src/msvc_bridge.cpp.o
+/home/derek/my-crazyflie/crazyflie_ws/devel/lib/libmsvc_bridge.so: vicon_bridge/CMakeFiles/msvc_bridge.dir/build.make
+/home/derek/my-crazyflie/crazyflie_ws/devel/lib/libmsvc_bridge.so: vicon_bridge/CMakeFiles/msvc_bridge.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/derek/my-crazyflie/crazyflie_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX shared library /home/derek/my-crazyflie/crazyflie_ws/devel/lib/libmsvc_bridge.so"
+	cd /home/derek/my-crazyflie/crazyflie_ws/build/vicon_bridge && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/msvc_bridge.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-vicon_bridge/CMakeFiles/msvc_bridge.dir/build: /home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/libmsvc_bridge.so
+vicon_bridge/CMakeFiles/msvc_bridge.dir/build: /home/derek/my-crazyflie/crazyflie_ws/devel/lib/libmsvc_bridge.so
 
 .PHONY : vicon_bridge/CMakeFiles/msvc_bridge.dir/build
 
@@ -104,10 +104,10 @@ vicon_bridge/CMakeFiles/msvc_bridge.dir/requires: vicon_bridge/CMakeFiles/msvc_b
 .PHONY : vicon_bridge/CMakeFiles/msvc_bridge.dir/requires
 
 vicon_bridge/CMakeFiles/msvc_bridge.dir/clean:
-	cd /home/dsquez/my-crazyflie/crazyflie_ws/build/vicon_bridge && $(CMAKE_COMMAND) -P CMakeFiles/msvc_bridge.dir/cmake_clean.cmake
+	cd /home/derek/my-crazyflie/crazyflie_ws/build/vicon_bridge && $(CMAKE_COMMAND) -P CMakeFiles/msvc_bridge.dir/cmake_clean.cmake
 .PHONY : vicon_bridge/CMakeFiles/msvc_bridge.dir/clean
 
 vicon_bridge/CMakeFiles/msvc_bridge.dir/depend:
-	cd /home/dsquez/my-crazyflie/crazyflie_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dsquez/my-crazyflie/crazyflie_ws/src /home/dsquez/my-crazyflie/crazyflie_ws/src/vicon_bridge /home/dsquez/my-crazyflie/crazyflie_ws/build /home/dsquez/my-crazyflie/crazyflie_ws/build/vicon_bridge /home/dsquez/my-crazyflie/crazyflie_ws/build/vicon_bridge/CMakeFiles/msvc_bridge.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/derek/my-crazyflie/crazyflie_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/derek/my-crazyflie/crazyflie_ws/src /home/derek/my-crazyflie/crazyflie_ws/src/vicon_bridge /home/derek/my-crazyflie/crazyflie_ws/build /home/derek/my-crazyflie/crazyflie_ws/build/vicon_bridge /home/derek/my-crazyflie/crazyflie_ws/build/vicon_bridge/CMakeFiles/msvc_bridge.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : vicon_bridge/CMakeFiles/msvc_bridge.dir/depend
 

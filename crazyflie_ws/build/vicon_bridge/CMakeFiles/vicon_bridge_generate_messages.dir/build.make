@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/dsquez/my-crazyflie/crazyflie_ws/src
+CMAKE_SOURCE_DIR = /home/derek/my-crazyflie/crazyflie_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/dsquez/my-crazyflie/crazyflie_ws/build
+CMAKE_BINARY_DIR = /home/derek/my-crazyflie/crazyflie_ws/build
 
 # Utility rule file for vicon_bridge_generate_messages.
 
@@ -63,10 +63,10 @@ vicon_bridge/CMakeFiles/vicon_bridge_generate_messages.dir/build: vicon_bridge_g
 .PHONY : vicon_bridge/CMakeFiles/vicon_bridge_generate_messages.dir/build
 
 vicon_bridge/CMakeFiles/vicon_bridge_generate_messages.dir/clean:
-	cd /home/dsquez/my-crazyflie/crazyflie_ws/build/vicon_bridge && $(CMAKE_COMMAND) -P CMakeFiles/vicon_bridge_generate_messages.dir/cmake_clean.cmake
+	cd /home/derek/my-crazyflie/crazyflie_ws/build/vicon_bridge && $(CMAKE_COMMAND) -P CMakeFiles/vicon_bridge_generate_messages.dir/cmake_clean.cmake
 .PHONY : vicon_bridge/CMakeFiles/vicon_bridge_generate_messages.dir/clean
 
 vicon_bridge/CMakeFiles/vicon_bridge_generate_messages.dir/depend:
-	cd /home/dsquez/my-crazyflie/crazyflie_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dsquez/my-crazyflie/crazyflie_ws/src /home/dsquez/my-crazyflie/crazyflie_ws/src/vicon_bridge /home/dsquez/my-crazyflie/crazyflie_ws/build /home/dsquez/my-crazyflie/crazyflie_ws/build/vicon_bridge /home/dsquez/my-crazyflie/crazyflie_ws/build/vicon_bridge/CMakeFiles/vicon_bridge_generate_messages.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/derek/my-crazyflie/crazyflie_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/derek/my-crazyflie/crazyflie_ws/src /home/derek/my-crazyflie/crazyflie_ws/src/vicon_bridge /home/derek/my-crazyflie/crazyflie_ws/build /home/derek/my-crazyflie/crazyflie_ws/build/vicon_bridge /home/derek/my-crazyflie/crazyflie_ws/build/vicon_bridge/CMakeFiles/vicon_bridge_generate_messages.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : vicon_bridge/CMakeFiles/vicon_bridge_generate_messages.dir/depend
 

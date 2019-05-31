@@ -1,8 +1,8 @@
-# Install script for directory: /home/dsquez/my-crazyflie/crazyflie_ws/src/crazyflie_ros/crazyflie_demo
+# Install script for directory: /home/derek/my-crazyflie/crazyflie_ws/src/crazyflie_ros/crazyflie_demo
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
-  set(CMAKE_INSTALL_PREFIX "/home/dsquez/my-crazyflie/crazyflie_ws/install")
+  set(CMAKE_INSTALL_PREFIX "/home/derek/my-crazyflie/crazyflie_ws/install")
 endif()
 string(REGEX REPLACE "/$" "" CMAKE_INSTALL_PREFIX "${CMAKE_INSTALL_PREFIX}")
 
@@ -33,17 +33,17 @@ if(NOT DEFINED CMAKE_INSTALL_SO_NO_EXE)
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/dsquez/my-crazyflie/crazyflie_ws/build/crazyflie_ros/crazyflie_demo/catkin_generated/installspace/crazyflie_demo.pc")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/lib/pkgconfig" TYPE FILE FILES "/home/derek/my-crazyflie/crazyflie_ws/build/crazyflie_ros/crazyflie_demo/catkin_generated/installspace/crazyflie_demo.pc")
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
   file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/crazyflie_demo/cmake" TYPE FILE FILES
-    "/home/dsquez/my-crazyflie/crazyflie_ws/build/crazyflie_ros/crazyflie_demo/catkin_generated/installspace/crazyflie_demoConfig.cmake"
-    "/home/dsquez/my-crazyflie/crazyflie_ws/build/crazyflie_ros/crazyflie_demo/catkin_generated/installspace/crazyflie_demoConfig-version.cmake"
+    "/home/derek/my-crazyflie/crazyflie_ws/build/crazyflie_ros/crazyflie_demo/catkin_generated/installspace/crazyflie_demoConfig.cmake"
+    "/home/derek/my-crazyflie/crazyflie_ws/build/crazyflie_ros/crazyflie_demo/catkin_generated/installspace/crazyflie_demoConfig-version.cmake"
     )
 endif()
 
 if(NOT CMAKE_INSTALL_COMPONENT OR "${CMAKE_INSTALL_COMPONENT}" STREQUAL "Unspecified")
-  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/crazyflie_demo" TYPE FILE FILES "/home/dsquez/my-crazyflie/crazyflie_ws/src/crazyflie_ros/crazyflie_demo/package.xml")
+  file(INSTALL DESTINATION "${CMAKE_INSTALL_PREFIX}/share/crazyflie_demo" TYPE FILE FILES "/home/derek/my-crazyflie/crazyflie_ws/src/crazyflie_ros/crazyflie_demo/package.xml")
 endif()
 

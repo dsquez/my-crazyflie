@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/dsquez/my-crazyflie/crazyflie_ws/src
+CMAKE_SOURCE_DIR = /home/derek/my-crazyflie/crazyflie_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/dsquez/my-crazyflie/crazyflie_ws/build
+CMAKE_BINARY_DIR = /home/derek/my-crazyflie/crazyflie_ws/build
 
 # Utility rule file for crazyflie_driver_gencpp.
 
@@ -63,10 +63,10 @@ crazyflie_ros/crazyflie_driver/CMakeFiles/crazyflie_driver_gencpp.dir/build: cra
 .PHONY : crazyflie_ros/crazyflie_driver/CMakeFiles/crazyflie_driver_gencpp.dir/build
 
 crazyflie_ros/crazyflie_driver/CMakeFiles/crazyflie_driver_gencpp.dir/clean:
-	cd /home/dsquez/my-crazyflie/crazyflie_ws/build/crazyflie_ros/crazyflie_driver && $(CMAKE_COMMAND) -P CMakeFiles/crazyflie_driver_gencpp.dir/cmake_clean.cmake
+	cd /home/derek/my-crazyflie/crazyflie_ws/build/crazyflie_ros/crazyflie_driver && $(CMAKE_COMMAND) -P CMakeFiles/crazyflie_driver_gencpp.dir/cmake_clean.cmake
 .PHONY : crazyflie_ros/crazyflie_driver/CMakeFiles/crazyflie_driver_gencpp.dir/clean
 
 crazyflie_ros/crazyflie_driver/CMakeFiles/crazyflie_driver_gencpp.dir/depend:
-	cd /home/dsquez/my-crazyflie/crazyflie_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dsquez/my-crazyflie/crazyflie_ws/src /home/dsquez/my-crazyflie/crazyflie_ws/src/crazyflie_ros/crazyflie_driver /home/dsquez/my-crazyflie/crazyflie_ws/build /home/dsquez/my-crazyflie/crazyflie_ws/build/crazyflie_ros/crazyflie_driver /home/dsquez/my-crazyflie/crazyflie_ws/build/crazyflie_ros/crazyflie_driver/CMakeFiles/crazyflie_driver_gencpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/derek/my-crazyflie/crazyflie_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/derek/my-crazyflie/crazyflie_ws/src /home/derek/my-crazyflie/crazyflie_ws/src/crazyflie_ros/crazyflie_driver /home/derek/my-crazyflie/crazyflie_ws/build /home/derek/my-crazyflie/crazyflie_ws/build/crazyflie_ros/crazyflie_driver /home/derek/my-crazyflie/crazyflie_ws/build/crazyflie_ros/crazyflie_driver/CMakeFiles/crazyflie_driver_gencpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : crazyflie_ros/crazyflie_driver/CMakeFiles/crazyflie_driver_gencpp.dir/depend
 

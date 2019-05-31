@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/calibrate.dir/src/calibrate_segment.cpp.o"
-  "/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/vicon_bridge/calibrate.pdb"
-  "/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/vicon_bridge/calibrate"
+  "/home/derek/my-crazyflie/crazyflie_ws/devel/lib/vicon_bridge/calibrate.pdb"
+  "/home/derek/my-crazyflie/crazyflie_ws/devel/lib/vicon_bridge/calibrate"
 )
 
 # Per-language clean rules from dependency scanning.

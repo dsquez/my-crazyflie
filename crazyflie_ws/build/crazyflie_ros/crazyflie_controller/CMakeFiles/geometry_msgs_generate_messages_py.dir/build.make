@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/dsquez/my-crazyflie/crazyflie_ws/src
+CMAKE_SOURCE_DIR = /home/derek/my-crazyflie/crazyflie_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/dsquez/my-crazyflie/crazyflie_ws/build
+CMAKE_BINARY_DIR = /home/derek/my-crazyflie/crazyflie_ws/build
 
 # Utility rule file for geometry_msgs_generate_messages_py.
 
@@ -63,10 +63,10 @@ crazyflie_ros/crazyflie_controller/CMakeFiles/geometry_msgs_generate_messages_py
 .PHONY : crazyflie_ros/crazyflie_controller/CMakeFiles/geometry_msgs_generate_messages_py.dir/build
 
 crazyflie_ros/crazyflie_controller/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean:
-	cd /home/dsquez/my-crazyflie/crazyflie_ws/build/crazyflie_ros/crazyflie_controller && $(CMAKE_COMMAND) -P CMakeFiles/geometry_msgs_generate_messages_py.dir/cmake_clean.cmake
+	cd /home/derek/my-crazyflie/crazyflie_ws/build/crazyflie_ros/crazyflie_controller && $(CMAKE_COMMAND) -P CMakeFiles/geometry_msgs_generate_messages_py.dir/cmake_clean.cmake
 .PHONY : crazyflie_ros/crazyflie_controller/CMakeFiles/geometry_msgs_generate_messages_py.dir/clean
 
 crazyflie_ros/crazyflie_controller/CMakeFiles/geometry_msgs_generate_messages_py.dir/depend:
-	cd /home/dsquez/my-crazyflie/crazyflie_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dsquez/my-crazyflie/crazyflie_ws/src /home/dsquez/my-crazyflie/crazyflie_ws/src/crazyflie_ros/crazyflie_controller /home/dsquez/my-crazyflie/crazyflie_ws/build /home/dsquez/my-crazyflie/crazyflie_ws/build/crazyflie_ros/crazyflie_controller /home/dsquez/my-crazyflie/crazyflie_ws/build/crazyflie_ros/crazyflie_controller/CMakeFiles/geometry_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/derek/my-crazyflie/crazyflie_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/derek/my-crazyflie/crazyflie_ws/src /home/derek/my-crazyflie/crazyflie_ws/src/crazyflie_ros/crazyflie_controller /home/derek/my-crazyflie/crazyflie_ws/build /home/derek/my-crazyflie/crazyflie_ws/build/crazyflie_ros/crazyflie_controller /home/derek/my-crazyflie/crazyflie_ws/build/crazyflie_ros/crazyflie_controller/CMakeFiles/geometry_msgs_generate_messages_py.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : crazyflie_ros/crazyflie_controller/CMakeFiles/geometry_msgs_generate_messages_py.dir/depend
 

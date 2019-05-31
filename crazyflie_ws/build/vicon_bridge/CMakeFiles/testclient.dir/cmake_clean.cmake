@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/testclient.dir/src/ViconDataStreamSDK_CPPTest.cpp.o"
-  "/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/vicon_bridge/testclient.pdb"
-  "/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/vicon_bridge/testclient"
+  "/home/derek/my-crazyflie/crazyflie_ws/devel/lib/vicon_bridge/testclient.pdb"
+  "/home/derek/my-crazyflie/crazyflie_ws/devel/lib/vicon_bridge/testclient"
 )
 
 # Per-language clean rules from dependency scanning.

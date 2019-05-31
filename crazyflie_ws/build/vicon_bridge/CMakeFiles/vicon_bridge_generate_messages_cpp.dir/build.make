@@ -43,75 +43,75 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/dsquez/my-crazyflie/crazyflie_ws/src
+CMAKE_SOURCE_DIR = /home/derek/my-crazyflie/crazyflie_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/dsquez/my-crazyflie/crazyflie_ws/build
+CMAKE_BINARY_DIR = /home/derek/my-crazyflie/crazyflie_ws/build
 
 # Utility rule file for vicon_bridge_generate_messages_cpp.
 
 # Include the progress variables for this target.
 include vicon_bridge/CMakeFiles/vicon_bridge_generate_messages_cpp.dir/progress.make
 
-vicon_bridge/CMakeFiles/vicon_bridge_generate_messages_cpp: /home/dsquez/my-crazyflie/crazyflie_ws/devel/include/vicon_bridge/Markers.h
-vicon_bridge/CMakeFiles/vicon_bridge_generate_messages_cpp: /home/dsquez/my-crazyflie/crazyflie_ws/devel/include/vicon_bridge/TfDistortInfo.h
-vicon_bridge/CMakeFiles/vicon_bridge_generate_messages_cpp: /home/dsquez/my-crazyflie/crazyflie_ws/devel/include/vicon_bridge/Marker.h
-vicon_bridge/CMakeFiles/vicon_bridge_generate_messages_cpp: /home/dsquez/my-crazyflie/crazyflie_ws/devel/include/vicon_bridge/viconGrabPose.h
-vicon_bridge/CMakeFiles/vicon_bridge_generate_messages_cpp: /home/dsquez/my-crazyflie/crazyflie_ws/devel/include/vicon_bridge/viconCalibrateSegment.h
+vicon_bridge/CMakeFiles/vicon_bridge_generate_messages_cpp: /home/derek/my-crazyflie/crazyflie_ws/devel/include/vicon_bridge/Markers.h
+vicon_bridge/CMakeFiles/vicon_bridge_generate_messages_cpp: /home/derek/my-crazyflie/crazyflie_ws/devel/include/vicon_bridge/TfDistortInfo.h
+vicon_bridge/CMakeFiles/vicon_bridge_generate_messages_cpp: /home/derek/my-crazyflie/crazyflie_ws/devel/include/vicon_bridge/Marker.h
+vicon_bridge/CMakeFiles/vicon_bridge_generate_messages_cpp: /home/derek/my-crazyflie/crazyflie_ws/devel/include/vicon_bridge/viconGrabPose.h
+vicon_bridge/CMakeFiles/vicon_bridge_generate_messages_cpp: /home/derek/my-crazyflie/crazyflie_ws/devel/include/vicon_bridge/viconCalibrateSegment.h
 
 
-/home/dsquez/my-crazyflie/crazyflie_ws/devel/include/vicon_bridge/Markers.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
-/home/dsquez/my-crazyflie/crazyflie_ws/devel/include/vicon_bridge/Markers.h: /home/dsquez/my-crazyflie/crazyflie_ws/src/vicon_bridge/msg/Markers.msg
-/home/dsquez/my-crazyflie/crazyflie_ws/devel/include/vicon_bridge/Markers.h: /home/dsquez/my-crazyflie/crazyflie_ws/src/vicon_bridge/msg/Marker.msg
-/home/dsquez/my-crazyflie/crazyflie_ws/devel/include/vicon_bridge/Markers.h: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
-/home/dsquez/my-crazyflie/crazyflie_ws/devel/include/vicon_bridge/Markers.h: /opt/ros/kinetic/share/geometry_msgs/msg/Point.msg
-/home/dsquez/my-crazyflie/crazyflie_ws/devel/include/vicon_bridge/Markers.h: /opt/ros/kinetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/dsquez/my-crazyflie/crazyflie_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code from vicon_bridge/Markers.msg"
-	cd /home/dsquez/my-crazyflie/crazyflie_ws/src/vicon_bridge && /home/dsquez/my-crazyflie/crazyflie_ws/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/dsquez/my-crazyflie/crazyflie_ws/src/vicon_bridge/msg/Markers.msg -Ivicon_bridge:/home/dsquez/my-crazyflie/crazyflie_ws/src/vicon_bridge/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p vicon_bridge -o /home/dsquez/my-crazyflie/crazyflie_ws/devel/include/vicon_bridge -e /opt/ros/kinetic/share/gencpp/cmake/..
+/home/derek/my-crazyflie/crazyflie_ws/devel/include/vicon_bridge/Markers.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
+/home/derek/my-crazyflie/crazyflie_ws/devel/include/vicon_bridge/Markers.h: /home/derek/my-crazyflie/crazyflie_ws/src/vicon_bridge/msg/Markers.msg
+/home/derek/my-crazyflie/crazyflie_ws/devel/include/vicon_bridge/Markers.h: /home/derek/my-crazyflie/crazyflie_ws/src/vicon_bridge/msg/Marker.msg
+/home/derek/my-crazyflie/crazyflie_ws/devel/include/vicon_bridge/Markers.h: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
+/home/derek/my-crazyflie/crazyflie_ws/devel/include/vicon_bridge/Markers.h: /opt/ros/kinetic/share/geometry_msgs/msg/Point.msg
+/home/derek/my-crazyflie/crazyflie_ws/devel/include/vicon_bridge/Markers.h: /opt/ros/kinetic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/derek/my-crazyflie/crazyflie_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Generating C++ code from vicon_bridge/Markers.msg"
+	cd /home/derek/my-crazyflie/crazyflie_ws/src/vicon_bridge && /home/derek/my-crazyflie/crazyflie_ws/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/derek/my-crazyflie/crazyflie_ws/src/vicon_bridge/msg/Markers.msg -Ivicon_bridge:/home/derek/my-crazyflie/crazyflie_ws/src/vicon_bridge/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p vicon_bridge -o /home/derek/my-crazyflie/crazyflie_ws/devel/include/vicon_bridge -e /opt/ros/kinetic/share/gencpp/cmake/..
 
-/home/dsquez/my-crazyflie/crazyflie_ws/devel/include/vicon_bridge/TfDistortInfo.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
-/home/dsquez/my-crazyflie/crazyflie_ws/devel/include/vicon_bridge/TfDistortInfo.h: /home/dsquez/my-crazyflie/crazyflie_ws/src/vicon_bridge/msg/TfDistortInfo.msg
-/home/dsquez/my-crazyflie/crazyflie_ws/devel/include/vicon_bridge/TfDistortInfo.h: /opt/ros/kinetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/dsquez/my-crazyflie/crazyflie_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating C++ code from vicon_bridge/TfDistortInfo.msg"
-	cd /home/dsquez/my-crazyflie/crazyflie_ws/src/vicon_bridge && /home/dsquez/my-crazyflie/crazyflie_ws/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/dsquez/my-crazyflie/crazyflie_ws/src/vicon_bridge/msg/TfDistortInfo.msg -Ivicon_bridge:/home/dsquez/my-crazyflie/crazyflie_ws/src/vicon_bridge/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p vicon_bridge -o /home/dsquez/my-crazyflie/crazyflie_ws/devel/include/vicon_bridge -e /opt/ros/kinetic/share/gencpp/cmake/..
+/home/derek/my-crazyflie/crazyflie_ws/devel/include/vicon_bridge/TfDistortInfo.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
+/home/derek/my-crazyflie/crazyflie_ws/devel/include/vicon_bridge/TfDistortInfo.h: /home/derek/my-crazyflie/crazyflie_ws/src/vicon_bridge/msg/TfDistortInfo.msg
+/home/derek/my-crazyflie/crazyflie_ws/devel/include/vicon_bridge/TfDistortInfo.h: /opt/ros/kinetic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/derek/my-crazyflie/crazyflie_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Generating C++ code from vicon_bridge/TfDistortInfo.msg"
+	cd /home/derek/my-crazyflie/crazyflie_ws/src/vicon_bridge && /home/derek/my-crazyflie/crazyflie_ws/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/derek/my-crazyflie/crazyflie_ws/src/vicon_bridge/msg/TfDistortInfo.msg -Ivicon_bridge:/home/derek/my-crazyflie/crazyflie_ws/src/vicon_bridge/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p vicon_bridge -o /home/derek/my-crazyflie/crazyflie_ws/devel/include/vicon_bridge -e /opt/ros/kinetic/share/gencpp/cmake/..
 
-/home/dsquez/my-crazyflie/crazyflie_ws/devel/include/vicon_bridge/Marker.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
-/home/dsquez/my-crazyflie/crazyflie_ws/devel/include/vicon_bridge/Marker.h: /home/dsquez/my-crazyflie/crazyflie_ws/src/vicon_bridge/msg/Marker.msg
-/home/dsquez/my-crazyflie/crazyflie_ws/devel/include/vicon_bridge/Marker.h: /opt/ros/kinetic/share/geometry_msgs/msg/Point.msg
-/home/dsquez/my-crazyflie/crazyflie_ws/devel/include/vicon_bridge/Marker.h: /opt/ros/kinetic/share/gencpp/msg.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/dsquez/my-crazyflie/crazyflie_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating C++ code from vicon_bridge/Marker.msg"
-	cd /home/dsquez/my-crazyflie/crazyflie_ws/src/vicon_bridge && /home/dsquez/my-crazyflie/crazyflie_ws/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/dsquez/my-crazyflie/crazyflie_ws/src/vicon_bridge/msg/Marker.msg -Ivicon_bridge:/home/dsquez/my-crazyflie/crazyflie_ws/src/vicon_bridge/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p vicon_bridge -o /home/dsquez/my-crazyflie/crazyflie_ws/devel/include/vicon_bridge -e /opt/ros/kinetic/share/gencpp/cmake/..
+/home/derek/my-crazyflie/crazyflie_ws/devel/include/vicon_bridge/Marker.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
+/home/derek/my-crazyflie/crazyflie_ws/devel/include/vicon_bridge/Marker.h: /home/derek/my-crazyflie/crazyflie_ws/src/vicon_bridge/msg/Marker.msg
+/home/derek/my-crazyflie/crazyflie_ws/devel/include/vicon_bridge/Marker.h: /opt/ros/kinetic/share/geometry_msgs/msg/Point.msg
+/home/derek/my-crazyflie/crazyflie_ws/devel/include/vicon_bridge/Marker.h: /opt/ros/kinetic/share/gencpp/msg.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/derek/my-crazyflie/crazyflie_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_3) "Generating C++ code from vicon_bridge/Marker.msg"
+	cd /home/derek/my-crazyflie/crazyflie_ws/src/vicon_bridge && /home/derek/my-crazyflie/crazyflie_ws/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/derek/my-crazyflie/crazyflie_ws/src/vicon_bridge/msg/Marker.msg -Ivicon_bridge:/home/derek/my-crazyflie/crazyflie_ws/src/vicon_bridge/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p vicon_bridge -o /home/derek/my-crazyflie/crazyflie_ws/devel/include/vicon_bridge -e /opt/ros/kinetic/share/gencpp/cmake/..
 
-/home/dsquez/my-crazyflie/crazyflie_ws/devel/include/vicon_bridge/viconGrabPose.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
-/home/dsquez/my-crazyflie/crazyflie_ws/devel/include/vicon_bridge/viconGrabPose.h: /home/dsquez/my-crazyflie/crazyflie_ws/src/vicon_bridge/srv/viconGrabPose.srv
-/home/dsquez/my-crazyflie/crazyflie_ws/devel/include/vicon_bridge/viconGrabPose.h: /opt/ros/kinetic/share/geometry_msgs/msg/Quaternion.msg
-/home/dsquez/my-crazyflie/crazyflie_ws/devel/include/vicon_bridge/viconGrabPose.h: /opt/ros/kinetic/share/geometry_msgs/msg/PoseStamped.msg
-/home/dsquez/my-crazyflie/crazyflie_ws/devel/include/vicon_bridge/viconGrabPose.h: /opt/ros/kinetic/share/geometry_msgs/msg/Pose.msg
-/home/dsquez/my-crazyflie/crazyflie_ws/devel/include/vicon_bridge/viconGrabPose.h: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
-/home/dsquez/my-crazyflie/crazyflie_ws/devel/include/vicon_bridge/viconGrabPose.h: /opt/ros/kinetic/share/geometry_msgs/msg/Point.msg
-/home/dsquez/my-crazyflie/crazyflie_ws/devel/include/vicon_bridge/viconGrabPose.h: /opt/ros/kinetic/share/gencpp/msg.h.template
-/home/dsquez/my-crazyflie/crazyflie_ws/devel/include/vicon_bridge/viconGrabPose.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/dsquez/my-crazyflie/crazyflie_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating C++ code from vicon_bridge/viconGrabPose.srv"
-	cd /home/dsquez/my-crazyflie/crazyflie_ws/src/vicon_bridge && /home/dsquez/my-crazyflie/crazyflie_ws/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/dsquez/my-crazyflie/crazyflie_ws/src/vicon_bridge/srv/viconGrabPose.srv -Ivicon_bridge:/home/dsquez/my-crazyflie/crazyflie_ws/src/vicon_bridge/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p vicon_bridge -o /home/dsquez/my-crazyflie/crazyflie_ws/devel/include/vicon_bridge -e /opt/ros/kinetic/share/gencpp/cmake/..
+/home/derek/my-crazyflie/crazyflie_ws/devel/include/vicon_bridge/viconGrabPose.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
+/home/derek/my-crazyflie/crazyflie_ws/devel/include/vicon_bridge/viconGrabPose.h: /home/derek/my-crazyflie/crazyflie_ws/src/vicon_bridge/srv/viconGrabPose.srv
+/home/derek/my-crazyflie/crazyflie_ws/devel/include/vicon_bridge/viconGrabPose.h: /opt/ros/kinetic/share/geometry_msgs/msg/Quaternion.msg
+/home/derek/my-crazyflie/crazyflie_ws/devel/include/vicon_bridge/viconGrabPose.h: /opt/ros/kinetic/share/geometry_msgs/msg/PoseStamped.msg
+/home/derek/my-crazyflie/crazyflie_ws/devel/include/vicon_bridge/viconGrabPose.h: /opt/ros/kinetic/share/geometry_msgs/msg/Pose.msg
+/home/derek/my-crazyflie/crazyflie_ws/devel/include/vicon_bridge/viconGrabPose.h: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
+/home/derek/my-crazyflie/crazyflie_ws/devel/include/vicon_bridge/viconGrabPose.h: /opt/ros/kinetic/share/geometry_msgs/msg/Point.msg
+/home/derek/my-crazyflie/crazyflie_ws/devel/include/vicon_bridge/viconGrabPose.h: /opt/ros/kinetic/share/gencpp/msg.h.template
+/home/derek/my-crazyflie/crazyflie_ws/devel/include/vicon_bridge/viconGrabPose.h: /opt/ros/kinetic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/derek/my-crazyflie/crazyflie_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_4) "Generating C++ code from vicon_bridge/viconGrabPose.srv"
+	cd /home/derek/my-crazyflie/crazyflie_ws/src/vicon_bridge && /home/derek/my-crazyflie/crazyflie_ws/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/derek/my-crazyflie/crazyflie_ws/src/vicon_bridge/srv/viconGrabPose.srv -Ivicon_bridge:/home/derek/my-crazyflie/crazyflie_ws/src/vicon_bridge/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p vicon_bridge -o /home/derek/my-crazyflie/crazyflie_ws/devel/include/vicon_bridge -e /opt/ros/kinetic/share/gencpp/cmake/..
 
-/home/dsquez/my-crazyflie/crazyflie_ws/devel/include/vicon_bridge/viconCalibrateSegment.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
-/home/dsquez/my-crazyflie/crazyflie_ws/devel/include/vicon_bridge/viconCalibrateSegment.h: /home/dsquez/my-crazyflie/crazyflie_ws/src/vicon_bridge/srv/viconCalibrateSegment.srv
-/home/dsquez/my-crazyflie/crazyflie_ws/devel/include/vicon_bridge/viconCalibrateSegment.h: /opt/ros/kinetic/share/geometry_msgs/msg/Quaternion.msg
-/home/dsquez/my-crazyflie/crazyflie_ws/devel/include/vicon_bridge/viconCalibrateSegment.h: /opt/ros/kinetic/share/geometry_msgs/msg/PoseStamped.msg
-/home/dsquez/my-crazyflie/crazyflie_ws/devel/include/vicon_bridge/viconCalibrateSegment.h: /opt/ros/kinetic/share/geometry_msgs/msg/Pose.msg
-/home/dsquez/my-crazyflie/crazyflie_ws/devel/include/vicon_bridge/viconCalibrateSegment.h: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
-/home/dsquez/my-crazyflie/crazyflie_ws/devel/include/vicon_bridge/viconCalibrateSegment.h: /opt/ros/kinetic/share/geometry_msgs/msg/Point.msg
-/home/dsquez/my-crazyflie/crazyflie_ws/devel/include/vicon_bridge/viconCalibrateSegment.h: /opt/ros/kinetic/share/gencpp/msg.h.template
-/home/dsquez/my-crazyflie/crazyflie_ws/devel/include/vicon_bridge/viconCalibrateSegment.h: /opt/ros/kinetic/share/gencpp/srv.h.template
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/dsquez/my-crazyflie/crazyflie_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating C++ code from vicon_bridge/viconCalibrateSegment.srv"
-	cd /home/dsquez/my-crazyflie/crazyflie_ws/src/vicon_bridge && /home/dsquez/my-crazyflie/crazyflie_ws/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/dsquez/my-crazyflie/crazyflie_ws/src/vicon_bridge/srv/viconCalibrateSegment.srv -Ivicon_bridge:/home/dsquez/my-crazyflie/crazyflie_ws/src/vicon_bridge/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p vicon_bridge -o /home/dsquez/my-crazyflie/crazyflie_ws/devel/include/vicon_bridge -e /opt/ros/kinetic/share/gencpp/cmake/..
+/home/derek/my-crazyflie/crazyflie_ws/devel/include/vicon_bridge/viconCalibrateSegment.h: /opt/ros/kinetic/lib/gencpp/gen_cpp.py
+/home/derek/my-crazyflie/crazyflie_ws/devel/include/vicon_bridge/viconCalibrateSegment.h: /home/derek/my-crazyflie/crazyflie_ws/src/vicon_bridge/srv/viconCalibrateSegment.srv
+/home/derek/my-crazyflie/crazyflie_ws/devel/include/vicon_bridge/viconCalibrateSegment.h: /opt/ros/kinetic/share/geometry_msgs/msg/Quaternion.msg
+/home/derek/my-crazyflie/crazyflie_ws/devel/include/vicon_bridge/viconCalibrateSegment.h: /opt/ros/kinetic/share/geometry_msgs/msg/PoseStamped.msg
+/home/derek/my-crazyflie/crazyflie_ws/devel/include/vicon_bridge/viconCalibrateSegment.h: /opt/ros/kinetic/share/geometry_msgs/msg/Pose.msg
+/home/derek/my-crazyflie/crazyflie_ws/devel/include/vicon_bridge/viconCalibrateSegment.h: /opt/ros/kinetic/share/std_msgs/msg/Header.msg
+/home/derek/my-crazyflie/crazyflie_ws/devel/include/vicon_bridge/viconCalibrateSegment.h: /opt/ros/kinetic/share/geometry_msgs/msg/Point.msg
+/home/derek/my-crazyflie/crazyflie_ws/devel/include/vicon_bridge/viconCalibrateSegment.h: /opt/ros/kinetic/share/gencpp/msg.h.template
+/home/derek/my-crazyflie/crazyflie_ws/devel/include/vicon_bridge/viconCalibrateSegment.h: /opt/ros/kinetic/share/gencpp/srv.h.template
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/derek/my-crazyflie/crazyflie_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_5) "Generating C++ code from vicon_bridge/viconCalibrateSegment.srv"
+	cd /home/derek/my-crazyflie/crazyflie_ws/src/vicon_bridge && /home/derek/my-crazyflie/crazyflie_ws/build/catkin_generated/env_cached.sh /usr/bin/python /opt/ros/kinetic/share/gencpp/cmake/../../../lib/gencpp/gen_cpp.py /home/derek/my-crazyflie/crazyflie_ws/src/vicon_bridge/srv/viconCalibrateSegment.srv -Ivicon_bridge:/home/derek/my-crazyflie/crazyflie_ws/src/vicon_bridge/msg -Igeometry_msgs:/opt/ros/kinetic/share/geometry_msgs/cmake/../msg -Istd_msgs:/opt/ros/kinetic/share/std_msgs/cmake/../msg -p vicon_bridge -o /home/derek/my-crazyflie/crazyflie_ws/devel/include/vicon_bridge -e /opt/ros/kinetic/share/gencpp/cmake/..
 
 vicon_bridge_generate_messages_cpp: vicon_bridge/CMakeFiles/vicon_bridge_generate_messages_cpp
-vicon_bridge_generate_messages_cpp: /home/dsquez/my-crazyflie/crazyflie_ws/devel/include/vicon_bridge/Markers.h
-vicon_bridge_generate_messages_cpp: /home/dsquez/my-crazyflie/crazyflie_ws/devel/include/vicon_bridge/TfDistortInfo.h
-vicon_bridge_generate_messages_cpp: /home/dsquez/my-crazyflie/crazyflie_ws/devel/include/vicon_bridge/Marker.h
-vicon_bridge_generate_messages_cpp: /home/dsquez/my-crazyflie/crazyflie_ws/devel/include/vicon_bridge/viconGrabPose.h
-vicon_bridge_generate_messages_cpp: /home/dsquez/my-crazyflie/crazyflie_ws/devel/include/vicon_bridge/viconCalibrateSegment.h
+vicon_bridge_generate_messages_cpp: /home/derek/my-crazyflie/crazyflie_ws/devel/include/vicon_bridge/Markers.h
+vicon_bridge_generate_messages_cpp: /home/derek/my-crazyflie/crazyflie_ws/devel/include/vicon_bridge/TfDistortInfo.h
+vicon_bridge_generate_messages_cpp: /home/derek/my-crazyflie/crazyflie_ws/devel/include/vicon_bridge/Marker.h
+vicon_bridge_generate_messages_cpp: /home/derek/my-crazyflie/crazyflie_ws/devel/include/vicon_bridge/viconGrabPose.h
+vicon_bridge_generate_messages_cpp: /home/derek/my-crazyflie/crazyflie_ws/devel/include/vicon_bridge/viconCalibrateSegment.h
 vicon_bridge_generate_messages_cpp: vicon_bridge/CMakeFiles/vicon_bridge_generate_messages_cpp.dir/build.make
 
 .PHONY : vicon_bridge_generate_messages_cpp
@@ -122,10 +122,10 @@ vicon_bridge/CMakeFiles/vicon_bridge_generate_messages_cpp.dir/build: vicon_brid
 .PHONY : vicon_bridge/CMakeFiles/vicon_bridge_generate_messages_cpp.dir/build
 
 vicon_bridge/CMakeFiles/vicon_bridge_generate_messages_cpp.dir/clean:
-	cd /home/dsquez/my-crazyflie/crazyflie_ws/build/vicon_bridge && $(CMAKE_COMMAND) -P CMakeFiles/vicon_bridge_generate_messages_cpp.dir/cmake_clean.cmake
+	cd /home/derek/my-crazyflie/crazyflie_ws/build/vicon_bridge && $(CMAKE_COMMAND) -P CMakeFiles/vicon_bridge_generate_messages_cpp.dir/cmake_clean.cmake
 .PHONY : vicon_bridge/CMakeFiles/vicon_bridge_generate_messages_cpp.dir/clean
 
 vicon_bridge/CMakeFiles/vicon_bridge_generate_messages_cpp.dir/depend:
-	cd /home/dsquez/my-crazyflie/crazyflie_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dsquez/my-crazyflie/crazyflie_ws/src /home/dsquez/my-crazyflie/crazyflie_ws/src/vicon_bridge /home/dsquez/my-crazyflie/crazyflie_ws/build /home/dsquez/my-crazyflie/crazyflie_ws/build/vicon_bridge /home/dsquez/my-crazyflie/crazyflie_ws/build/vicon_bridge/CMakeFiles/vicon_bridge_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/derek/my-crazyflie/crazyflie_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/derek/my-crazyflie/crazyflie_ws/src /home/derek/my-crazyflie/crazyflie_ws/src/vicon_bridge /home/derek/my-crazyflie/crazyflie_ws/build /home/derek/my-crazyflie/crazyflie_ws/build/vicon_bridge /home/derek/my-crazyflie/crazyflie_ws/build/vicon_bridge/CMakeFiles/vicon_bridge_generate_messages_cpp.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : vicon_bridge/CMakeFiles/vicon_bridge_generate_messages_cpp.dir/depend
 

@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/dsquez/my-crazyflie/crazyflie_ws/src
+CMAKE_SOURCE_DIR = /home/derek/my-crazyflie/crazyflie_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/dsquez/my-crazyflie/crazyflie_ws/build
+CMAKE_BINARY_DIR = /home/derek/my-crazyflie/crazyflie_ws/build
 
 # Include any dependencies generated for this target.
 include vicon_bridge/CMakeFiles/testclient.dir/depend.make
@@ -58,17 +58,17 @@ include vicon_bridge/CMakeFiles/testclient.dir/progress.make
 include vicon_bridge/CMakeFiles/testclient.dir/flags.make
 
 vicon_bridge/CMakeFiles/testclient.dir/src/ViconDataStreamSDK_CPPTest.cpp.o: vicon_bridge/CMakeFiles/testclient.dir/flags.make
-vicon_bridge/CMakeFiles/testclient.dir/src/ViconDataStreamSDK_CPPTest.cpp.o: /home/dsquez/my-crazyflie/crazyflie_ws/src/vicon_bridge/src/ViconDataStreamSDK_CPPTest.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dsquez/my-crazyflie/crazyflie_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object vicon_bridge/CMakeFiles/testclient.dir/src/ViconDataStreamSDK_CPPTest.cpp.o"
-	cd /home/dsquez/my-crazyflie/crazyflie_ws/build/vicon_bridge && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testclient.dir/src/ViconDataStreamSDK_CPPTest.cpp.o -c /home/dsquez/my-crazyflie/crazyflie_ws/src/vicon_bridge/src/ViconDataStreamSDK_CPPTest.cpp
+vicon_bridge/CMakeFiles/testclient.dir/src/ViconDataStreamSDK_CPPTest.cpp.o: /home/derek/my-crazyflie/crazyflie_ws/src/vicon_bridge/src/ViconDataStreamSDK_CPPTest.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/derek/my-crazyflie/crazyflie_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object vicon_bridge/CMakeFiles/testclient.dir/src/ViconDataStreamSDK_CPPTest.cpp.o"
+	cd /home/derek/my-crazyflie/crazyflie_ws/build/vicon_bridge && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/testclient.dir/src/ViconDataStreamSDK_CPPTest.cpp.o -c /home/derek/my-crazyflie/crazyflie_ws/src/vicon_bridge/src/ViconDataStreamSDK_CPPTest.cpp
 
 vicon_bridge/CMakeFiles/testclient.dir/src/ViconDataStreamSDK_CPPTest.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/testclient.dir/src/ViconDataStreamSDK_CPPTest.cpp.i"
-	cd /home/dsquez/my-crazyflie/crazyflie_ws/build/vicon_bridge && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dsquez/my-crazyflie/crazyflie_ws/src/vicon_bridge/src/ViconDataStreamSDK_CPPTest.cpp > CMakeFiles/testclient.dir/src/ViconDataStreamSDK_CPPTest.cpp.i
+	cd /home/derek/my-crazyflie/crazyflie_ws/build/vicon_bridge && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/derek/my-crazyflie/crazyflie_ws/src/vicon_bridge/src/ViconDataStreamSDK_CPPTest.cpp > CMakeFiles/testclient.dir/src/ViconDataStreamSDK_CPPTest.cpp.i
 
 vicon_bridge/CMakeFiles/testclient.dir/src/ViconDataStreamSDK_CPPTest.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/testclient.dir/src/ViconDataStreamSDK_CPPTest.cpp.s"
-	cd /home/dsquez/my-crazyflie/crazyflie_ws/build/vicon_bridge && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dsquez/my-crazyflie/crazyflie_ws/src/vicon_bridge/src/ViconDataStreamSDK_CPPTest.cpp -o CMakeFiles/testclient.dir/src/ViconDataStreamSDK_CPPTest.cpp.s
+	cd /home/derek/my-crazyflie/crazyflie_ws/build/vicon_bridge && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/derek/my-crazyflie/crazyflie_ws/src/vicon_bridge/src/ViconDataStreamSDK_CPPTest.cpp -o CMakeFiles/testclient.dir/src/ViconDataStreamSDK_CPPTest.cpp.s
 
 vicon_bridge/CMakeFiles/testclient.dir/src/ViconDataStreamSDK_CPPTest.cpp.o.requires:
 
@@ -88,21 +88,21 @@ testclient_OBJECTS = \
 # External object files for target testclient
 testclient_EXTERNAL_OBJECTS =
 
-/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/vicon_bridge/testclient: vicon_bridge/CMakeFiles/testclient.dir/src/ViconDataStreamSDK_CPPTest.cpp.o
-/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/vicon_bridge/testclient: vicon_bridge/CMakeFiles/testclient.dir/build.make
-/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/vicon_bridge/testclient: /home/dsquez/my-crazyflie/crazyflie_ws/src/vicon_bridge/vicon_sdk/Vicon_SDK_1.3_Linux/64-bit/libViconDataStreamSDK_CPP.so
-/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/vicon_bridge/testclient: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/vicon_bridge/testclient: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/vicon_bridge/testclient: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/vicon_bridge/testclient: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/vicon_bridge/testclient: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/vicon_bridge/testclient: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/vicon_bridge/testclient: vicon_bridge/CMakeFiles/testclient.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dsquez/my-crazyflie/crazyflie_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/vicon_bridge/testclient"
-	cd /home/dsquez/my-crazyflie/crazyflie_ws/build/vicon_bridge && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/testclient.dir/link.txt --verbose=$(VERBOSE)
+/home/derek/my-crazyflie/crazyflie_ws/devel/lib/vicon_bridge/testclient: vicon_bridge/CMakeFiles/testclient.dir/src/ViconDataStreamSDK_CPPTest.cpp.o
+/home/derek/my-crazyflie/crazyflie_ws/devel/lib/vicon_bridge/testclient: vicon_bridge/CMakeFiles/testclient.dir/build.make
+/home/derek/my-crazyflie/crazyflie_ws/devel/lib/vicon_bridge/testclient: /home/derek/my-crazyflie/crazyflie_ws/src/vicon_bridge/vicon_sdk/Vicon_SDK_1.3_Linux/64-bit/libViconDataStreamSDK_CPP.so
+/home/derek/my-crazyflie/crazyflie_ws/devel/lib/vicon_bridge/testclient: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/derek/my-crazyflie/crazyflie_ws/devel/lib/vicon_bridge/testclient: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/derek/my-crazyflie/crazyflie_ws/devel/lib/vicon_bridge/testclient: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/derek/my-crazyflie/crazyflie_ws/devel/lib/vicon_bridge/testclient: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/derek/my-crazyflie/crazyflie_ws/devel/lib/vicon_bridge/testclient: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/derek/my-crazyflie/crazyflie_ws/devel/lib/vicon_bridge/testclient: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/derek/my-crazyflie/crazyflie_ws/devel/lib/vicon_bridge/testclient: vicon_bridge/CMakeFiles/testclient.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/derek/my-crazyflie/crazyflie_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/derek/my-crazyflie/crazyflie_ws/devel/lib/vicon_bridge/testclient"
+	cd /home/derek/my-crazyflie/crazyflie_ws/build/vicon_bridge && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/testclient.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-vicon_bridge/CMakeFiles/testclient.dir/build: /home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/vicon_bridge/testclient
+vicon_bridge/CMakeFiles/testclient.dir/build: /home/derek/my-crazyflie/crazyflie_ws/devel/lib/vicon_bridge/testclient
 
 .PHONY : vicon_bridge/CMakeFiles/testclient.dir/build
 
@@ -111,10 +111,10 @@ vicon_bridge/CMakeFiles/testclient.dir/requires: vicon_bridge/CMakeFiles/testcli
 .PHONY : vicon_bridge/CMakeFiles/testclient.dir/requires
 
 vicon_bridge/CMakeFiles/testclient.dir/clean:
-	cd /home/dsquez/my-crazyflie/crazyflie_ws/build/vicon_bridge && $(CMAKE_COMMAND) -P CMakeFiles/testclient.dir/cmake_clean.cmake
+	cd /home/derek/my-crazyflie/crazyflie_ws/build/vicon_bridge && $(CMAKE_COMMAND) -P CMakeFiles/testclient.dir/cmake_clean.cmake
 .PHONY : vicon_bridge/CMakeFiles/testclient.dir/clean
 
 vicon_bridge/CMakeFiles/testclient.dir/depend:
-	cd /home/dsquez/my-crazyflie/crazyflie_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dsquez/my-crazyflie/crazyflie_ws/src /home/dsquez/my-crazyflie/crazyflie_ws/src/vicon_bridge /home/dsquez/my-crazyflie/crazyflie_ws/build /home/dsquez/my-crazyflie/crazyflie_ws/build/vicon_bridge /home/dsquez/my-crazyflie/crazyflie_ws/build/vicon_bridge/CMakeFiles/testclient.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/derek/my-crazyflie/crazyflie_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/derek/my-crazyflie/crazyflie_ws/src /home/derek/my-crazyflie/crazyflie_ws/src/vicon_bridge /home/derek/my-crazyflie/crazyflie_ws/build /home/derek/my-crazyflie/crazyflie_ws/build/vicon_bridge /home/derek/my-crazyflie/crazyflie_ws/build/vicon_bridge/CMakeFiles/testclient.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : vicon_bridge/CMakeFiles/testclient.dir/depend
 

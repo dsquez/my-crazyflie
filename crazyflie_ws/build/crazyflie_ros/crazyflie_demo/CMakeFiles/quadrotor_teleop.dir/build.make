@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/dsquez/my-crazyflie/crazyflie_ws/src
+CMAKE_SOURCE_DIR = /home/derek/my-crazyflie/crazyflie_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/dsquez/my-crazyflie/crazyflie_ws/build
+CMAKE_BINARY_DIR = /home/derek/my-crazyflie/crazyflie_ws/build
 
 # Include any dependencies generated for this target.
 include crazyflie_ros/crazyflie_demo/CMakeFiles/quadrotor_teleop.dir/depend.make
@@ -58,17 +58,17 @@ include crazyflie_ros/crazyflie_demo/CMakeFiles/quadrotor_teleop.dir/progress.ma
 include crazyflie_ros/crazyflie_demo/CMakeFiles/quadrotor_teleop.dir/flags.make
 
 crazyflie_ros/crazyflie_demo/CMakeFiles/quadrotor_teleop.dir/src/quadrotor_teleop.cpp.o: crazyflie_ros/crazyflie_demo/CMakeFiles/quadrotor_teleop.dir/flags.make
-crazyflie_ros/crazyflie_demo/CMakeFiles/quadrotor_teleop.dir/src/quadrotor_teleop.cpp.o: /home/dsquez/my-crazyflie/crazyflie_ws/src/crazyflie_ros/crazyflie_demo/src/quadrotor_teleop.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dsquez/my-crazyflie/crazyflie_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object crazyflie_ros/crazyflie_demo/CMakeFiles/quadrotor_teleop.dir/src/quadrotor_teleop.cpp.o"
-	cd /home/dsquez/my-crazyflie/crazyflie_ws/build/crazyflie_ros/crazyflie_demo && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/quadrotor_teleop.dir/src/quadrotor_teleop.cpp.o -c /home/dsquez/my-crazyflie/crazyflie_ws/src/crazyflie_ros/crazyflie_demo/src/quadrotor_teleop.cpp
+crazyflie_ros/crazyflie_demo/CMakeFiles/quadrotor_teleop.dir/src/quadrotor_teleop.cpp.o: /home/derek/my-crazyflie/crazyflie_ws/src/crazyflie_ros/crazyflie_demo/src/quadrotor_teleop.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/derek/my-crazyflie/crazyflie_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object crazyflie_ros/crazyflie_demo/CMakeFiles/quadrotor_teleop.dir/src/quadrotor_teleop.cpp.o"
+	cd /home/derek/my-crazyflie/crazyflie_ws/build/crazyflie_ros/crazyflie_demo && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/quadrotor_teleop.dir/src/quadrotor_teleop.cpp.o -c /home/derek/my-crazyflie/crazyflie_ws/src/crazyflie_ros/crazyflie_demo/src/quadrotor_teleop.cpp
 
 crazyflie_ros/crazyflie_demo/CMakeFiles/quadrotor_teleop.dir/src/quadrotor_teleop.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/quadrotor_teleop.dir/src/quadrotor_teleop.cpp.i"
-	cd /home/dsquez/my-crazyflie/crazyflie_ws/build/crazyflie_ros/crazyflie_demo && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dsquez/my-crazyflie/crazyflie_ws/src/crazyflie_ros/crazyflie_demo/src/quadrotor_teleop.cpp > CMakeFiles/quadrotor_teleop.dir/src/quadrotor_teleop.cpp.i
+	cd /home/derek/my-crazyflie/crazyflie_ws/build/crazyflie_ros/crazyflie_demo && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/derek/my-crazyflie/crazyflie_ws/src/crazyflie_ros/crazyflie_demo/src/quadrotor_teleop.cpp > CMakeFiles/quadrotor_teleop.dir/src/quadrotor_teleop.cpp.i
 
 crazyflie_ros/crazyflie_demo/CMakeFiles/quadrotor_teleop.dir/src/quadrotor_teleop.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/quadrotor_teleop.dir/src/quadrotor_teleop.cpp.s"
-	cd /home/dsquez/my-crazyflie/crazyflie_ws/build/crazyflie_ros/crazyflie_demo && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dsquez/my-crazyflie/crazyflie_ws/src/crazyflie_ros/crazyflie_demo/src/quadrotor_teleop.cpp -o CMakeFiles/quadrotor_teleop.dir/src/quadrotor_teleop.cpp.s
+	cd /home/derek/my-crazyflie/crazyflie_ws/build/crazyflie_ros/crazyflie_demo && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/derek/my-crazyflie/crazyflie_ws/src/crazyflie_ros/crazyflie_demo/src/quadrotor_teleop.cpp -o CMakeFiles/quadrotor_teleop.dir/src/quadrotor_teleop.cpp.s
 
 crazyflie_ros/crazyflie_demo/CMakeFiles/quadrotor_teleop.dir/src/quadrotor_teleop.cpp.o.requires:
 
@@ -88,33 +88,33 @@ quadrotor_teleop_OBJECTS = \
 # External object files for target quadrotor_teleop
 quadrotor_teleop_EXTERNAL_OBJECTS =
 
-/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/crazyflie_demo/quadrotor_teleop: crazyflie_ros/crazyflie_demo/CMakeFiles/quadrotor_teleop.dir/src/quadrotor_teleop.cpp.o
-/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/crazyflie_demo/quadrotor_teleop: crazyflie_ros/crazyflie_demo/CMakeFiles/quadrotor_teleop.dir/build.make
-/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/crazyflie_demo/quadrotor_teleop: /opt/ros/kinetic/lib/libroscpp.so
-/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/crazyflie_demo/quadrotor_teleop: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/crazyflie_demo/quadrotor_teleop: /usr/lib/x86_64-linux-gnu/libboost_signals.so
-/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/crazyflie_demo/quadrotor_teleop: /opt/ros/kinetic/lib/librosconsole.so
-/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/crazyflie_demo/quadrotor_teleop: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
-/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/crazyflie_demo/quadrotor_teleop: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
-/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/crazyflie_demo/quadrotor_teleop: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/crazyflie_demo/quadrotor_teleop: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/crazyflie_demo/quadrotor_teleop: /opt/ros/kinetic/lib/libroscpp_serialization.so
-/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/crazyflie_demo/quadrotor_teleop: /opt/ros/kinetic/lib/libxmlrpcpp.so
-/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/crazyflie_demo/quadrotor_teleop: /opt/ros/kinetic/lib/librostime.so
-/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/crazyflie_demo/quadrotor_teleop: /opt/ros/kinetic/lib/libcpp_common.so
-/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/crazyflie_demo/quadrotor_teleop: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/crazyflie_demo/quadrotor_teleop: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/crazyflie_demo/quadrotor_teleop: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/crazyflie_demo/quadrotor_teleop: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/crazyflie_demo/quadrotor_teleop: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/crazyflie_demo/quadrotor_teleop: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/crazyflie_demo/quadrotor_teleop: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
-/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/crazyflie_demo/quadrotor_teleop: crazyflie_ros/crazyflie_demo/CMakeFiles/quadrotor_teleop.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dsquez/my-crazyflie/crazyflie_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/crazyflie_demo/quadrotor_teleop"
-	cd /home/dsquez/my-crazyflie/crazyflie_ws/build/crazyflie_ros/crazyflie_demo && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/quadrotor_teleop.dir/link.txt --verbose=$(VERBOSE)
+/home/derek/my-crazyflie/crazyflie_ws/devel/lib/crazyflie_demo/quadrotor_teleop: crazyflie_ros/crazyflie_demo/CMakeFiles/quadrotor_teleop.dir/src/quadrotor_teleop.cpp.o
+/home/derek/my-crazyflie/crazyflie_ws/devel/lib/crazyflie_demo/quadrotor_teleop: crazyflie_ros/crazyflie_demo/CMakeFiles/quadrotor_teleop.dir/build.make
+/home/derek/my-crazyflie/crazyflie_ws/devel/lib/crazyflie_demo/quadrotor_teleop: /opt/ros/kinetic/lib/libroscpp.so
+/home/derek/my-crazyflie/crazyflie_ws/devel/lib/crazyflie_demo/quadrotor_teleop: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/derek/my-crazyflie/crazyflie_ws/devel/lib/crazyflie_demo/quadrotor_teleop: /usr/lib/x86_64-linux-gnu/libboost_signals.so
+/home/derek/my-crazyflie/crazyflie_ws/devel/lib/crazyflie_demo/quadrotor_teleop: /opt/ros/kinetic/lib/librosconsole.so
+/home/derek/my-crazyflie/crazyflie_ws/devel/lib/crazyflie_demo/quadrotor_teleop: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
+/home/derek/my-crazyflie/crazyflie_ws/devel/lib/crazyflie_demo/quadrotor_teleop: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
+/home/derek/my-crazyflie/crazyflie_ws/devel/lib/crazyflie_demo/quadrotor_teleop: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/derek/my-crazyflie/crazyflie_ws/devel/lib/crazyflie_demo/quadrotor_teleop: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/derek/my-crazyflie/crazyflie_ws/devel/lib/crazyflie_demo/quadrotor_teleop: /opt/ros/kinetic/lib/libroscpp_serialization.so
+/home/derek/my-crazyflie/crazyflie_ws/devel/lib/crazyflie_demo/quadrotor_teleop: /opt/ros/kinetic/lib/libxmlrpcpp.so
+/home/derek/my-crazyflie/crazyflie_ws/devel/lib/crazyflie_demo/quadrotor_teleop: /opt/ros/kinetic/lib/librostime.so
+/home/derek/my-crazyflie/crazyflie_ws/devel/lib/crazyflie_demo/quadrotor_teleop: /opt/ros/kinetic/lib/libcpp_common.so
+/home/derek/my-crazyflie/crazyflie_ws/devel/lib/crazyflie_demo/quadrotor_teleop: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/derek/my-crazyflie/crazyflie_ws/devel/lib/crazyflie_demo/quadrotor_teleop: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/derek/my-crazyflie/crazyflie_ws/devel/lib/crazyflie_demo/quadrotor_teleop: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/derek/my-crazyflie/crazyflie_ws/devel/lib/crazyflie_demo/quadrotor_teleop: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/derek/my-crazyflie/crazyflie_ws/devel/lib/crazyflie_demo/quadrotor_teleop: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/derek/my-crazyflie/crazyflie_ws/devel/lib/crazyflie_demo/quadrotor_teleop: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/derek/my-crazyflie/crazyflie_ws/devel/lib/crazyflie_demo/quadrotor_teleop: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
+/home/derek/my-crazyflie/crazyflie_ws/devel/lib/crazyflie_demo/quadrotor_teleop: crazyflie_ros/crazyflie_demo/CMakeFiles/quadrotor_teleop.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/derek/my-crazyflie/crazyflie_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/derek/my-crazyflie/crazyflie_ws/devel/lib/crazyflie_demo/quadrotor_teleop"
+	cd /home/derek/my-crazyflie/crazyflie_ws/build/crazyflie_ros/crazyflie_demo && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/quadrotor_teleop.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-crazyflie_ros/crazyflie_demo/CMakeFiles/quadrotor_teleop.dir/build: /home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/crazyflie_demo/quadrotor_teleop
+crazyflie_ros/crazyflie_demo/CMakeFiles/quadrotor_teleop.dir/build: /home/derek/my-crazyflie/crazyflie_ws/devel/lib/crazyflie_demo/quadrotor_teleop
 
 .PHONY : crazyflie_ros/crazyflie_demo/CMakeFiles/quadrotor_teleop.dir/build
 
@@ -123,10 +123,10 @@ crazyflie_ros/crazyflie_demo/CMakeFiles/quadrotor_teleop.dir/requires: crazyflie
 .PHONY : crazyflie_ros/crazyflie_demo/CMakeFiles/quadrotor_teleop.dir/requires
 
 crazyflie_ros/crazyflie_demo/CMakeFiles/quadrotor_teleop.dir/clean:
-	cd /home/dsquez/my-crazyflie/crazyflie_ws/build/crazyflie_ros/crazyflie_demo && $(CMAKE_COMMAND) -P CMakeFiles/quadrotor_teleop.dir/cmake_clean.cmake
+	cd /home/derek/my-crazyflie/crazyflie_ws/build/crazyflie_ros/crazyflie_demo && $(CMAKE_COMMAND) -P CMakeFiles/quadrotor_teleop.dir/cmake_clean.cmake
 .PHONY : crazyflie_ros/crazyflie_demo/CMakeFiles/quadrotor_teleop.dir/clean
 
 crazyflie_ros/crazyflie_demo/CMakeFiles/quadrotor_teleop.dir/depend:
-	cd /home/dsquez/my-crazyflie/crazyflie_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dsquez/my-crazyflie/crazyflie_ws/src /home/dsquez/my-crazyflie/crazyflie_ws/src/crazyflie_ros/crazyflie_demo /home/dsquez/my-crazyflie/crazyflie_ws/build /home/dsquez/my-crazyflie/crazyflie_ws/build/crazyflie_ros/crazyflie_demo /home/dsquez/my-crazyflie/crazyflie_ws/build/crazyflie_ros/crazyflie_demo/CMakeFiles/quadrotor_teleop.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/derek/my-crazyflie/crazyflie_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/derek/my-crazyflie/crazyflie_ws/src /home/derek/my-crazyflie/crazyflie_ws/src/crazyflie_ros/crazyflie_demo /home/derek/my-crazyflie/crazyflie_ws/build /home/derek/my-crazyflie/crazyflie_ws/build/crazyflie_ros/crazyflie_demo /home/derek/my-crazyflie/crazyflie_ws/build/crazyflie_ros/crazyflie_demo/CMakeFiles/quadrotor_teleop.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : crazyflie_ros/crazyflie_demo/CMakeFiles/quadrotor_teleop.dir/depend
 

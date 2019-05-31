@@ -1,1 +1,1 @@
-set(ORDERED_PATHS "/home/dsquez/my-crazyflie/crazyflie_ws/src/crazyflie_ros/crazyflie_cpp/include")
+set(ORDERED_PATHS "/home/derek/my-crazyflie/crazyflie_ws/src/crazyflie_ros/crazyflie_cpp/include")

@@ -1,8 +1,8 @@
-prefix=/home/dsquez/my-crazyflie/crazyflie_ws/devel
+prefix=/home/derek/my-crazyflie/crazyflie_ws/devel
 
 Name: vicon_bridge
 Description: Description of vicon_bridge
 Version: 1.0.1
-Cflags: -I/home/dsquez/my-crazyflie/crazyflie_ws/devel/include
-Libs: -L/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib 
+Cflags: -I/home/derek/my-crazyflie/crazyflie_ws/devel/include
+Libs: -L/home/derek/my-crazyflie/crazyflie_ws/devel/lib 
 Requires: dynamic_reconfigure geometry_msgs message_runtime roscpp

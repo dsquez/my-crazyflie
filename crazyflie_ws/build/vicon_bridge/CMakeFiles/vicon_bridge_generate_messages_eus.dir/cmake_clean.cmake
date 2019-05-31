@@ -1,11 +1,11 @@
 file(REMOVE_RECURSE
   "CMakeFiles/vicon_bridge_generate_messages_eus"
-  "/home/dsquez/my-crazyflie/crazyflie_ws/devel/share/roseus/ros/vicon_bridge/msg/Markers.l"
-  "/home/dsquez/my-crazyflie/crazyflie_ws/devel/share/roseus/ros/vicon_bridge/msg/TfDistortInfo.l"
-  "/home/dsquez/my-crazyflie/crazyflie_ws/devel/share/roseus/ros/vicon_bridge/msg/Marker.l"
-  "/home/dsquez/my-crazyflie/crazyflie_ws/devel/share/roseus/ros/vicon_bridge/srv/viconGrabPose.l"
-  "/home/dsquez/my-crazyflie/crazyflie_ws/devel/share/roseus/ros/vicon_bridge/srv/viconCalibrateSegment.l"
-  "/home/dsquez/my-crazyflie/crazyflie_ws/devel/share/roseus/ros/vicon_bridge/manifest.l"
+  "/home/derek/my-crazyflie/crazyflie_ws/devel/share/roseus/ros/vicon_bridge/msg/Markers.l"
+  "/home/derek/my-crazyflie/crazyflie_ws/devel/share/roseus/ros/vicon_bridge/msg/TfDistortInfo.l"
+  "/home/derek/my-crazyflie/crazyflie_ws/devel/share/roseus/ros/vicon_bridge/msg/Marker.l"
+  "/home/derek/my-crazyflie/crazyflie_ws/devel/share/roseus/ros/vicon_bridge/srv/viconGrabPose.l"
+  "/home/derek/my-crazyflie/crazyflie_ws/devel/share/roseus/ros/vicon_bridge/srv/viconCalibrateSegment.l"
+  "/home/derek/my-crazyflie/crazyflie_ws/devel/share/roseus/ros/vicon_bridge/manifest.l"
 )
 
 # Per-language clean rules from dependency scanning.

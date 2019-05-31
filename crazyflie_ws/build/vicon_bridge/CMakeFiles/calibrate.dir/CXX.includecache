@@ -6,7 +6,7 @@
 
 #IncludeRegexTransform: 
 
-/home/dsquez/my-crazyflie/crazyflie_ws/devel/include/vicon_bridge/viconCalibrateSegment.h
+/home/derek/my-crazyflie/crazyflie_ws/devel/include/vicon_bridge/viconCalibrateSegment.h
 ros/service_traits.h
 -
 vicon_bridge/viconCalibrateSegmentRequest.h
@@ -14,7 +14,7 @@ vicon_bridge/viconCalibrateSegmentRequest.h
 vicon_bridge/viconCalibrateSegmentResponse.h
 -
 
-/home/dsquez/my-crazyflie/crazyflie_ws/devel/include/vicon_bridge/viconCalibrateSegmentRequest.h
+/home/derek/my-crazyflie/crazyflie_ws/devel/include/vicon_bridge/viconCalibrateSegmentRequest.h
 string
 -
 vector
@@ -30,7 +30,7 @@ ros/builtin_message_traits.h
 ros/message_operations.h
 -
 
-/home/dsquez/my-crazyflie/crazyflie_ws/devel/include/vicon_bridge/viconCalibrateSegmentResponse.h
+/home/derek/my-crazyflie/crazyflie_ws/devel/include/vicon_bridge/viconCalibrateSegmentResponse.h
 string
 -
 vector
@@ -48,7 +48,7 @@ ros/message_operations.h
 geometry_msgs/PoseStamped.h
 -
 
-/home/dsquez/my-crazyflie/crazyflie_ws/src/vicon_bridge/src/calibrate_segment.cpp
+/home/derek/my-crazyflie/crazyflie_ws/src/vicon_bridge/src/calibrate_segment.cpp
 ros/ros.h
 -
 vicon_bridge/viconCalibrateSegment.h

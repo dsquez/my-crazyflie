@@ -43,10 +43,10 @@ RM = /usr/bin/cmake -E remove -f
 EQUALS = =
 
 # The top-level source directory on which CMake was run.
-CMAKE_SOURCE_DIR = /home/dsquez/my-crazyflie/crazyflie_ws/src
+CMAKE_SOURCE_DIR = /home/derek/my-crazyflie/crazyflie_ws/src
 
 # The top-level build directory on which CMake was run.
-CMAKE_BINARY_DIR = /home/dsquez/my-crazyflie/crazyflie_ws/build
+CMAKE_BINARY_DIR = /home/derek/my-crazyflie/crazyflie_ws/build
 
 # Include any dependencies generated for this target.
 include crazyflie_ros/crazyflie_controller/CMakeFiles/crazyflie_controller.dir/depend.make
@@ -58,17 +58,17 @@ include crazyflie_ros/crazyflie_controller/CMakeFiles/crazyflie_controller.dir/p
 include crazyflie_ros/crazyflie_controller/CMakeFiles/crazyflie_controller.dir/flags.make
 
 crazyflie_ros/crazyflie_controller/CMakeFiles/crazyflie_controller.dir/src/controller.cpp.o: crazyflie_ros/crazyflie_controller/CMakeFiles/crazyflie_controller.dir/flags.make
-crazyflie_ros/crazyflie_controller/CMakeFiles/crazyflie_controller.dir/src/controller.cpp.o: /home/dsquez/my-crazyflie/crazyflie_ws/src/crazyflie_ros/crazyflie_controller/src/controller.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/dsquez/my-crazyflie/crazyflie_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object crazyflie_ros/crazyflie_controller/CMakeFiles/crazyflie_controller.dir/src/controller.cpp.o"
-	cd /home/dsquez/my-crazyflie/crazyflie_ws/build/crazyflie_ros/crazyflie_controller && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/crazyflie_controller.dir/src/controller.cpp.o -c /home/dsquez/my-crazyflie/crazyflie_ws/src/crazyflie_ros/crazyflie_controller/src/controller.cpp
+crazyflie_ros/crazyflie_controller/CMakeFiles/crazyflie_controller.dir/src/controller.cpp.o: /home/derek/my-crazyflie/crazyflie_ws/src/crazyflie_ros/crazyflie_controller/src/controller.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/derek/my-crazyflie/crazyflie_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object crazyflie_ros/crazyflie_controller/CMakeFiles/crazyflie_controller.dir/src/controller.cpp.o"
+	cd /home/derek/my-crazyflie/crazyflie_ws/build/crazyflie_ros/crazyflie_controller && /usr/bin/c++   $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/crazyflie_controller.dir/src/controller.cpp.o -c /home/derek/my-crazyflie/crazyflie_ws/src/crazyflie_ros/crazyflie_controller/src/controller.cpp
 
 crazyflie_ros/crazyflie_controller/CMakeFiles/crazyflie_controller.dir/src/controller.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/crazyflie_controller.dir/src/controller.cpp.i"
-	cd /home/dsquez/my-crazyflie/crazyflie_ws/build/crazyflie_ros/crazyflie_controller && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/dsquez/my-crazyflie/crazyflie_ws/src/crazyflie_ros/crazyflie_controller/src/controller.cpp > CMakeFiles/crazyflie_controller.dir/src/controller.cpp.i
+	cd /home/derek/my-crazyflie/crazyflie_ws/build/crazyflie_ros/crazyflie_controller && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/derek/my-crazyflie/crazyflie_ws/src/crazyflie_ros/crazyflie_controller/src/controller.cpp > CMakeFiles/crazyflie_controller.dir/src/controller.cpp.i
 
 crazyflie_ros/crazyflie_controller/CMakeFiles/crazyflie_controller.dir/src/controller.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/crazyflie_controller.dir/src/controller.cpp.s"
-	cd /home/dsquez/my-crazyflie/crazyflie_ws/build/crazyflie_ros/crazyflie_controller && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/dsquez/my-crazyflie/crazyflie_ws/src/crazyflie_ros/crazyflie_controller/src/controller.cpp -o CMakeFiles/crazyflie_controller.dir/src/controller.cpp.s
+	cd /home/derek/my-crazyflie/crazyflie_ws/build/crazyflie_ros/crazyflie_controller && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/derek/my-crazyflie/crazyflie_ws/src/crazyflie_ros/crazyflie_controller/src/controller.cpp -o CMakeFiles/crazyflie_controller.dir/src/controller.cpp.s
 
 crazyflie_ros/crazyflie_controller/CMakeFiles/crazyflie_controller.dir/src/controller.cpp.o.requires:
 
@@ -88,38 +88,38 @@ crazyflie_controller_OBJECTS = \
 # External object files for target crazyflie_controller
 crazyflie_controller_EXTERNAL_OBJECTS =
 
-/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/crazyflie_controller/crazyflie_controller: crazyflie_ros/crazyflie_controller/CMakeFiles/crazyflie_controller.dir/src/controller.cpp.o
-/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/crazyflie_controller/crazyflie_controller: crazyflie_ros/crazyflie_controller/CMakeFiles/crazyflie_controller.dir/build.make
-/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/crazyflie_controller/crazyflie_controller: /opt/ros/kinetic/lib/libtf.so
-/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/crazyflie_controller/crazyflie_controller: /opt/ros/kinetic/lib/libtf2_ros.so
-/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/crazyflie_controller/crazyflie_controller: /opt/ros/kinetic/lib/libactionlib.so
-/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/crazyflie_controller/crazyflie_controller: /opt/ros/kinetic/lib/libmessage_filters.so
-/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/crazyflie_controller/crazyflie_controller: /opt/ros/kinetic/lib/libroscpp.so
-/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/crazyflie_controller/crazyflie_controller: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
-/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/crazyflie_controller/crazyflie_controller: /usr/lib/x86_64-linux-gnu/libboost_signals.so
-/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/crazyflie_controller/crazyflie_controller: /opt/ros/kinetic/lib/libxmlrpcpp.so
-/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/crazyflie_controller/crazyflie_controller: /opt/ros/kinetic/lib/libtf2.so
-/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/crazyflie_controller/crazyflie_controller: /opt/ros/kinetic/lib/libroscpp_serialization.so
-/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/crazyflie_controller/crazyflie_controller: /opt/ros/kinetic/lib/librosconsole.so
-/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/crazyflie_controller/crazyflie_controller: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
-/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/crazyflie_controller/crazyflie_controller: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
-/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/crazyflie_controller/crazyflie_controller: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
-/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/crazyflie_controller/crazyflie_controller: /usr/lib/x86_64-linux-gnu/libboost_regex.so
-/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/crazyflie_controller/crazyflie_controller: /opt/ros/kinetic/lib/librostime.so
-/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/crazyflie_controller/crazyflie_controller: /opt/ros/kinetic/lib/libcpp_common.so
-/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/crazyflie_controller/crazyflie_controller: /usr/lib/x86_64-linux-gnu/libboost_system.so
-/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/crazyflie_controller/crazyflie_controller: /usr/lib/x86_64-linux-gnu/libboost_thread.so
-/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/crazyflie_controller/crazyflie_controller: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
-/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/crazyflie_controller/crazyflie_controller: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
-/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/crazyflie_controller/crazyflie_controller: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
-/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/crazyflie_controller/crazyflie_controller: /usr/lib/x86_64-linux-gnu/libpthread.so
-/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/crazyflie_controller/crazyflie_controller: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
-/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/crazyflie_controller/crazyflie_controller: crazyflie_ros/crazyflie_controller/CMakeFiles/crazyflie_controller.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/dsquez/my-crazyflie/crazyflie_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/crazyflie_controller/crazyflie_controller"
-	cd /home/dsquez/my-crazyflie/crazyflie_ws/build/crazyflie_ros/crazyflie_controller && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/crazyflie_controller.dir/link.txt --verbose=$(VERBOSE)
+/home/derek/my-crazyflie/crazyflie_ws/devel/lib/crazyflie_controller/crazyflie_controller: crazyflie_ros/crazyflie_controller/CMakeFiles/crazyflie_controller.dir/src/controller.cpp.o
+/home/derek/my-crazyflie/crazyflie_ws/devel/lib/crazyflie_controller/crazyflie_controller: crazyflie_ros/crazyflie_controller/CMakeFiles/crazyflie_controller.dir/build.make
+/home/derek/my-crazyflie/crazyflie_ws/devel/lib/crazyflie_controller/crazyflie_controller: /opt/ros/kinetic/lib/libtf.so
+/home/derek/my-crazyflie/crazyflie_ws/devel/lib/crazyflie_controller/crazyflie_controller: /opt/ros/kinetic/lib/libtf2_ros.so
+/home/derek/my-crazyflie/crazyflie_ws/devel/lib/crazyflie_controller/crazyflie_controller: /opt/ros/kinetic/lib/libactionlib.so
+/home/derek/my-crazyflie/crazyflie_ws/devel/lib/crazyflie_controller/crazyflie_controller: /opt/ros/kinetic/lib/libmessage_filters.so
+/home/derek/my-crazyflie/crazyflie_ws/devel/lib/crazyflie_controller/crazyflie_controller: /opt/ros/kinetic/lib/libroscpp.so
+/home/derek/my-crazyflie/crazyflie_ws/devel/lib/crazyflie_controller/crazyflie_controller: /usr/lib/x86_64-linux-gnu/libboost_filesystem.so
+/home/derek/my-crazyflie/crazyflie_ws/devel/lib/crazyflie_controller/crazyflie_controller: /usr/lib/x86_64-linux-gnu/libboost_signals.so
+/home/derek/my-crazyflie/crazyflie_ws/devel/lib/crazyflie_controller/crazyflie_controller: /opt/ros/kinetic/lib/libxmlrpcpp.so
+/home/derek/my-crazyflie/crazyflie_ws/devel/lib/crazyflie_controller/crazyflie_controller: /opt/ros/kinetic/lib/libtf2.so
+/home/derek/my-crazyflie/crazyflie_ws/devel/lib/crazyflie_controller/crazyflie_controller: /opt/ros/kinetic/lib/libroscpp_serialization.so
+/home/derek/my-crazyflie/crazyflie_ws/devel/lib/crazyflie_controller/crazyflie_controller: /opt/ros/kinetic/lib/librosconsole.so
+/home/derek/my-crazyflie/crazyflie_ws/devel/lib/crazyflie_controller/crazyflie_controller: /opt/ros/kinetic/lib/librosconsole_log4cxx.so
+/home/derek/my-crazyflie/crazyflie_ws/devel/lib/crazyflie_controller/crazyflie_controller: /opt/ros/kinetic/lib/librosconsole_backend_interface.so
+/home/derek/my-crazyflie/crazyflie_ws/devel/lib/crazyflie_controller/crazyflie_controller: /usr/lib/x86_64-linux-gnu/liblog4cxx.so
+/home/derek/my-crazyflie/crazyflie_ws/devel/lib/crazyflie_controller/crazyflie_controller: /usr/lib/x86_64-linux-gnu/libboost_regex.so
+/home/derek/my-crazyflie/crazyflie_ws/devel/lib/crazyflie_controller/crazyflie_controller: /opt/ros/kinetic/lib/librostime.so
+/home/derek/my-crazyflie/crazyflie_ws/devel/lib/crazyflie_controller/crazyflie_controller: /opt/ros/kinetic/lib/libcpp_common.so
+/home/derek/my-crazyflie/crazyflie_ws/devel/lib/crazyflie_controller/crazyflie_controller: /usr/lib/x86_64-linux-gnu/libboost_system.so
+/home/derek/my-crazyflie/crazyflie_ws/devel/lib/crazyflie_controller/crazyflie_controller: /usr/lib/x86_64-linux-gnu/libboost_thread.so
+/home/derek/my-crazyflie/crazyflie_ws/devel/lib/crazyflie_controller/crazyflie_controller: /usr/lib/x86_64-linux-gnu/libboost_chrono.so
+/home/derek/my-crazyflie/crazyflie_ws/devel/lib/crazyflie_controller/crazyflie_controller: /usr/lib/x86_64-linux-gnu/libboost_date_time.so
+/home/derek/my-crazyflie/crazyflie_ws/devel/lib/crazyflie_controller/crazyflie_controller: /usr/lib/x86_64-linux-gnu/libboost_atomic.so
+/home/derek/my-crazyflie/crazyflie_ws/devel/lib/crazyflie_controller/crazyflie_controller: /usr/lib/x86_64-linux-gnu/libpthread.so
+/home/derek/my-crazyflie/crazyflie_ws/devel/lib/crazyflie_controller/crazyflie_controller: /usr/lib/x86_64-linux-gnu/libconsole_bridge.so
+/home/derek/my-crazyflie/crazyflie_ws/devel/lib/crazyflie_controller/crazyflie_controller: crazyflie_ros/crazyflie_controller/CMakeFiles/crazyflie_controller.dir/link.txt
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/derek/my-crazyflie/crazyflie_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_2) "Linking CXX executable /home/derek/my-crazyflie/crazyflie_ws/devel/lib/crazyflie_controller/crazyflie_controller"
+	cd /home/derek/my-crazyflie/crazyflie_ws/build/crazyflie_ros/crazyflie_controller && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/crazyflie_controller.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
-crazyflie_ros/crazyflie_controller/CMakeFiles/crazyflie_controller.dir/build: /home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/crazyflie_controller/crazyflie_controller
+crazyflie_ros/crazyflie_controller/CMakeFiles/crazyflie_controller.dir/build: /home/derek/my-crazyflie/crazyflie_ws/devel/lib/crazyflie_controller/crazyflie_controller
 
 .PHONY : crazyflie_ros/crazyflie_controller/CMakeFiles/crazyflie_controller.dir/build
 
@@ -128,10 +128,10 @@ crazyflie_ros/crazyflie_controller/CMakeFiles/crazyflie_controller.dir/requires:
 .PHONY : crazyflie_ros/crazyflie_controller/CMakeFiles/crazyflie_controller.dir/requires
 
 crazyflie_ros/crazyflie_controller/CMakeFiles/crazyflie_controller.dir/clean:
-	cd /home/dsquez/my-crazyflie/crazyflie_ws/build/crazyflie_ros/crazyflie_controller && $(CMAKE_COMMAND) -P CMakeFiles/crazyflie_controller.dir/cmake_clean.cmake
+	cd /home/derek/my-crazyflie/crazyflie_ws/build/crazyflie_ros/crazyflie_controller && $(CMAKE_COMMAND) -P CMakeFiles/crazyflie_controller.dir/cmake_clean.cmake
 .PHONY : crazyflie_ros/crazyflie_controller/CMakeFiles/crazyflie_controller.dir/clean
 
 crazyflie_ros/crazyflie_controller/CMakeFiles/crazyflie_controller.dir/depend:
-	cd /home/dsquez/my-crazyflie/crazyflie_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/dsquez/my-crazyflie/crazyflie_ws/src /home/dsquez/my-crazyflie/crazyflie_ws/src/crazyflie_ros/crazyflie_controller /home/dsquez/my-crazyflie/crazyflie_ws/build /home/dsquez/my-crazyflie/crazyflie_ws/build/crazyflie_ros/crazyflie_controller /home/dsquez/my-crazyflie/crazyflie_ws/build/crazyflie_ros/crazyflie_controller/CMakeFiles/crazyflie_controller.dir/DependInfo.cmake --color=$(COLOR)
+	cd /home/derek/my-crazyflie/crazyflie_ws/build && $(CMAKE_COMMAND) -E cmake_depends "Unix Makefiles" /home/derek/my-crazyflie/crazyflie_ws/src /home/derek/my-crazyflie/crazyflie_ws/src/crazyflie_ros/crazyflie_controller /home/derek/my-crazyflie/crazyflie_ws/build /home/derek/my-crazyflie/crazyflie_ws/build/crazyflie_ros/crazyflie_controller /home/derek/my-crazyflie/crazyflie_ws/build/crazyflie_ros/crazyflie_controller/CMakeFiles/crazyflie_controller.dir/DependInfo.cmake --color=$(COLOR)
 .PHONY : crazyflie_ros/crazyflie_controller/CMakeFiles/crazyflie_controller.dir/depend
 

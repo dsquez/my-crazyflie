@@ -1,7 +1,7 @@
 file(REMOVE_RECURSE
   "CMakeFiles/flash.dir/src/flash.cpp.o"
-  "/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/crazyflie_tools/flash.pdb"
-  "/home/dsquez/my-crazyflie/crazyflie_ws/devel/lib/crazyflie_tools/flash"
+  "/home/derek/my-crazyflie/crazyflie_ws/devel/lib/crazyflie_tools/flash.pdb"
+  "/home/derek/my-crazyflie/crazyflie_ws/devel/lib/crazyflie_tools/flash"
 )
 
 # Per-language clean rules from dependency scanning.
